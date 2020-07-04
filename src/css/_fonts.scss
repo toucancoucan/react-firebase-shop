@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+$Roboto: 'Roboto', sans-serif;
+$Condensed: 'Roboto Condensed', sans-serif;
+
+.RobotoFont{
+  font-family: $Roboto;
+  font-weight: 400;
+}
+
+.RobotoLightFont{
+  font-family: $Roboto;
+  font-weight: 300;
+}
+
+.CondensedFont{
+  font-family: $Condensed;
+  font-weight: 400;
+}
+
+.CondensedLightFont{
+  font-family: $Condensed;
+  font-weight: 300;
+}
+

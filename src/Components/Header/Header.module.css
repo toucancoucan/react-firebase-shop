@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap");
+.RobotoFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.RobotoLightFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.CondensedFont {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.CondensedLightFont, .header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  padding: 0.75em 0 0.75em 20%;
+  background-color: #222222;
+  color: #AFAFAF;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+}
+@media (max-width: 720px) {
+  .header {
+    padding: 0.75em;
+  }
+}
+@media (max-width: 540px) {
+  .header {
+    display: none;
+  }
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

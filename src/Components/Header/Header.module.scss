@@ -1,0 +1,23 @@
+@import '../../css/colors';
+@import '../../css/fonts';
+
+
+.header{
+  display: flex;
+  padding: 0.75em 0 0.75em 20%;
+  background-color: $DarkGray;
+  color: $Gray;
+  @extend .CondensedLightFont;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  @media (max-width: 720px) {
+    padding: 0.75em;
+  }
+  @media (max-width: 540px) {
+    display: none;
+  }
+}
+
+a:hover{
+  color: $White;
+}
