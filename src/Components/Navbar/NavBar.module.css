@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.RobotoFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.RobotoLightFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.CondensedFont {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.CondensedLightFont, .navBar {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.CondensedBoldFont, .logo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.navBar {
+  display: flex;
+  align-items: stretch;
+  height: auto;
+  font-size: 1.05rem;
+  color: #222222;
+}
+
+.navBarWrapper {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.NavBarPadding, .logo {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.logo {
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+}
+.logo:hover {
+  color: inherit;
+}
+
+/*# sourceMappingURL=NavBar.module.css.map */

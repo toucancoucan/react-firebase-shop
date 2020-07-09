@@ -1,0 +1,34 @@
+@import '../../css/grid';
+@import '../../css/fonts';
+@import '../../css/colors';
+
+.navBar {
+  display: flex;
+  align-items: stretch;
+  height: auto;
+  @extend .CondensedLightFont;
+  font-size: 1.05rem;
+  color: $DarkGray;
+}
+
+.navBarWrapper {
+  box-shadow: 0 1px 0 $LightShadow;
+}
+
+.NavBarPadding {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.logo {
+  @extend .CondensedBoldFont;
+  @extend .NavBarPadding;
+
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+

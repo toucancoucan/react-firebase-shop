@@ -1,8 +1,5 @@
 import React from "react";
-
-
-
-
+import {Link} from "react-router-dom";
 
 export type mapStateToPropsType = {
     userName: string | null
@@ -10,8 +7,8 @@ export type mapStateToPropsType = {
 export type propsType = mapStateToPropsType;
 
 let ProfileNavRow: React.FC<propsType> = (props) => {
-    let content = props.userName == null ? <><a href={"/login"}> LOGIN </a> or <a href={"/register"}> REGISTER </a></>
-        : <a href={"/profile"}>{props.userName} </a>
+    let content = props.userName == null ? <><Link to={"/login"}>LOGIN </Link> or <Link to={"/register"}> REGISTER </Link></>
+        : <Link to={"/profile"}>{props.userName} </Link>
     return (
         <div>
             {content}
@@ -31,6 +28,5 @@ let getDateString = (): string => {
         year: number = date.getFullYear();
     return ` ${month} ${day}, ${year}`;
 }
-
 
 export default ProfileNavRow;

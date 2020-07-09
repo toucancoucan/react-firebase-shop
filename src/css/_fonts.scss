@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
 
 $Roboto: 'Roboto', sans-serif;
 $Condensed: 'Roboto Condensed', sans-serif;
@@ -21,5 +21,10 @@ $Condensed: 'Roboto Condensed', sans-serif;
 .CondensedLightFont{
   font-family: $Condensed;
   font-weight: 300;
+}
+
+.CondensedBoldFont{
+  font-family: $Condensed;
+  font-weight: 700;
 }
 

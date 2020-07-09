@@ -1,0 +1,16 @@
+.wrap {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 0.6rem 0 0.6rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+.icon:hover {
+  color: #7b599b;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=NavBarIcon.module.css.map */

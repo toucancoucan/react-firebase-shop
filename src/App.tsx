@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {Suspense, lazy} from 'react';
 import './css/App.scss';
-import TestScreen from "./Screens/TestScreen";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+const TestScreen = lazy(() => import('./Screens/TestScreen'));
 
 function App() {
     return (
         <div className="App">
-            <TestScreen/>
+            <Router>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Switch>
+                        <Route path="/" component={TestScreen}/>
+                    </Switch>
+                </Suspense>
+            </Router>
         </div>
     );
 }

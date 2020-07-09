@@ -4,10 +4,13 @@ import ProfileNavRowContainer from "../Common/ProfileNavRow/ProfileNavRowContain
 
 
 let Header: React.FC = () => {
-
     return (
-        <div className={styles.header}>
-            <ProfileNavRowContainer/>
+        <div className={styles.headerWrapper}>
+            <div className={styles.container}>
+                <div className={styles.header}>
+                    <ProfileNavRowContainer/>
+                </div>
+            </div>
         </div>
     )
 };

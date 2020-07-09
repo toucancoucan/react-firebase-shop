@@ -41,7 +41,7 @@ type actionTypes = setUserACType;
 
 const UserReducer = (state = UserReducerInitialState, action: actionTypes): UserReducerStateType => {
     switch (action.type) {
-        case "SET_USER":
+        case SET_USER:
             return {
                 ...state,
                 user: action.payload
