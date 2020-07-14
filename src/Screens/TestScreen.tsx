@@ -1,12 +1,13 @@
 import React from "react";
-import Header from "../Components/Header/Header";
 import NavBar from "../Components/Navbar/NavBar";
 
 let TestScreen = () => {
     return (
         <div>
-            <Header/>
             <NavBar/>
+            <div style={{backgroundColor: "coral", height: "1200px"}}>
+                ;dlhkl;jd;lhl;df;oldfglh;'dghfjdkhgjl
+            </div>
         </div>
     )
 };

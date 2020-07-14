@@ -1,11 +1,11 @@
 export const SET_USER = 'SET_USER';
 
-export type setUserACType = {
+export type setUserType = {
     type: typeof SET_USER
     payload: User
 }
 
-export let setUserAC = (user: User): setUserACType => {
+export let setUser = (user: User): setUserType => {
     return {
         type: SET_USER,
         payload: user
@@ -37,7 +37,7 @@ let UserReducerInitialState: UserReducerStateType = {
     user: null
 }
 
-type actionTypes = setUserACType;
+type actionTypes = setUserType;
 
 const UserReducer = (state = UserReducerInitialState, action: actionTypes): UserReducerStateType => {
     switch (action.type) {

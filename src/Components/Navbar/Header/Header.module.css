@@ -9,12 +9,12 @@
   font-weight: 300;
 }
 
-.CondensedFont, .header {
+.CondensedFont {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
 }
 
-.CondensedLightFont {
+.CondensedLightFont, .header {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
 }
@@ -63,11 +63,10 @@
 .header {
   display: flex;
   padding: 0.75em 0 0.75em 0;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   white-space: pre-wrap;
 }
-
-a:hover {
+.header a:hover {
   color: #ffffff;
 }
 

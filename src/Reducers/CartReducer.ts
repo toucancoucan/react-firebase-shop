@@ -2,52 +2,52 @@ export const ADD_ITEM = 'ADD_ITEM';
 export const DELETE_ITEM = 'DELETE_ITEM';
 
 
-export type addItemACType = {
+export type addItemType = {
     type: typeof ADD_ITEM
-    payload: Item
+    payload: number
 }
 
-export type deleteItemACType = {
+export type deleteItemType = {
     type: typeof DELETE_ITEM
-    payload: Item
+    payload: number
 }
 
-export let deleteItemAC = (item: Item): deleteItemACType => {
+export let deleteItem = (itemId: number): deleteItemType => {
     return {
         type: DELETE_ITEM,
-        payload: item
+        payload: itemId
     }
 }
 
-export let addItemAC = (item: Item): addItemACType => {
+export let addItem = (itemId: number): addItemType => {
     return {
         type: ADD_ITEM,
-        payload: item
+        payload: itemId
     }
 }
-
-type Item = {}
 
 
 export type CartStateType = {
-    cart: Array<Item>
+    cart: Array<number>
 }
 
 let CartReducerInitialState: CartStateType = {
     cart: []
 }
 
-type actionTypes = addItemACType & deleteItemACType;
+type actionTypes = addItemType & deleteItemType;
 
 const CartReducer = (state = CartReducerInitialState, action: actionTypes): CartStateType => {
     switch (action.type) {
         case DELETE_ITEM:
             return {
                 ...state,
+                cart: state.cart.filter(item => item !== action.payload)
             }
         case ADD_ITEM:
             return {
                 ...state,
+                cart: [...state.cart, action.payload]
             }
         default:
             return state

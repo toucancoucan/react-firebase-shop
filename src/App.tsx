@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from 'react';
+import React, {lazy, Suspense} from 'react';
 import './css/App.scss';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 

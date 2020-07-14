@@ -1,5 +1,5 @@
 import React from "react";
-import {IoIosCart, IoIosSearch, IoIosMenu} from "react-icons/io";
+import {IoIosCart, IoIosMenu, IoIosSearch} from "react-icons/io";
 import {IconContext} from "react-icons";
 import styles from "./NavBarIcon.module.scss"
 
@@ -7,8 +7,8 @@ export type mapStateToPropsType = {
     type: "menu" | "search" | "cart"
 }
 
-export type mapDispatchToPropsType  = {
-    clickAction(): void
+export type mapDispatchToPropsType = {
+    clickAction: (active: any) => any;
 }
 export type propsType = mapStateToPropsType & mapDispatchToPropsType;
 
@@ -26,11 +26,11 @@ let NavBarIcon: React.FC<propsType> = (props) => {
             break;
     }
     return (
-        <div className={styles.wrap} onClick={props.clickAction}>
+        <button className={styles.wrap} onClick={props.clickAction}>
             <IconContext.Provider value={{className: styles.icon}}>
                 {contentIcon}
             </IconContext.Provider>
-        </div>
+        </button>
 
     )
 }

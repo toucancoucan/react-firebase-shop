@@ -1,0 +1,50 @@
+@import '../../../css/colors';
+@import '../../../css/fonts';
+@import '../../../css/constants';
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  padding: 0.32rem 0.32rem 0.32rem 0.64rem;
+  @media (max-width: $smallPixelSize) {
+    font-size: 1.1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+  }
+}
+
+.field {
+  flex: 1;
+  border: none;
+  @extend .RobotoLightFont;
+  color: $StrangeGray;
+  @media (max-width: $smallPixelSize) {
+    font-size: 1rem;
+  }
+}
+
+.fieldIcon {
+  margin-left: auto;
+}
+
+.icon {
+  font-size: 1.2rem;
+  align-self: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.form {
+  @extend .CondensedFont;
+  display: flex;
+  align-self: center;
+  padding: 0 0.6rem 0 0.6rem;
+  @media (max-width: $smallPixelSize) {
+    padding: 0;
+  }
+}

@@ -4,13 +4,14 @@ import {Link} from "react-router-dom";
 export type mapStateToPropsType = {
     userName: string | null
 }
-export type propsType = mapStateToPropsType;
+type propsType = mapStateToPropsType;
 
-let ProfileNavRow: React.FC<propsType> = (props) => {
-    let content = props.userName == null ? <><Link to={"/login"}>LOGIN </Link> or <Link to={"/register"}> REGISTER </Link></>
+let _ProfileNavRow: React.FC<propsType> = (props) => {
+    let content = props.userName == null ? <><Link to={"/login"}>LOGIN </Link> or <Link
+            to={"/register"}> REGISTER </Link></>
         : <Link to={"/profile"}>{props.userName} </Link>
     return (
-        <div>
+        <div style={{fontFamily: "inherit"}}>
             {content}
             |
             {getDateString()}
@@ -29,4 +30,4 @@ let getDateString = (): string => {
     return ` ${month} ${day}, ${year}`;
 }
 
-export default ProfileNavRow;
+export default _ProfileNavRow;

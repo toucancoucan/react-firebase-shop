@@ -11,9 +11,9 @@ export type propsType = mapStateToPropsType;
 
 let NavBarLink: React.FC<propsType> = (props) => {
     return (
-        <NavLink activeClassName={styles.selected}to={props.url} className={styles.link}>
-            <div className={styles.activeLink}>{
-                props.title}
+        <NavLink activeClassName={styles.selected} to={props.url} className={styles.link}>
+            <div className={styles.activeLink}>
+                {props.title}
             </div>
         </NavLink>
     )

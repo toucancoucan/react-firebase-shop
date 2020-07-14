@@ -1,27 +1,78 @@
 @import '../../css/grid';
 @import '../../css/fonts';
 @import '../../css/colors';
+@import '../../css/constants';
+
 
 .navBar {
-  display: flex;
-  align-items: stretch;
-  height: auto;
   @extend .CondensedLightFont;
   font-size: 1.05rem;
   color: $DarkGray;
 }
 
+.navBarDesktop {
+  display: flex;
+  align-items: stretch;
+  height: auto;
+  @extend .navBar;
+  @media (max-width: $smallPixelSize) {
+    display: none;
+  }
+}
+
+.navBarMobile {
+  display: none;
+  padding: 0 0.6rem 0 0.6rem;
+  @extend .navBar;
+  @media (max-width: $smallPixelSize) {
+    display: flex;
+  }
+}
+
+.mobileMenu {
+
+}
+
+.profileNavRowWrapper {
+  color: $Gray;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  @extend .CondensedFont;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+
+  a:hover {
+    color: $Violet;
+  }
+}
+
 .navBarWrapper {
+  background-color: $White;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
   box-shadow: 0 1px 0 $LightShadow;
 }
 
 .NavBarPadding {
   padding: 1.5rem 0 1.5rem 0;
+  @media (max-width: $smallPixelSize) {
+    padding: 1rem 0 1rem 0;
+  }
+}
+
+.NavBarPaddingCollapsed {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.iconWrap {
+  display: flex;
+  margin-left: auto;
 }
 
 .logo {
   @extend .CondensedBoldFont;
-  @extend .NavBarPadding;
 
   font-size: 1.4rem;
   padding-right: 1.5rem;

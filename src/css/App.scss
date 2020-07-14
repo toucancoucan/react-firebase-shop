@@ -1,4 +1,30 @@
-a{
-    text-decoration: none;
-    color: inherit;
+@import "fonts";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  border-radius: 0;
+
+  &::selection {
+    color: #fff;
+    background: #7b599b;
+  }
+
+  //    TODO: Dev Only:
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: inherit;
+  border-width: 0;
+  border-radius: 0;
+  color: inherit;
 }

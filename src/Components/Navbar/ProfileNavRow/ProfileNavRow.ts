@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import ProfileNavRow , {mapStateToPropsType} from "./ProfileNavRow";
+import _ProfileNavRow, {mapStateToPropsType} from "./_ProfileNavRow";
 import {rootState} from "../../../Reducers/store";
 
 
@@ -14,8 +14,8 @@ let getFullUserName = (state: rootState): string | null => {
     return state.UserReducer.user.shippingInformation.firstName + state.UserReducer.user.shippingInformation.lastName;
 }
 
-const ProfileNavRowContainer = connect<mapStateToPropsType, any, any, any>(
+const ProfileNavRow = connect<mapStateToPropsType, any, any, any>(
     mapStateToProps,
-)(ProfileNavRow);
+)(_ProfileNavRow);
 
-export default ProfileNavRowContainer;
+export default ProfileNavRow;

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.scss"
-import ProfileNavRowContainer from "../Common/ProfileNavRow/ProfileNavRowContainer";
+import ProfileNavRow from "../ProfileNavRow/ProfileNavRow";
 
 
 let Header: React.FC = () => {
@@ -8,7 +8,7 @@ let Header: React.FC = () => {
         <div className={styles.headerWrapper}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <ProfileNavRowContainer/>
+                    <ProfileNavRow/>
                 </div>
             </div>
         </div>
