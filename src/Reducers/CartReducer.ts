@@ -32,7 +32,8 @@ export type CartStateType = {
 }
 
 let CartReducerInitialState: CartStateType = {
-    cart: []
+     cart: [125415,235662,124],
+    //cart: [],
 }
 
 type actionTypes = addItemType & deleteItemType;

@@ -1,48 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="Finished responsive header + navbar">
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarSearch/NavBarSearch.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarSearch/NavBarSearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/_normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/_normalize.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/_normalize.scss" afterDir="false" />
+    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/ConnectedToCartSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/ProfileNavRow/ProfileNavRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ProfileNavRow/_ProfileNavRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/ProfileNavRow/ProfileNavRowContainer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ProfileNavRow/ProfileNavRow.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Logo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarLink/NavBarLink.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarLink/NavBarLink.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarLink/NavBarLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarLink/NavBarLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/TestScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/TestScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utility/сombineClassNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/сombineClassNames.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -71,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -81,16 +63,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\Projects\react-firebase-shop\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar\ConnectedToCart" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar\Logo" />
       <recent name="D:\Projects\react-firebase-shop\src" />
       <recent name="D:\Projects\react-firebase-shop\src\App" />
-      <recent name="D:\Projects\react-firebase-shop\src\css" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -139,7 +122,13 @@
       <workItem from="1594485861215" duration="7080000" />
       <workItem from="1594549690543" duration="6465000" />
       <workItem from="1594652868792" duration="331000" />
-      <workItem from="1594715546892" duration="22048000" />
+      <workItem from="1594715546892" duration="22371000" />
+      <workItem from="1594896284653" duration="20000" />
+      <workItem from="1594896314758" duration="1646000" />
+      <workItem from="1594972350130" duration="9260000" />
+      <workItem from="1595010003104" duration="335000" />
+      <workItem from="1595054654992" duration="9179000" />
+      <workItem from="1595067973055" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -155,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594315773364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished responsive header + navbar">
+      <created>1594743198879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594743198879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,42 +181,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594304701925" />
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594717916789">
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594973883030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594717916789" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594743058916">
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594973883030" />
+    <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594743118147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594743058916" />
+    <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594743196048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594743196048" />
     <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1593690003328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593690003328" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1593689992940">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1595010238989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593689992940" />
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595010238989" />
     <state x="814" y="414" key="Github.ShareDialog" timestamp="1593686581724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1594740772422">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1595069849230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594740772422" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1594740772421">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1595069849230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594740772421" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1594740772421">
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1595069849230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594740772421" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1594740772422">
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1595069849230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594740772422" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -273,13 +273,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594742427657" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1593772516377">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1595010273555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593772516377" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594315787822">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595010273555" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594743201808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594315787822" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594743201808" />
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595068345630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595068345630" />
+    <state x="734" y="387" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595010271806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="387" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595010271806" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1595064548170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595064548170" />
   </component>
 </project>

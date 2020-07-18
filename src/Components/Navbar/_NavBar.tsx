@@ -3,10 +3,12 @@ import styles from "./NavBar.module.scss";
 import Logo from "./Logo";
 import NavBarLink from "./NavBarLink/NavBarLink";
 import NavBarIcon from "./NavBarIcon/NavBarIcon";
+import NavBarCartIcon from "./ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon";
 import NavBarSearch from "./NavBarSearch/NavBarSearch";
 import combineClassNames from "../../Utility/сombineClassNames";
 import ProfileNavRow from "./ProfileNavRow/ProfileNavRow";
 import Header from "./Header/Header";
+import MobileCartButton from "./ConnectedToCartSize/MobileCartButton/MobileCartButton";
 
 import {NavBarStateType} from "../../Reducers/NavBarReducer";
 
@@ -60,7 +62,7 @@ let _NavBar: React.FC<propsType> = (props) => {
 
                         <div className={styles.iconWrap}>
                             {searchContent}
-                            <NavBarIcon type={"cart"} clickAction={props.changeShowCartWidget}/>
+                            <NavBarCartIcon clickAction={props.changeShowCartWidget}/>
                         </div>
                     </div>
                     <div className={styles.navBarMobile}>
@@ -83,6 +85,7 @@ let _NavBar: React.FC<propsType> = (props) => {
                     </div>
                 </nav>
             </header>
+            <MobileCartButton url={'/cart'}/>
         </>
     )
 };

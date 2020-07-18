@@ -117,6 +117,7 @@
 .logo {
   font-size: 1.4rem;
   padding-right: 1.5rem;
+  white-space: nowrap;
 }
 .logo:hover {
   color: inherit;

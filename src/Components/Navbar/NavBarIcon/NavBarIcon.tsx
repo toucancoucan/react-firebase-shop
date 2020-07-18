@@ -4,7 +4,7 @@ import {IconContext} from "react-icons";
 import styles from "./NavBarIcon.module.scss"
 
 export type mapStateToPropsType = {
-    type: "menu" | "search" | "cart"
+    type: "menu" | "search" | "cart",
 }
 
 export type mapDispatchToPropsType = {
