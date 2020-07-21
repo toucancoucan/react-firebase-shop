@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/ConnectedToCartSize.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/CarouselReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utility/Routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/TestScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/HomeScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -128,7 +139,11 @@
       <workItem from="1594972350130" duration="9260000" />
       <workItem from="1595010003104" duration="335000" />
       <workItem from="1595054654992" duration="9179000" />
-      <workItem from="1595067973055" duration="2862000" />
+      <workItem from="1595067973055" duration="3031000" />
+      <workItem from="1595251097572" duration="1377000" />
+      <workItem from="1595322823512" duration="5695000" />
+      <workItem from="1595337792213" duration="2012000" />
+      <workItem from="1595345710152" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -151,18 +166,38 @@
       <option name="project" value="LOCAL" />
       <updated>1594743198879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Writed hoc for cart icon and made MobileCartButton">
+      <created>1595070962236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595070962236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Made ProfileNavRow" />
     <MESSAGE value="Included icons, Made Header, started working on NavBar" />
     <MESSAGE value="Finished responsive header + navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished responsive header + navbar" />
+    <MESSAGE value="Writed hoc for cart icon and made MobileCartButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writed hoc for cart icon and made MobileCartButton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="356" key="#Notifications" timestamp="1593772618888">
@@ -189,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594743196048">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595070961002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594743196048" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595070961002" />
     <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1593690003328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,22 +240,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1595069849230">
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom" timestamp="1595347843793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1595069849230">
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center" timestamp="1595347843793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1595069849230">
+    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left" timestamp="1595347843793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1595069849230">
+    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right" timestamp="1595347843793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595069849230" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595010273555" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594743201808">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1595070964062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594743201808" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595070964062" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595068345630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

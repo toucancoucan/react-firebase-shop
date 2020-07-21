@@ -9,6 +9,7 @@ import combineClassNames from "../../Utility/сombineClassNames";
 import ProfileNavRow from "./ProfileNavRow/ProfileNavRow";
 import Header from "./Header/Header";
 import MobileCartButton from "./ConnectedToCartSize/MobileCartButton/MobileCartButton";
+import routes from "../../Utility/Routes";
 
 import {NavBarStateType} from "../../Reducers/NavBarReducer";
 
@@ -47,6 +48,13 @@ let _NavBar: React.FC<propsType> = (props) => {
         };
     }, []);
 
+    let HeaderLinksArray =
+        <>
+            <NavBarLink url={routes.home} title={'home'}/>
+            <NavBarLink url={routes.shop} title={'shop'}/>
+            <NavBarLink url={routes.contact} title={'contact'}/>
+            <NavBarLink url={routes.blog} title={'blog'}/>
+        </>
 
     return (
         <>
@@ -54,11 +62,8 @@ let _NavBar: React.FC<propsType> = (props) => {
             <header className={styles.navBarWrapper}>
                 <nav className={styles.container}>
                     <div className={styles.navBarDesktop}>
-                        <Logo url={'/home'} isPaddingCollapsed={isPaddingCollapsed}/>
-                        <NavBarLink url={'/home'} title={'home'}/>
-                        <NavBarLink url={'/shop'} title={'shop'}/>
-                        <NavBarLink url={'/contact'} title={'contact'}/>
-                        <NavBarLink url={'/blog'} title={'blog'}/>
+                        <Logo url={routes.home} isPaddingCollapsed={isPaddingCollapsed}/>
+                        {HeaderLinksArray}
 
                         <div className={styles.iconWrap}>
                             {searchContent}
@@ -76,16 +81,14 @@ let _NavBar: React.FC<propsType> = (props) => {
                     <NavBarSearch blur={props.changeShowSearch} onSubmit={(data) => {
                         props.getSearchValue(data)
                     }}/>
-                    <NavBarLink url={'/home'} title={'home'}/>
-                    <NavBarLink url={'/shop'} title={'shop'}/>
-                    <NavBarLink url={'/contact'} title={'contact'}/>
-                    <NavBarLink url={'/blog'} title={'blog'}/>
+                    {HeaderLinksArray}
+
                     <div className={styles.profileNavRowWrapper}>
                         <ProfileNavRow/>
                     </div>
                 </nav>
             </header>
-            <MobileCartButton url={'/cart'}/>
+            <MobileCartButton url={routes.cart}/>
         </>
     )
 };

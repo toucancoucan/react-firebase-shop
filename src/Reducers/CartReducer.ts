@@ -1,5 +1,5 @@
-export const ADD_ITEM = 'ADD_ITEM';
-export const DELETE_ITEM = 'DELETE_ITEM';
+const ADD_ITEM = 'ADD_ITEM';
+const DELETE_ITEM = 'DELETE_ITEM';
 
 
 export type addItemType = {
@@ -32,7 +32,7 @@ export type CartStateType = {
 }
 
 let CartReducerInitialState: CartStateType = {
-     cart: [125415,235662,124],
+    cart: [125415, 235662, 124],
     //cart: [],
 }
 

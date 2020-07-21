@@ -21,10 +21,7 @@ let _Carousel:React.FC<propsType> = (props)=>{
 }
 const mapStateToProps = (state: rootState): mapStateToPropsType => {
     return {
-        showCart: state.NavBarReducer.showCart,
-        showMenu: state.NavBarReducer.showMenu,
-        showSearch: state.NavBarReducer.showSearch,
-        searchText: state.NavBarReducer.searchText
+
     }
 };
 

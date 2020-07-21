@@ -1,7 +1,9 @@
-import {combineReducers, createStore} from "redux";
+import {applyMiddleware, combineReducers, createStore} from "redux";
+import thunk from 'redux-thunk';
 import UserReducer from "./UserReducer";
 import CartReducer from "./CartReducer";
 import NavBarReducer from "./NavBarReducer";
+import CarouselReducer from "./CarouselReducer";
 import {reducer as formReducer} from 'redux-form'
 
 
@@ -9,10 +11,11 @@ export const rootReducer = combineReducers({
     UserReducer,
     CartReducer,
     NavBarReducer,
+    CarouselReducer,
     form: formReducer
 });
 
-let store = createStore(rootReducer);
+let store = createStore(rootReducer, applyMiddleware(thunk));
 
 export type rootState = ReturnType<typeof rootReducer>
 export type appDispatch = typeof store.dispatch
