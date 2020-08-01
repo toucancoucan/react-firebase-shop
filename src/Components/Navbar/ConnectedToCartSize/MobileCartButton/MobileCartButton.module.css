@@ -1,31 +1,32 @@
 .link {
-  z-index: 1000;
-  display: flex;
-  text-align: center;
+    z-index: 1000;
+    display: flex;
+    text-align: center;
 }
 
 .sub {
-  margin-left: 0.3rem;
+    margin-left: 0.3rem;
 }
 
 .wrap {
-  display: none;
-  transform-origin: 50% 51%;
-  -webkit-transform-origin: 50% 52%;
-  transform: rotate(-90deg) translateY(0) translateZ(0);
-  zoom: 1.001;
-  position: fixed;
-  top: 80%;
-  right: -2rem;
-  padding: 0.3rem 1.5rem;
-  z-index: 1001;
-  color: #fff;
-  background-color: #000;
+    display: none;
+    transform-origin: 50% 51%;
+    -webkit-transform-origin: 50% 52%;
+    transform: rotate(-90deg) translateY(0) translateZ(0);
+    zoom: 1.001;
+    position: fixed;
+    top: 80%;
+    right: -2rem;
+    padding: 0.3rem 1.5rem;
+    z-index: 1001;
+    color: #fff;
+    background-color: #000;
 }
+
 @media (max-width: 576px) {
-  .wrap {
-    display: block;
-  }
+    .wrap {
+        display: block;
+    }
 }
 
 /*# sourceMappingURL=MobileCartButton.module.css.map */

@@ -1,4 +1,3 @@
-
 type routesType = {
     home: string,
     shop: string,
@@ -7,7 +6,7 @@ type routesType = {
     cart: string
 }
 
-const routes : routesType = {
+const routes: routesType = {
     home: '/home',
     shop: '/shop',
     contact: '/contact',

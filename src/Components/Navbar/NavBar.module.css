@@ -67,42 +67,54 @@
 }
 
 .navBarMobile {
-  display: none;
-  padding: 0 0.6rem 0 0.6rem;
+    display: none;
+    padding: 0 0.6rem 0 0.6rem;
 }
+
 @media (max-width: 576px) {
-  .navBarMobile {
-    display: flex;
-  }
+    .navBarMobile {
+        display: flex;
+    }
+}
+
+.mobileMenu {
+    transition: all 0.5s;
 }
 
 .profileNavRowWrapper {
-  color: #AFAFAF;
-  display: flex;
-  justify-content: center;
-  padding: 0.8rem;
-  font-size: 0.8rem;
-  white-space: pre-wrap;
+    color: #AFAFAF;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    white-space: pre-wrap;
 }
+
 .profileNavRowWrapper a:hover {
   color: #7b599b;
 }
 
 .navBarWrapper {
-  background-color: #ffffff;
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    background-color: #ffffff;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.NavBarPaddingTransition, .NavBarPaddingCollapsed, .NavBarPadding {
+    transition: padding 0.5s;
 }
 
 .NavBarPadding {
-  padding: 1.5rem 0 1.5rem 0;
+    padding: 1.5rem 0 1.5rem 0;
 }
+
 @media (max-width: 576px) {
-  .NavBarPadding {
-    padding: 1rem 0 1rem 0;
-  }
+    .NavBarPadding {
+        padding: 1rem 0 1rem 0;
+    }
 }
 
 .NavBarPaddingCollapsed {

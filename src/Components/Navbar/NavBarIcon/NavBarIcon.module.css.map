@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["NavBarIcon.module.scss","../../../css/_colors.scss"],"names":[],"mappings":"AAGA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;AAEA;EACE,OCRK;EDSL","file":"NavBarIcon.module.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "NavBarIcon.module.scss",
+    "../../../css/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAGA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;AAEA;EACE,OCPK;EDQL",
+  "file": "NavBarIcon.module.css"
+}

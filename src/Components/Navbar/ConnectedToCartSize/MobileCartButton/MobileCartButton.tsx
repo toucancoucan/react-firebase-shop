@@ -10,7 +10,7 @@ type propsType = {
 
 let _MobileCartButton: React.FC<propsType> = (props) => {
     return (
-        <div className={combineClassNames(styles.wrap,{"hidden":!(props.cartItems > 0)})}>
+        <div className={combineClassNames(styles.wrap, {"hidden": !(props.cartItems > 0)})}>
             <NavLink to={props.url} className={styles.link}>
                 Cart
                 <sub className={styles.sub}>{props.cartItems}</sub>

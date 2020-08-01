@@ -1,0 +1,38 @@
+@import "../../../css/colors";
+
+.icon {
+  font-size: 3rem;
+  color: $White;
+  transition: font-size 0.3s;
+
+  &:hover {
+    font-size: 4rem;
+  }
+
+  &:active {
+    font-size: 2rem;
+  }
+}
+
+.whiteText {
+  color: $White;
+}
+
+.blackText {
+  color: $Black;
+}
+
+.wrap {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.forward {
+  right: 0;
+}
+
+.backward {
+
+}

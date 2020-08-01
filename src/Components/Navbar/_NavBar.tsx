@@ -27,9 +27,11 @@ type propsType = mapStateToPropsType & mapDispatchToPropsType;
 
 let _NavBar: React.FC<propsType> = (props) => {
 
-    let searchContent = props.showSearch ? <NavBarSearch blur={props.changeShowSearch} onSubmit={(data) => {
-            props.getSearchValue(data)
-        }}/>
+    let searchBar = <NavBarSearch blur={props.changeShowSearch} onSubmit={(data) => {
+        props.getSearchValue(data)
+    }}/>
+
+    let searchContent = props.showSearch ? searchBar
         : <NavBarIcon type={"search"} clickAction={props.changeShowSearch}/>
 
     const [isPaddingCollapsed, setCollapsedPadding] = useState(false);
@@ -78,9 +80,7 @@ let _NavBar: React.FC<propsType> = (props) => {
                     </div>
                 </nav>
                 <nav className={combineClassNames(styles.mobileMenu, {"hidden": !props.showMenu})}>
-                    <NavBarSearch blur={props.changeShowSearch} onSubmit={(data) => {
-                        props.getSearchValue(data)
-                    }}/>
+                    {searchBar}
                     {HeaderLinksArray}
 
                     <div className={styles.profileNavRowWrapper}>

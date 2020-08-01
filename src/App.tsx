@@ -3,6 +3,7 @@ import './css/App.scss';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import routes from "./Utility/Routes";
 
+const NavBar = lazy(() => import("./Components/Navbar/NavBar"));
 const TestScreen = lazy(() => import('./Screens/HomeScreen'));
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div className="App">
             <Router>
                 <Suspense fallback={<div>Loading...</div>}>
+                    <NavBar/>
                     <Switch>
                         <Route path={routes.home} component={TestScreen}/>
                     </Switch>

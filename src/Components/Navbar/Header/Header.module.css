@@ -1,73 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+
 .RobotoFont {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .RobotoLightFont {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .CondensedFont {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
 }
 
 .CondensedLightFont, .header {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 300;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
 }
 
 .CondensedBoldFont {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
+
 @media (min-width: 576px) {
-  .container {
-    width: 540px;
-  }
+    .container {
+        width: 540px;
+    }
 }
+
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+    .container {
+        width: 750px;
+    }
 }
+
 @media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
+    .container {
+        width: 970px;
+    }
 }
+
 @media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+    .container {
+        width: 1170px;
+    }
 }
 
 .headerWrapper {
-  background-color: #222222;
-  color: #AFAFAF;
+    background-color: #222222;
+    color: #AFAFAF;
 }
+
 @media (max-width: 576px) {
-  .headerWrapper {
-    display: none;
-  }
+    .headerWrapper {
+        display: none;
+    }
 }
 
 .header {
-  display: flex;
-  padding: 0.75em 0 0.75em 0;
-  font-size: 0.8rem;
-  white-space: pre-wrap;
+    display: flex;
+    padding: 0.75em 0 0.75em 0;
+    font-size: 0.8rem;
+    white-space: pre-wrap;
 }
+
 .header a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /*# sourceMappingURL=Header.module.css.map */

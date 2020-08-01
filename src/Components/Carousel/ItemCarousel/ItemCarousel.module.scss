@@ -1,0 +1,86 @@
+@import "../../../css/constants";
+@import "../../../css/fonts";
+@import "../../../css/colors";
+
+
+.abovePhoto {
+  position: absolute;
+  z-index: 3;
+  transition: 1s;
+}
+
+.subString {
+  @extend .abovePhoto;
+  top: 35%;
+  font-size: 2.5rem;
+  @extend .CondensedLightFont;
+
+}
+
+.wrapper {
+
+}
+
+.headlineString {
+  @extend .abovePhoto;
+  top: 42.5%;
+  font-size: 4.5rem;
+  @extend .CondensedFont;
+
+}
+
+.button {
+  @extend .abovePhoto;
+  top: 60%;
+  font-size: 1.1rem;
+  padding: 0.4rem 1.2rem;
+  border: 2px solid;
+  transition: border 0s;
+}
+
+.whiteText {
+  color: $White;
+}
+
+.blackText {
+  color: $Black;
+}
+
+.leftPosition {
+  left: 15%;
+}
+
+.centerPosition {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.rightPosition {
+  right: 15%;
+}
+
+
+.photo {
+  width: 100%;
+  object-fit: none;
+  height: 20rem;
+  @media(min-width: $smallPixelSize) {
+    height: 24rem;
+  }
+  @media (min-width: $mediumPixelSize) {
+    height: 28rem;
+  }
+  @media (min-width: $largePixelSize) {
+    height: 32rem;
+  }
+}
+
+.item {
+  display: flex;
+  opacity: 0;
+}
+
+.show {
+  transition: opacity 2s;
+  opacity: 1;
+}

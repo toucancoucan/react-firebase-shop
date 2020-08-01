@@ -30,7 +30,7 @@
 }
 
 .mobileMenu {
-
+  transition: all 0.5s;
 }
 
 .profileNavRowWrapper {
@@ -48,6 +48,7 @@
 }
 
 .navBarWrapper {
+  z-index: 1000;
   background-color: $White;
   top: 0;
   position: -webkit-sticky;
@@ -55,7 +56,12 @@
   box-shadow: 0 1px 0 $LightShadow;
 }
 
+.NavBarPaddingTransition {
+  transition: padding 0.5s;
+}
+
 .NavBarPadding {
+  @extend .NavBarPaddingTransition;
   padding: 1.5rem 0 1.5rem 0;
   @media (max-width: $smallPixelSize) {
     padding: 1rem 0 1rem 0;
@@ -63,6 +69,7 @@
 }
 
 .NavBarPaddingCollapsed {
+  @extend .NavBarPaddingTransition;
   padding: 0.5rem 0 0.5rem 0;
 }
 

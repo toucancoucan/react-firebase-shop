@@ -6,6 +6,11 @@ a {
   color: inherit;
 }
 
+a, button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   border-radius: 0;
@@ -22,6 +27,7 @@ a {
 .hidden {
   display: none !important;
 
+  opacity: 0;
 }
 
 button {

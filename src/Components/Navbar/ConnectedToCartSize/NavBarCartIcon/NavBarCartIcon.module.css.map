@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["NavBarCartIcon.module.scss","../../../../css/_colors.scss"],"names":[],"mappings":"AAGA;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,YCdO;EDeP,OChBM;EDiBN","file":"NavBarCartIcon.module.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "NavBarCartIcon.module.scss",
+    "../../../../css/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAGA;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,YCbO;EDcP,OChBM;EDiBN",
+  "file": "NavBarCartIcon.module.css"
+}

@@ -19,22 +19,113 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Reducers/CarouselReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/Routes.ts" afterDir="false" />
+    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="Made carousel and connected to firebase.">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/062fb9bf31cb4b3c992cb661624d35505c2ec5c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09a439d940d52a814f62e2b336db3c2e913d50a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19a277803a8ed4765bdfb3c75668e6c16bb3cc75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22a142fd024af2fe2d5f8c8e504b86d02c356374" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b06d859dd81f9cdd22b9391460f8eba1e998081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ce72b27f206274b402c77007611944d60922cdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e41ba3c0ef6639c0077cf43c35fb602443fe00c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f2033c61bb701e36da2d1524993e9332b47ad36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314630b4bd2ee2476bc87d9ebaa76c14c719dbb4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/385ce9daf2d5d9d25a6cad9e4d6e20209117ed90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3af08846fdf670fbe2776cbc4074730459df1e87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45993306b6fe7176f01c6a17aaa20d4767e8911c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/5099df5f1c544a10362839ee1ae18af14892d90f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/542fd15d8590ab799fdab4d23a6852e0196d8983" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56a2a80ae64275433dbc3066b5033b87d27ec539" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5ab44fe33ca96299f51ad4778a73e425b92bf439" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f0e1c397a810c2b2f87375fa3fd088a2ff2fe42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fbcabb7632c7397608b5b3e95adf3b1e666c57e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65857bc0760a1d2bce87fe5566116387ed773e4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/658fbf64d842948b2825155130740696e568792a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67a553138b4fb52a730ed06d87efd8d86236da78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6ad61f9ede218049c51ba3f5b4cb2b742c6aed3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d31d1cdd107f3a7fba386c6afbcf8bdad7192f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d7d9f734e3f3311a8d02058c4b98fcf2615b4ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6efe78f7744119b6c0e8f24b27fbf43f5c87ecaa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5486fccdaf336a6bbf8bc85f75d6f4566d4338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7ba78f97e95f9e4ecec2c9bb74afc3c4bff57e1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83343f108718ae797c5cca7c410f8f5bb74dc6dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/835da56f32df714aaed6285a5b7fc3a7807851e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d76a7248260bd344974953e2fce3d682fe49975" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9023e85ce254b20da326a3338e002f9d6b6076b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90bc27b16fed0e5d97106dee532378c7c4134b74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90e28552a1831333c0c6170c5f1bb70f58f682e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93588c11ea48831de711c925f0dcf4cdd0fcd501" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c2c9144b65115cb14390f3fa51fa2ff0edda530" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a01c16b287f7ee00468546a4de5d446aecec4b7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0c3df64924728f4a8e28577962b923470312d46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3cc5cca74701533d1929845bb20f2c2a4151796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1833813b5d1474c4f2c77c9a5352153364c2c8a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c51a4f36c5685981fd49802b08fb6f4b5ce28b82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c554ec27e84eb1f064f94e9207ccad40eb24c706" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c75af3c0f77208e64a4b08d11059147170bcfb19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca497588eb9a77b9c164da76fd59786fd4fc13f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccb55eee107013b868df9170ecc1588aa53487e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd7f331213285081d69d393c02c25fb83471af79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf9856a435807ac64e7a918d58cbce0aa39477f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d338c1df5b5b6c002bb9ff131971286895ee7789" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d42ef6097afff31ba74f645c4c7368cc245b13a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d66254f3a0f38b5253754c92d45c707cb8559b1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d71426f56291459555c3f1b595dfff03bbf26924" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da2abd783e64d060d40f958cb6fcf91a33be6332" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daaeacbd0193f78fd15b156e35c1a17699029e52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de829c40e5e5b05b8ae3808e4db60190706df0c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e58f14b9f27921a4be5e5f80ba6432756d82b032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e85c3b991c9f4cf805aa72aefe2bccc2fc337c18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e894dbb488f682e3407ede96b70632878449e267" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecc7f5519742054e896aab009ae06f9611f6dd18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/CarouselArrow/CarouselArrow.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/CarouselArrow/CarouselArrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Firebase/Firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utility/CONSTANTS.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/ConnectedToCartSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/ConnectedToCartSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/UserReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/TestScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/CarouselReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CarouselReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/Routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_constants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -68,6 +159,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,16 +168,16 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Projects\react-firebase-shop\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-firebase-shop\src\Components\Carousel\CarouselArrow" />
+      <recent name="D:\Projects\react-firebase-shop\src\Firebase" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar\ConnectedToCart" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar\Logo" />
-      <recent name="D:\Projects\react-firebase-shop\src" />
-      <recent name="D:\Projects\react-firebase-shop\src\App" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -101,7 +194,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,6 +242,25 @@
       <workItem from="1595322823512" duration="5695000" />
       <workItem from="1595337792213" duration="2012000" />
       <workItem from="1595345710152" duration="2134000" />
+      <workItem from="1595347869245" duration="307000" />
+      <workItem from="1595348525450" duration="2301000" />
+      <workItem from="1595428895283" duration="85000" />
+      <workItem from="1595429023909" duration="900000" />
+      <workItem from="1595511874912" duration="619000" />
+      <workItem from="1595666592775" duration="1217000" />
+      <workItem from="1595669677291" duration="1561000" />
+      <workItem from="1595773124615" duration="4951000" />
+      <workItem from="1595859019306" duration="639000" />
+      <workItem from="1595860718566" duration="5674000" />
+      <workItem from="1596106337517" duration="236000" />
+      <workItem from="1596106597087" duration="12465000" />
+      <workItem from="1596123497974" duration="2772000" />
+      <workItem from="1596190138253" duration="15922000" />
+      <workItem from="1596279647929" duration="5091000" />
+      <workItem from="1596284944097" duration="3835000" />
+      <workItem from="1596289179188" duration="270000" />
+      <workItem from="1596289457724" duration="189000" />
+      <workItem from="1596289656308" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -173,11 +290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595070962236</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Started working on Cart and applied refactor">
+      <created>1595348099319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595348099319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -192,70 +316,88 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Made ProfileNavRow" />
     <MESSAGE value="Included icons, Made Header, started working on NavBar" />
     <MESSAGE value="Finished responsive header + navbar" />
     <MESSAGE value="Writed hoc for cart icon and made MobileCartButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Writed hoc for cart icon and made MobileCartButton" />
+    <MESSAGE value="Started working on Cart and applied refactor" />
+    <MESSAGE value="Made carousel and connected to firebase" />
+    <MESSAGE value="Made carousel and connected to firebase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made carousel and connected to firebase." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="356" key="#Notifications" timestamp="1593772618888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="847" y="356" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1593772618888" />
-    <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593689394400">
+    <state x="552" y="161" key="#Plugins" timestamp="1595860755615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593689394400" />
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1595860755615" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595861846124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595861846124" />
+    <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596289394198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596289394198" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594385337702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594385337702" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594304701925">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595860588399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594304701925" />
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594973883030">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595860588399" />
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596115968683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594973883030" />
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596115968683" />
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594743118147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595070961002">
+    <state x="620" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1596289713537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595070961002" />
+    <state x="620" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596289713537" />
+    <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="104" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596289498293" />
     <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1593690003328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593690003328" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1595010238989">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1595429318092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595010238989" />
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595429318092" />
     <state x="814" y="414" key="Github.ShareDialog" timestamp="1593686581724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="374" key="GridCell.Tab.0.bottom" timestamp="1595347843793">
+    <state width="1877" height="143" key="GridCell.Tab.0.bottom" timestamp="1596289447158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
-    <state width="1877" height="374" key="GridCell.Tab.0.center" timestamp="1595347843793">
+    <state width="1877" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596289447158" />
+    <state width="1877" height="143" key="GridCell.Tab.0.center" timestamp="1596289447158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
-    <state width="1877" height="374" key="GridCell.Tab.0.left" timestamp="1595347843793">
+    <state width="1877" height="143" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596289447158" />
+    <state width="1877" height="143" key="GridCell.Tab.0.left" timestamp="1596289447158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
-    <state width="1877" height="374" key="GridCell.Tab.0.right" timestamp="1595347843793">
+    <state width="1877" height="143" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596289447158" />
+    <state width="1877" height="143" key="GridCell.Tab.0.right" timestamp="1596289447158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595347843793" />
+    <state width="1877" height="143" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596289447158" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,18 +446,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="329" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594304706748" />
-    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1594742427657">
+    <state x="540" y="255" width="1043" height="759" key="IDE.errors.dialog" timestamp="1596116763369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594742427657" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1595010273555">
+    <state x="540" y="255" width="1043" height="759" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596116763369" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1596289782488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595010273555" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1595070964062">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596289782488" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1596289533907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595070964062" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596289533907" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596203665444" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595068345630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,6 +470,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="387" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595010271806" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596193236539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596193236539" />
     <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1595064548170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

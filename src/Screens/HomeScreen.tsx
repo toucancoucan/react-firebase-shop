@@ -1,11 +1,12 @@
 import React from "react";
-import NavBar from "../Components/Navbar/NavBar";
+import Carousel from "../Components/Carousel/Carousel";
 
 let HomeScreen = () => {
     return (
         <div>
-            <NavBar/>
+            <Carousel/>
             <div style={{backgroundColor: "coral", height: "1200px"}}>
+
             </div>
         </div>
     )

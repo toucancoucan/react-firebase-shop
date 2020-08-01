@@ -1,17 +1,19 @@
+@import "constants";
+
 .container {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  @media (min-width: 576px) {
+  @media (min-width: $smallPixelSize) {
     width: 540px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: $mediumPixelSize) {
     width: 750px;
   }
-  @media (min-width: 992px) {
+  @media (min-width: $largePixelSize) {
     width: 970px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: $extraLargePixelSize) {
     width: 1170px;
   }
 }

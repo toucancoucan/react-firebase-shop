@@ -6,7 +6,7 @@ export type mapStateToPropsType = {
     cartItems: number
 }
 
-export let ConnectedToCartSize = (Component: React.FC<any>) =>{
+export let ConnectedToCartSize = (Component: React.FC<any>) => {
     const mapStateToProps = (state: rootState): mapStateToPropsType => {
         return {
             cartItems: state.CartReducer.cart.length
