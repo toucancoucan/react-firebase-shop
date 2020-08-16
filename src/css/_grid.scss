@@ -1,19 +1,31 @@
 @import "constants";
 
-.container {
+@mixin useMinWidthMedia($style, $smallValue, $mediumValue, $largeValue, $extraLargeValue) {
+  @media (min-width: $smallPixelSize) {
+    #{$style}: $smallValue;
+  }
+  @media (min-width: $mediumPixelSize) {
+    #{$style}: $mediumValue;
+  }
+  @media (min-width: $largePixelSize) {
+    #{$style}: $largeValue;
+  }
+  @media (min-width: $extraLargePixelSize) {
+    #{$style}: $extraLargeValue;
+  }
+}
+
+
+.navbarContainer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  @media (min-width: $smallPixelSize) {
-    width: 540px;
-  }
-  @media (min-width: $mediumPixelSize) {
-    width: 750px;
-  }
-  @media (min-width: $largePixelSize) {
-    width: 970px;
-  }
-  @media (min-width: $extraLargePixelSize) {
-    width: 1170px;
-  }
+  @include useMinWidthMedia(width, 540px, 750px, 970px, 1170px)
 }
+
+.contentContainer {
+  margin-right: auto;
+  margin-left: auto;
+  @include useMinWidthMedia(width, 100%, 100%, 970px, 1170px);
+}
+

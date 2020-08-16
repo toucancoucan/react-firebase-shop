@@ -6,7 +6,7 @@ import ProfileNavRow from "../ProfileNavRow/ProfileNavRow";
 let Header: React.FC = () => {
     return (
         <div className={styles.headerWrapper}>
-            <div className={styles.container}>
+            <div className={styles.navbarContainer}>
                 <div className={styles.header}>
                     <ProfileNavRow/>
                 </div>

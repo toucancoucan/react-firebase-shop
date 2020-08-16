@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "ItemCard.module.scss"
+  ],
+  "names": [],
+  "mappings": "AAIA;EACE;EACA",
+  "file": "ItemCard.module.css"
+}

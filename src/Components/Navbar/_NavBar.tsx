@@ -62,7 +62,7 @@ let _NavBar: React.FC<propsType> = (props) => {
         <>
             <Header/>
             <header className={styles.navBarWrapper}>
-                <nav className={styles.container}>
+                <nav className={styles.navbarContainer}>
                     <div className={styles.navBarDesktop}>
                         <Logo url={routes.home} isPaddingCollapsed={isPaddingCollapsed}/>
                         {HeaderLinksArray}

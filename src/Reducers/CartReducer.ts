@@ -2,7 +2,7 @@ const ADD_ITEM = 'ADD_ITEM';
 const DELETE_ITEM = 'DELETE_ITEM';
 
 
-export type addItemType = {
+export type addItemToCartType = {
     type: typeof ADD_ITEM
     payload: number
 }
@@ -19,7 +19,7 @@ export let deleteItem = (itemId: number): deleteItemType => {
     }
 }
 
-export let addItem = (itemId: number): addItemType => {
+export let addItemToCart = (itemId: number): addItemToCartType => {
     return {
         type: ADD_ITEM,
         payload: itemId
@@ -36,7 +36,7 @@ let CartReducerInitialState: CartStateType = {
     //cart: [],
 }
 
-type actionTypes = addItemType & deleteItemType;
+type actionTypes = addItemToCartType & deleteItemType;
 
 const CartReducer = (state = CartReducerInitialState, action: actionTypes): CartStateType => {
     switch (action.type) {

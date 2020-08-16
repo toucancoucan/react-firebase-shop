@@ -1,41 +1,36 @@
 import app from 'firebase';
-import 'firebase/firestore';
+import * as firebase from 'firebase/app';
 import {CarouselItemType} from "../Reducers/CarouselReducer";
+import {shopItemType} from "../Reducers/ShopReducer";
+import CONSTANTS from "../Utility/CONSTANTS";
 
-export const ItemsCarousel = "ItemsCarousel";
-
-const firebaseConfig = {
-    apiKey: "AIzaSyBLPCceCKqyMyMGR7KkS5YiuYJNToaZc6A",
-    authDomain: "react-firebase-shop-8428c.firebaseapp.com",
-    databaseURL: "https://react-firebase-shop-8428c.firebaseio.com",
-    projectId: "react-firebase-shop-8428c",
-    storageBucket: "react-firebase-shop-8428c.appspot.com",
-    messagingSenderId: "159466976622",
-    appId: "1:159466976622:web:387ad47923db32b007fd7f",
-    measurementId: "G-8ZLB2Z719X"
-};
+type docType = firebase.firestore.QueryDocumentSnapshot;
 
 class FirebaseClass {
     constructor() {
-        this.app = app.initializeApp(firebaseConfig);
+        app.initializeApp(CONSTANTS.FIREBASE.CONFIG);
     }
-
-    app: any
 
     async getCarouselItems(): Promise<Array<CarouselItemType>> {
-        const carouselItems: Array<CarouselItemType> = [];
-        await app.firestore().collection(ItemsCarousel).get()
-            .then((querySnapshot: any) => {
-                querySnapshot.docs.forEach((doc: any) => {
-                    carouselItems.push(doc.data());
-                });
-            });
-        return carouselItems;
+        return this.getFirebaseCollection<CarouselItemType>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.ITEMS_CAROUSEL);
     }
 
-}
+    async getShopItems(): Promise<Array<shopItemType>> {
+        return this.getFirebaseCollection<shopItemType>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.SHOP_ITEMS);
+    }
 
-// let Firebase = app.initializeApp(firebaseConfig);
+    async getFirebaseCollection<T>(collectionName: string, itemInsertFunc = async (doc: docType) => doc.data()): Promise<Array<T>> {
+        const items: Array<T> = [];
+        await app.firestore().collection(collectionName).get()
+            .then(querySnapshot => {
+                querySnapshot.docs.forEach(async doc => {
+                    // @ts-ignore
+                    items.push(await itemInsertFunc(doc));
+                });
+            });
+        return items;
+    }
+}
 
 const Firebase = new FirebaseClass()
 

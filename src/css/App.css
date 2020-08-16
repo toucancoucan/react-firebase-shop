@@ -35,11 +35,11 @@ a, button {
 }
 
 * {
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     border-radius: 0;
     outline: none;
 }
-
 *::selection {
     color: #fff;
     background: #7b599b;

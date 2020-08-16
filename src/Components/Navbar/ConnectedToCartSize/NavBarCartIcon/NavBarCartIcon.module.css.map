@@ -6,6 +6,6 @@
     "../../../../css/_colors.scss"
   ],
   "names": [],
-  "mappings": "AAGA;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,YCbO;EDcP,OChBM;EDiBN",
+  "mappings": "AAGA;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,YCbO;EDcP,OChBM;EDiBN",
   "file": "NavBarCartIcon.module.css"
 }

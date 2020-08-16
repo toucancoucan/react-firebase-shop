@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
-
 .RobotoFont {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -25,32 +24,61 @@
     font-weight: 700;
 }
 
-.container {
+.navbarContainer {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
 }
 
 @media (min-width: 576px) {
-    .container {
+    .navbarContainer {
         width: 540px;
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .navbarContainer {
         width: 750px;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .navbarContainer {
         width: 970px;
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .navbarContainer {
+        width: 1170px;
+    }
+}
+
+.contentContainer {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .contentContainer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contentContainer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .contentContainer {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contentContainer {
         width: 1170px;
     }
 }
@@ -72,7 +100,6 @@
     font-size: 0.8rem;
     white-space: pre-wrap;
 }
-
 .header a:hover {
     color: #ffffff;
 }

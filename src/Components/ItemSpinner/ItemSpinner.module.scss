@@ -1,0 +1,13 @@
+@import "../../css/grid";
+
+.wrap {
+
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2vw;
+  @include useMinWidthMedia(grid-template-columns, repeat(auto-fit, 100%), repeat(auto-fit, 50%), repeat(auto-fit, 25%), repeat(auto-fit, 25%))
+
+}

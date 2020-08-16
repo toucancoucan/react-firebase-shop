@@ -1,0 +1,26 @@
+@import "../../../css/fonts";
+@import "../../../css/colors";
+
+.main {
+  font-size: 1.9rem;
+  color: $DarkGray;
+  margin-top: 1rem;
+}
+
+.sub {
+  font-size: 0.95rem;
+  color: $SubHeaderGray;
+}
+
+.wrap {
+  text-transform: uppercase;
+  @extend .CondensedLightFont;
+}
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: $DarkerGray solid 2px;
+}

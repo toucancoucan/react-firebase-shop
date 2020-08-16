@@ -1,6 +1,7 @@
 @import "../../../css/constants";
 @import "../../../css/fonts";
 @import "../../../css/colors";
+@import "../../../css/grid";
 
 
 .abovePhoto {
@@ -14,7 +15,13 @@
   top: 35%;
   font-size: 2.5rem;
   @extend .CondensedLightFont;
-
+  @media(max-width: $smallPixelSize) {
+    top: 25%;
+    font-size: 2rem;
+  }
+  @media (max-width: $mediumPixelSize) {
+    top: 30%;
+  }
 }
 
 .wrapper {
@@ -26,7 +33,13 @@
   top: 42.5%;
   font-size: 4.5rem;
   @extend .CondensedFont;
-
+  @media(max-width: $smallPixelSize) {
+    top: 35%;
+    font-size: 3.5rem;
+  }
+  @media (max-width: $mediumPixelSize) {
+    top: 40%;
+  }
 }
 
 .button {
@@ -35,7 +48,11 @@
   font-size: 1.1rem;
   padding: 0.4rem 1.2rem;
   border: 2px solid;
-  transition: border 0s;
+  @media(max-width: $smallPixelSize) {
+    font-size: 1rem;
+    top: unset;
+    bottom: 5%;
+  }
 }
 
 .whiteText {
@@ -64,15 +81,7 @@
   width: 100%;
   object-fit: none;
   height: 20rem;
-  @media(min-width: $smallPixelSize) {
-    height: 24rem;
-  }
-  @media (min-width: $mediumPixelSize) {
-    height: 28rem;
-  }
-  @media (min-width: $largePixelSize) {
-    height: 32rem;
-  }
+  @include useMinWidthMedia(height, 24rem, 28rem, 32rem, 32rem);
 }
 
 .item {
