@@ -20,7 +20,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  @include useMinWidthMedia(width, 540px, 750px, 970px, 1170px)
+  @include useMinWidthMedia(width, 100%, 750px, 970px, 1170px)
 }
 
 .contentContainer {

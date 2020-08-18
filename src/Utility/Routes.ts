@@ -1,18 +1,27 @@
-type routesType = {
-    home: string,
-    shop: string,
-    contact: string,
-    blog: string,
-    cart: string
-}
+// type routesType = {
+//     home: string,
+//     shop: string,
+//     contact: string,
+//     blog: string,
+//     cart: string
+// }
 
-const routes: routesType = {
+const routes = {
     home: '/home',
     shop: '/shop',
     contact: '/contact',
     blog: '/blog',
-    cart: '/cart'
+    cart: '/cart',
+    product(productName: string) {
+        return `/shop/product/${replaceWhitespaceInStringAndToLower(productName)}`
+    },
+    category(categoryName: string) {
+        return `/shop/category/${replaceWhitespaceInStringAndToLower(categoryName)}`
+    }
 }
 
+let replaceWhitespaceInStringAndToLower = (str: string) => {
+    return str.split(' ').join('-').toLowerCase();
+}
 
 export default routes;

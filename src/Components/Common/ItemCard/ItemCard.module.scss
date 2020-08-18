@@ -1,14 +1,22 @@
-.wrapper {
+@import "../../../css/fonts";
+@import "../../../css/colors";
 
+
+.wrapper {
+  color: $DarkGray;
+  @extend .CondensedLightFont;
 }
 
 .photo {
-  height: 5rem;
-  width: 5rem;
+  width: 100%;
 }
 
 .name {
+  font-size: 1.1rem;
 
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .addButton {
@@ -16,11 +24,16 @@
 }
 
 .icon {
-
+  font-size: 2rem;
 }
 
 .category {
+  color: $SubHeaderGray;
+  font-size: 0.9rem;
 
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .price {
@@ -28,9 +41,20 @@
 }
 
 .oldPrice {
-
+  color: $SubHeaderGray;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
 }
 
-.row {
+.nameAddRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.priceRow {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0.5rem;
 }

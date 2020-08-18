@@ -4,11 +4,13 @@
     margin-left: auto;
     width: 100%;
 }
+
 @media (min-width: 576px) {
     .navbarContainer {
-        width: 540px;
+        width: 100%;
     }
 }
+
 @media (min-width: 768px) {
     .navbarContainer {
         width: 750px;

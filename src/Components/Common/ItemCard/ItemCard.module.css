@@ -1,6 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+.RobotoFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.RobotoLightFont {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.CondensedFont {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.CondensedLightFont, .wrapper {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.CondensedBoldFont {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  color: #222222;
+}
+
 .photo {
-    height: 5rem;
-    width: 5rem;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.1rem;
+}
+.name:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.category {
+  color: #888888;
+  font-size: 0.9rem;
+}
+.category:hover {
+  text-decoration: underline;
+}
+
+.oldPrice {
+  color: #888888;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+.nameAddRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.priceRow {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0.5rem;
 }
 
 /*# sourceMappingURL=ItemCard.module.css.map */
