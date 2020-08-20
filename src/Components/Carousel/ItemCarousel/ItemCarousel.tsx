@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./ItemCarousel.module.scss"
 import {CarouselItemType} from "../../../Reducers/CarouselReducer";
 import combineClassNames from "../../../Utility/сombineClassNames";
@@ -12,25 +12,20 @@ type propsType = mapStateToPropsType & mapDispatchToPropsType;
 
 
 let ItemCarousel: React.FC<propsType> = (props) => {
-    //const [show, setShow] = useState(false);
-    //const [prevPhotoUrl, setPrevPhotoUrl] = useState("");
-    // let toShow = (): boolean => {
-    //     return props.photoUrl === prevPhotoUrl && show;
-    // }
-    // useEffect(() => {
-    //     if (props.photoUrl === prevPhotoUrl) {
-    //         setShow(true)
-    //     } else {
-    //         setShow(false);
-    //         setPrevPhotoUrl(props.photoUrl);
-    //     }
-    // }, [props.photoUrl, prevPhotoUrl])
+    const [show, setShow] = useState(false);
+    const [prevPhotoUrl, setPrevPhotoUrl] = useState("");
+
+    if (prevPhotoUrl !== props.photoUrl) {
+        setPrevPhotoUrl(props.photoUrl)
+        setShow(true)
+    }
+
     const animationStyle: any = {};
-    animationStyle[styles.show] = toShow();
+    animationStyle[styles.show] = show;
 
 
     return (
-        <div className={combineClassNames(styles.item, animationStyle)}>
+        <div onTransitionEnd={() => setShow(false)} className={combineClassNames(styles.item, animationStyle)}>
 
             <div className={combineClassNames(styles.wrapper, getTextColorStyle(props.stringColor))}>
                 <div

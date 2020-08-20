@@ -1,11 +1,3 @@
-// type routesType = {
-//     home: string,
-//     shop: string,
-//     contact: string,
-//     blog: string,
-//     cart: string
-// }
-
 const routes = {
     home: '/home',
     shop: '/shop',

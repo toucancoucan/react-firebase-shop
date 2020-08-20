@@ -44,14 +44,14 @@ let _ItemSpinner: React.FC<propsType> = (props) => {
         <div className={styles.wrap}>
             <div className={styles.arrowWrap}>
                 <SpinnerArrow forwardOrBackward={"backward"} changeItem={() => {
-                    moveSpinnerItems(1)
+                    moveSpinnerItems(-1)
                 }}/>
             </div>
             <div onAnimationEnd={() => changeShowAnimation(false)}
                  className={combineClassNames(styles.container, showAnimation ? styles.animation : "")}>{itemsContent}</div>
             <div className={styles.arrowWrap}>
                 <SpinnerArrow forwardOrBackward={"forward"} changeItem={() => {
-                    moveSpinnerItems(-1)
+                    moveSpinnerItems(1)
                 }}/>
             </div>
         </div>

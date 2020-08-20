@@ -1,13 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import {connect} from "react-redux";
 import {itemCategoryType} from "../../../Reducers/ShopReducer";
 import {addItemToCart} from "../../../Reducers/CartReducer";
 import styles from "./ItemCard.module.scss"
 import {IconContext} from "react-icons";
-import {IoIosAdd} from "react-icons/io";
+import {IoIosAdd, IoIosCheckmark} from "react-icons/io";
 import {rootState} from "../../../Reducers/store";
 import {Link} from "react-router-dom";
 import routes from "../../../Utility/Routes";
+import beautifyPrice from "../../../Utility/beautifyPrice";
+import combineClassNames from "../../../Utility/сombineClassNames";
 
 type mapStateToPropsType = {
     photoUrl: string,
@@ -24,6 +26,9 @@ type mapDispatchToPropsType = {
 
 type propsType = mapStateToPropsType & mapDispatchToPropsType;
 let _ItemCard: React.FC<propsType> = (props) => {
+
+    const [isAdded, setIsAdded] = useState<boolean>(false);
+
     return (
         <div className={styles.wrapper} key={props.key}>
             <img className={styles.photo} src={props.photoUrl} alt={props.name}/>
@@ -33,10 +38,25 @@ let _ItemCard: React.FC<propsType> = (props) => {
                         {props.name}
                     </div>
                 </Link>
-                <button className={styles.addButton}>
+                <button onClick={() => {
+                    props.addItemToCart(props.id);
+                    setIsAdded(true)
+                }} className={styles.addButton}>
                     <IconContext.Provider value={{className: styles.icon}}>
-                        <IoIosAdd/>
+                        {isAdded ?
+                            <IoIosCheckmark className={styles.addedIcon} onAnimationEnd={() => {
+                                setIsAdded(false)
+                            }}/>
+                            :
+                            <IoIosAdd/>
+                        }
                     </IconContext.Provider>
+                    {!isAdded ?
+                        <span className={styles.tooltip}>Add to cart</span>
+                        :
+                        <span
+                            className={combineClassNames(styles.tooltip, styles.greenTooltip)}>Product added to cart</span>
+                    }
                 </button>
             </div>
             <Link to={routes.product(props.category)}>
@@ -47,21 +67,15 @@ let _ItemCard: React.FC<propsType> = (props) => {
             <div className={styles.priceRow}>
                 {(() => {
                     if (props.oldPrice) return <div className={styles.oldPrice}>
-                        {beautifyPrice(props.oldPrice)}$
+                        {beautifyPrice(props.oldPrice)}
                     </div>
                 })()}
                 <div className={styles.price}>
-                    {beautifyPrice(props.price)}$
+                    {beautifyPrice(props.price)}
                 </div>
             </div>
         </div>
     )
-}
-
-let beautifyPrice = (n: number | undefined): string | number => {
-    if (n === undefined) return "";
-    if (n === Math.round(n)) return `${n}.00`;
-    return n;
 }
 
 

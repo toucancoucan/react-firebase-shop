@@ -1,0 +1,27 @@
+.row {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.image {
+  width: 3.5rem;
+}
+
+.name {
+
+}
+
+.subText {
+
+}
+
+.price {
+
+}

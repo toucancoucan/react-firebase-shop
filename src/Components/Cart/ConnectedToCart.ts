@@ -1,0 +1,19 @@
+import React from "react";
+import {rootState} from "../../Reducers/store";
+import {connect} from "react-redux";
+import {shopItemType} from "../../Reducers/ShopReducer";
+
+export type ConnectedToCartPropsType = {
+    cartMap: Map<number, number>,
+    items: Array<shopItemType>
+}
+
+export let ConnectedToCart = (Component: React.FC<ConnectedToCartPropsType>) => {
+    const mapStateToProps = (state: rootState): ConnectedToCartPropsType => {
+        return {
+            items: state.ShopReducer.items,
+            cartMap: state.CartReducer.cart
+        }
+    };
+    return connect<ConnectedToCartPropsType, any, any, any>(mapStateToProps)(Component)
+}

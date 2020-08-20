@@ -1,0 +1,19 @@
+@import "../../../css/grid";
+
+.wrapper {
+  z-index: 1010;
+  background: #0fbd71;
+  position: absolute;
+  height: auto;
+  width: auto;
+  right: 0;
+  @include useMinWidthMedia(right, 2.5%, 5%, 7.5%, 10%)
+}
+
+.content {
+
+}
+
+.footer {
+
+}

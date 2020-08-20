@@ -12,6 +12,7 @@ import MobileCartButton from "./ConnectedToCartSize/MobileCartButton/MobileCartB
 import routes from "../../Utility/Routes";
 
 import {NavBarStateType} from "../../Reducers/NavBarReducer";
+import CartWidget from "../Cart/CartWidget/CartWidget";
 
 export type mapStateToPropsType = NavBarStateType;
 
@@ -66,7 +67,6 @@ let _NavBar: React.FC<propsType> = (props) => {
                     <div className={styles.navBarDesktop}>
                         <Logo url={routes.home} isPaddingCollapsed={isPaddingCollapsed}/>
                         {HeaderLinksArray}
-
                         <div className={styles.iconWrap}>
                             {searchContent}
                             <NavBarCartIcon clickAction={props.changeShowCartWidget}/>
@@ -87,6 +87,7 @@ let _NavBar: React.FC<propsType> = (props) => {
                         <ProfileNavRow/>
                     </div>
                 </nav>
+                {props.showCart && <CartWidget/>}
             </header>
             <MobileCartButton url={routes.cart}/>
         </>

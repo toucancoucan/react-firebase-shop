@@ -28,12 +28,11 @@ export let addItemToCart = (itemId: number): addItemToCartType => {
 
 
 export type CartStateType = {
-    cart: Array<number>
+    cart: Map<number, number>
 }
 
 let CartReducerInitialState: CartStateType = {
-    cart: [125415, 235662, 124],
-    //cart: [],
+    cart: new Map<number, number>(),
 }
 
 type actionTypes = addItemToCartType & deleteItemType;
@@ -43,17 +42,25 @@ const CartReducer = (state = CartReducerInitialState, action: actionTypes): Cart
         case DELETE_ITEM:
             return {
                 ...state,
-                cart: state.cart.filter(item => item !== action.payload)
+                // cart: state.cart.filter(item => item !== action.payload)
             }
         case ADD_ITEM:
             return {
                 ...state,
-                cart: [...state.cart, action.payload]
+                cart: modifyMap(state.cart, action.payload)
             }
         default:
             return state
     }
 
+}
+
+let modifyMap = (map: Map<number, number>, value: number): Map<number, number> => {
+    if (map.has(value)) {
+        // @ts-ignore
+        return map.set(value, map.get(value) + 1)
+    }
+    return map.set(value, 1)
 }
 
 

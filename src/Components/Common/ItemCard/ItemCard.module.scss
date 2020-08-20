@@ -20,11 +20,62 @@
 }
 
 .addButton {
+  position: relative;
 
+  &:hover {
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.tooltip {
+  font-size: 0.8rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s;
+  white-space: nowrap;
+  text-transform: uppercase;
+  background-color: $DarkerGray;
+  @extend .CondensedFont;
+  color: $White;
+  padding: 0.25rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 95%;
+  z-index: 11;
+
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+  .greenTooltip & {
+    border-color: transparent transparent transparent $Green;
+
+  }
+
+}
+
+.greenTooltip {
+  background: $Green;
+
+  &::after {
+    border-color: transparent transparent transparent $Green;
+  }
 }
 
 .icon {
   font-size: 2rem;
+  animation: addingAnimation 2s;
 }
 
 .category {
@@ -36,8 +87,21 @@
   }
 }
 
-.price {
+.addedIcon {
+  color: $Green;
+}
 
+@keyframes addingAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.price {
+  color: $DarkerGray;
 }
 
 .oldPrice {
@@ -58,3 +122,4 @@
   align-items: baseline;
   margin-top: 0.5rem;
 }
+
