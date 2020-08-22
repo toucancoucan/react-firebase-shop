@@ -11,8 +11,8 @@ export type ConnectedToCartPropsType = {
 export let ConnectedToCart = (Component: React.FC<ConnectedToCartPropsType>) => {
     const mapStateToProps = (state: rootState): ConnectedToCartPropsType => {
         return {
-            items: state.ShopReducer.items,
-            cartMap: state.CartReducer.cart
+            cartMap: state.CartReducer.cart,
+            items: state.ShopReducer.items
         }
     };
     return connect<ConnectedToCartPropsType, any, any, any>(mapStateToProps)(Component)

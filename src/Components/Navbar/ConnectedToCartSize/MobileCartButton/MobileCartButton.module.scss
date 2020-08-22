@@ -1,5 +1,6 @@
 @import '../../../../css/constants';
 @import '../../../../css/colors';
+@import '../../../../css/fonts';
 
 
 .link {
@@ -24,6 +25,7 @@
   padding: 0.3rem 1.5rem;
   z-index: 1001;
   color: #fff;
+  @extend .CondensedFont;
   background-color: #000;
 
   @media (max-width: $smallPixelSize) {

@@ -6,6 +6,6 @@
     "../../../css/_colors.scss"
   ],
   "names": [],
-  "mappings": "AAGA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;AAEA;EACE,OCNK;EDOL",
+  "mappings": "AAGA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;AAEA;EACE,OCFK;EDGL",
   "file": "NavBarIcon.module.css"
 }

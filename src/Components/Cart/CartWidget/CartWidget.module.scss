@@ -1,19 +1,86 @@
 @import "../../../css/grid";
+@import "../../../css/colors";
+@import "../../../css/fonts";
+
+.buttonWrap {
+  font-size: 0.95rem;
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 
 .wrapper {
-  z-index: 1010;
-  background: #0fbd71;
+  @extend .CondensedFont;
+  border: 1px solid $OneMoreGray;
+  background: $White;
+  color: $DarkerGray;
   position: absolute;
   height: auto;
-  width: auto;
+  width: 22rem;
   right: 0;
-  @include useMinWidthMedia(right, 2.5%, 5%, 7.5%, 10%)
+  @include useMinWidthMedia(right, 2.5%, 5%, 7.5%, 10%);
+  animation: fade .5s;
+  @media(max-width: $smallPixelSize) {
+    display: none;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: $SubHeaderGray;
+  font-size: 0.95rem;
+}
+
+.subtotal {
+  @extend .sub;
+  @extend .CondensedLightFont;
+  padding-top: 1rem;
+
+  .price {
+    margin-left: .2rem;
+    color: $DarkGray;
+  }
 }
 
 .content {
+  max-height: 15rem;
+  overflow: auto;
 
+  &::-webkit-scrollbar {
+    opacity: 0;
+    transition: 1s;
+    width: .25rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar {
+      opacity: 1;
+    }
+  }
 }
 
 .footer {
-
+  padding: 1rem 1rem;
+  background: $Smoke;
+  border-top: 1px solid $GrayThree;
 }

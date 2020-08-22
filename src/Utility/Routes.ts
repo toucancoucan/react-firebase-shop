@@ -4,6 +4,7 @@ const routes = {
     contact: '/contact',
     blog: '/blog',
     cart: '/cart',
+    checkout: '/checkout',
     product(productName: string) {
         return `/shop/product/${replaceWhitespaceInStringAndToLower(productName)}`
     },

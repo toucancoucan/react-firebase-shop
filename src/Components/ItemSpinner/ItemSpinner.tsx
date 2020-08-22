@@ -48,7 +48,9 @@ let _ItemSpinner: React.FC<propsType> = (props) => {
                 }}/>
             </div>
             <div onAnimationEnd={() => changeShowAnimation(false)}
-                 className={combineClassNames(styles.container, showAnimation ? styles.animation : "")}>{itemsContent}</div>
+                 className={combineClassNames(styles.container, showAnimation ? styles.animation : "")}>
+                {itemsContent}
+            </div>
             <div className={styles.arrowWrap}>
                 <SpinnerArrow forwardOrBackward={"forward"} changeItem={() => {
                     moveSpinnerItems(1)

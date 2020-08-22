@@ -43,6 +43,7 @@
 }
 
 .button {
+  @extend .CondensedFont;
   @extend .abovePhoto;
   top: 60%;
   font-size: 1.1rem;

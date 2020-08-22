@@ -10,6 +10,7 @@ import {Link} from "react-router-dom";
 import routes from "../../../Utility/Routes";
 import beautifyPrice from "../../../Utility/beautifyPrice";
 import combineClassNames from "../../../Utility/сombineClassNames";
+import ProductNameLink from "../ProductNameLink/ProductNameLink";
 
 type mapStateToPropsType = {
     photoUrl: string,
@@ -21,7 +22,7 @@ type mapStateToPropsType = {
     key?: number | string
 }
 type mapDispatchToPropsType = {
-    addItemToCart: (itemId: number) => void
+    addItemToCart: (itemId: number) => void,
 }
 
 type propsType = mapStateToPropsType & mapDispatchToPropsType;
@@ -33,11 +34,7 @@ let _ItemCard: React.FC<propsType> = (props) => {
         <div className={styles.wrapper} key={props.key}>
             <img className={styles.photo} src={props.photoUrl} alt={props.name}/>
             <div className={styles.nameAddRow}>
-                <Link to={routes.product(props.name)}>
-                    <div className={styles.name}>
-                        {props.name}
-                    </div>
-                </Link>
+                <ProductNameLink productName={props.name} fontSize={"1.1rem"}/>
                 <button onClick={() => {
                     props.addItemToCart(props.id);
                     setIsAdded(true)

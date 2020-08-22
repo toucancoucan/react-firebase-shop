@@ -2,7 +2,11 @@ const CHANGE_SHOW_SEARCH = 'CHANGE_SHOW_SEARCH';
 const CHANGE_SHOW_CART = 'CHANGE_SHOW_CART';
 const CHANGE_SHOW_MENU = 'CHANGE_SHOW_MENU';
 const GET_SEARCH_VALUE = 'GET_SEARCH_VALUE';
+const CLOSE_CART = 'CLOSE_CART';
 
+export type closeCartType = {
+    type: typeof CLOSE_CART
+}
 
 export type changeShowSearchType = {
     type: typeof CHANGE_SHOW_SEARCH
@@ -19,6 +23,12 @@ export type changeShowMenuType = {
 export type getSearchValueType = {
     type: typeof GET_SEARCH_VALUE,
     payload: searchFieldPayloadType
+}
+
+export let closeCart = (): closeCartType => {
+    return {
+        type: CLOSE_CART
+    }
 }
 
 export let changeShowSearch = (): changeShowSearchType => {
@@ -79,6 +89,11 @@ const NavBarReducer = (state = CartReducerInitialState, action: actionTypes): Na
             return {
                 ...state,
                 showCart: !state.showCart
+            }
+        case CLOSE_CART:
+            return {
+                ...state,
+                showCart: false
             }
         case CHANGE_SHOW_MENU:
             return {
