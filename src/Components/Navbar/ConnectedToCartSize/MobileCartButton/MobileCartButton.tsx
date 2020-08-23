@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./MobileCartButton.module.css"
 import {NavLink} from "react-router-dom";
 import {ConnectedToCartSize, mapStateToPropsType} from "../ConnectedToCartSize";
-import combineClassNames from "../../../../Utility/сombineClassNames";
+import combineClassNames from "../../../../Functions/сombineClassNames";
 
 type propsType = {
     url: string,

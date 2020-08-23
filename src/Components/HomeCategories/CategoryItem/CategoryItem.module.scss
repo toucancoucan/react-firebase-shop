@@ -1,0 +1,42 @@
+@import "../../../css/fonts";
+@import "../../../css/colors";
+
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    .image {
+      transform: scale(1.1)
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  filter: brightness(65%);
+  transition: transform .5s, visibility .25s ease-in;
+  vertical-align: middle;
+}
+
+.absoluteWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  border: 2px solid $White;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.textBlock {
+  border-top: 2px solid $White;
+  border-bottom: 2px solid $White;
+  padding: 0.5rem;
+  @extend .CondensedLightFont;
+  color: $White;
+  font-size: 1.8rem;
+
+}

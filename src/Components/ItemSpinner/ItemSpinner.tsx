@@ -2,11 +2,11 @@ import React, {useState} from "react";
 import {connect} from "react-redux";
 import {rootState} from "../../Reducers/store";
 import {shopItemType} from "../../Reducers/ShopReducer";
-import CONSTANTS from "../../Utility/CONSTANTS";
+import CONSTANTS from "../../Constants/CONSTANTS";
 import styles from "./ItemSpinner.module.scss"
 import ItemCard from "../Common/ItemCard/ItemCard";
 import SpinnerArrow from "./SpinnerArrow/SpinnerArrow";
-import combineClassNames from "../../Utility/сombineClassNames";
+import combineClassNames from "../../Functions/сombineClassNames";
 
 type mapStateToPropsType = {
     items: Array<shopItemType>

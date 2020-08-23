@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import combineClassNames from "../../../../Utility/сombineClassNames";
+import combineClassNames from "../../../../Functions/сombineClassNames";
 import styles from "./LinkButton.module.scss";
 
 

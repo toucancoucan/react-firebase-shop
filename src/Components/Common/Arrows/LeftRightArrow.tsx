@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./LeftRightArrow.module.scss"
-import combineClassNames from "../../../Utility/сombineClassNames";
+import combineClassNames from "../../../Functions/сombineClassNames";
 import {IconContext} from "react-icons";
 import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io/index";
 

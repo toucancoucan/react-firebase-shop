@@ -20,40 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/EmptySpace/EmptySpace.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/HOC/withTitleChange.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/CategoryItem/CategoryItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/CategoryItem/CategoryItem.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/CategoryItem/CategoryItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/CategoryItem/CategoryItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/HomeCategories.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/HomeCategories.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/HomeCategories.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HomeCategories/HomeCategories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Constants/Titles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/HomeCategoriesReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/CarouselArrow/CarouselArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/CarouselArrow/CarouselArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/ItemCarousel/ItemCarousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/WidgetItem/WidgetItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/WidgetItem/WidgetItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/WidgetItem/WidgetItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/WidgetItem/WidgetItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/ConnectedToCart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/ConnectedToCart.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/NavBarReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utility/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/Routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ItemSpinner/SpinnerArrow/SpinnerArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemSpinner/SpinnerArrow/SpinnerArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Firebase/Firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firebase/Firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/HomeScreen/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/HomeScreen/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/CONSTANTS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/addShopItemToFirebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/addShopItemToFirebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/beautifyPrice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/beautifyPrice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/getItemById.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/getItemById.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/сombineClassNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/сombineClassNames.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +74,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="Reducer" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -103,11 +114,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-firebase-shop\src\Functions" />
+      <recent name="D:\Projects\react-firebase-shop\src" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Cart" />
       <recent name="D:\Projects\react-firebase-shop\src\Screens\HomeScreen" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Carousel\CarouselArrow" />
-      <recent name="D:\Projects\react-firebase-shop\src\Firebase" />
-      <recent name="D:\Projects\react-firebase-shop\src\Components\Navbar\ConnectedToCart" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -209,7 +220,8 @@
       <workItem from="1598014551996" duration="5939000" />
       <workItem from="1598091187419" duration="3421000" />
       <workItem from="1598101873781" duration="5100000" />
-      <workItem from="1598107357645" duration="2975000" />
+      <workItem from="1598107357645" duration="3350000" />
+      <workItem from="1598166421044" duration="15358000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -274,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597939148269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished Cart Widget">
+      <created>1598111009722</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598111009722</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +324,8 @@
     <MESSAGE value="SCSS refactor and started ItemSpinner.tsx" />
     <MESSAGE value="Made item spinner" />
     <MESSAGE value="Expanded itemCard. Began work on cart widget" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expanded itemCard. Began work on cart widget" />
+    <MESSAGE value="Finished Cart Widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Cart Widget" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -350,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="797" y="36" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1597939146405">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1598111007498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="797" y="36" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597939146405" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598111007498" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,22 +390,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598107340831">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598182350692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598107340831" />
-    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598107340831">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598182350692" />
+    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598182350692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598107340831" />
-    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598107340831">
+    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598182350692" />
+    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598182350691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598107340831" />
-    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598107340831">
+    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598182350691" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598182350692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598107340831" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598182350692" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -438,14 +458,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" width="1043" height="759" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596116763369" />
-    <state x="554" y="315" key="SettingsEditor" timestamp="1598093410330">
+    <state x="112" y="40" width="1606" height="928" key="SettingsEditor" timestamp="1598176405797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="315" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598093410330" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597939149478">
+    <state x="112" y="40" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598176405797" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598111011391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597939149478" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598111011391" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

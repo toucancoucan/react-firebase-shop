@@ -2,11 +2,11 @@ import React, {useEffect, useRef} from "react";
 import {shopItemType} from "../../../Reducers/ShopReducer";
 import {ConnectedToCart, ConnectedToCartPropsType} from "../ConnectedToCart";
 import styles from "./CartWidget.module.scss"
-import getItemById from "../../../Utility/getItemById";
+import getItemById from "../../../Functions/getItemById";
 import WidgetItem from "./WidgetItem/WidgetItem";
 import LinkButton from "./LinkButton/LinkButton";
-import routes from "../../../Utility/Routes";
-import beautifyPrice from "../../../Utility/beautifyPrice";
+import routes from "../../../Constants/Routes";
+import beautifyPrice from "../../../Functions/beautifyPrice";
 import {connect} from "react-redux";
 import {closeCart} from "../../../Reducers/NavBarReducer";
 
@@ -74,9 +74,6 @@ let _CartWidget: React.FC<propsType> = (props) => {
         </div>
     )
 }
-// const mapStateToProps = (state: rootState, ownProps: mapDispatchToProps): mapStateToPropsType => {
-//     return ownProps
-// };
 
 let CartWidgetWrapper = connect<null, mapDispatchToProps>(null, {closeCart})(_CartWidget)
 

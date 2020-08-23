@@ -10,7 +10,7 @@ import {
 import styles from "./Carousel.module.scss";
 import CarouselArrow from "./CarouselArrow/CarouselArrow";
 import ItemCarousel from "./ItemCarousel/ItemCarousel";
-import CONSTANTS from "../../Utility/CONSTANTS";
+import CONSTANTS from "../../Constants/CONSTANTS";
 
 type mapStateToPropsType = CarouselStateType
 type mapDispatchToPropsType = {

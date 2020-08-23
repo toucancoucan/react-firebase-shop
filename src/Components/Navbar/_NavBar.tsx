@@ -5,11 +5,11 @@ import NavBarLink from "./NavBarLink/NavBarLink";
 import NavBarIcon from "./NavBarIcon/NavBarIcon";
 import NavBarCartIcon from "./ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon";
 import NavBarSearch from "./NavBarSearch/NavBarSearch";
-import combineClassNames from "../../Utility/сombineClassNames";
+import combineClassNames from "../../Functions/сombineClassNames";
 import ProfileNavRow from "./ProfileNavRow/ProfileNavRow";
 import Header from "./Header/Header";
 import MobileCartButton from "./ConnectedToCartSize/MobileCartButton/MobileCartButton";
-import routes from "../../Utility/Routes";
+import routes from "../../Constants/Routes";
 
 import {NavBarStateType} from "../../Reducers/NavBarReducer";
 import CartWidget from "../Cart/CartWidget/CartWidget";

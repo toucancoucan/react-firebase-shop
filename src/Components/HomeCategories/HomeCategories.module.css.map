@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "HomeCategories.module.scss"
+  ],
+  "names": [],
+  "mappings": "AAGA;EACE;EACA;EACA;;AACA;EAJF;IAKI;IACA;IACA",
+  "file": "HomeCategories.module.css"
+}

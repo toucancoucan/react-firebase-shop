@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CarouselArrow.module.scss";
 import LeftRightArrow from "../../Common/Arrows/LeftRightArrow";
-import combineClassNames from "../../../Utility/сombineClassNames";
+import combineClassNames from "../../../Functions/сombineClassNames";
 import {getTextColorStyle} from "../ItemCarousel/ItemCarousel";
 
 type mapStateToPropsType = {

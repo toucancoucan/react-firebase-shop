@@ -1,7 +1,7 @@
 import React, {lazy, Suspense, useEffect, useState} from 'react';
 import './css/App.scss';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import routes from "./Utility/Routes";
+import routes from "./Constants/Routes";
 import {connect} from "react-redux";
 import {fetchAndSetShopItems} from "./Reducers/ShopReducer";
 

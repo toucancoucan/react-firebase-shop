@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import styles from "./ItemCarousel.module.scss"
 import {CarouselItemType} from "../../../Reducers/CarouselReducer";
-import combineClassNames from "../../../Utility/сombineClassNames";
+import combineClassNames from "../../../Functions/сombineClassNames";
 import {Link} from "react-router-dom";
-import routes from "../../../Utility/Routes";
+import routes from "../../../Constants/Routes";
 
 type mapStateToPropsType = CarouselItemType
 type mapDispatchToPropsType = {}

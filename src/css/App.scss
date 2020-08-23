@@ -6,6 +6,11 @@ a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+  pointer-events: none;
+}
+
 a, button {
   cursor: pointer;
   transition: 0.5s;

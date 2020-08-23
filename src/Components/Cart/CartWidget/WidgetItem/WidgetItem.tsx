@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./WidgetItem.module.scss"
-import beautifyPrice from "../../../../Utility/beautifyPrice";
+import beautifyPrice from "../../../../Functions/beautifyPrice";
 import ProductNameLink from "../../../Common/ProductNameLink/ProductNameLink";
 
 

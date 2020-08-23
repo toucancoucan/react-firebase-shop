@@ -20,6 +20,7 @@ const CONSTANTS = {
             ITEMS_CAROUSEL: "ItemsCarousel",
             SHOP_ITEMS: "ShopItems",
             REVIEWS: "reviews",
+            HOME_CATEGORIES_ITEMS: "HomeCategories",
         }
     }
 }

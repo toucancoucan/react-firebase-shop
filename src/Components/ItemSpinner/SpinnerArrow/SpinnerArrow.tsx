@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SpinnerArrow.module.scss"
 import LeftRightArrow from "../../Common/Arrows/LeftRightArrow";
-import combineClassNames from "../../../Utility/сombineClassNames";
+import combineClassNames from "../../../Functions/сombineClassNames";
 
 type mapStateToPropsType = {
     forwardOrBackward: "forward" | "backward"

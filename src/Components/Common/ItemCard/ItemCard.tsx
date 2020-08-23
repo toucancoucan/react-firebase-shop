@@ -7,9 +7,9 @@ import {IconContext} from "react-icons";
 import {IoIosAdd, IoIosCheckmark} from "react-icons/io";
 import {rootState} from "../../../Reducers/store";
 import {Link} from "react-router-dom";
-import routes from "../../../Utility/Routes";
-import beautifyPrice from "../../../Utility/beautifyPrice";
-import combineClassNames from "../../../Utility/сombineClassNames";
+import routes from "../../../Constants/Routes";
+import beautifyPrice from "../../../Functions/beautifyPrice";
+import combineClassNames from "../../../Functions/сombineClassNames";
 import ProductNameLink from "../ProductNameLink/ProductNameLink";
 
 type mapStateToPropsType = {

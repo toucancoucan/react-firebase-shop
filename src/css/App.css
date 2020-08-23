@@ -29,17 +29,22 @@ a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+  pointer-events: none;
+}
+
 a, button {
   cursor: pointer;
   transition: 0.5s;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: inherit;
-    border-radius: 0;
-    color: inherit;
-    outline: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  border-radius: 0;
+  color: inherit;
+  outline: none;
 }
 *::selection {
   color: #fff;

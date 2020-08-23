@@ -2,7 +2,8 @@ import app from 'firebase';
 import * as firebase from 'firebase/app';
 import {CarouselItemType} from "../Reducers/CarouselReducer";
 import {shopItemType} from "../Reducers/ShopReducer";
-import CONSTANTS from "../Utility/CONSTANTS";
+import CONSTANTS from "../Constants/CONSTANTS";
+import {homeCategoryItemType} from "../Reducers/HomeCategoriesReducer";
 
 type docType = firebase.firestore.QueryDocumentSnapshot;
 
@@ -19,7 +20,11 @@ class FirebaseClass {
         return this.getFirebaseCollection<shopItemType>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.SHOP_ITEMS);
     }
 
-    async getFirebaseCollection<T>(collectionName: string, itemInsertFunc = async (doc: docType) => doc.data()): Promise<Array<T>> {
+    async getHomeCategoriesItems(): Promise<Array<homeCategoryItemType>> {
+        return this.getFirebaseCollection<homeCategoryItemType>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.HOME_CATEGORIES_ITEMS);
+    }
+
+    private async getFirebaseCollection<T>(collectionName: string, itemInsertFunc = async (doc: docType) => doc.data()): Promise<Array<T>> {
         const items: Array<T> = [];
         await app.firestore().collection(collectionName).get()
             .then(querySnapshot => {

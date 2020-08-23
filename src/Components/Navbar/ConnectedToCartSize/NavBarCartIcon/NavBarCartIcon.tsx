@@ -1,7 +1,7 @@
 import React from "react";
 import NavBarIcon from "../../NavBarIcon/NavBarIcon";
 import styles from "./NavBarCartIcon.module.scss";
-import combineClassNames from "../../../../Utility/сombineClassNames";
+import combineClassNames from "../../../../Functions/сombineClassNames";
 import {ConnectedToCartSize, mapStateToPropsType} from "../ConnectedToCartSize";
 
 

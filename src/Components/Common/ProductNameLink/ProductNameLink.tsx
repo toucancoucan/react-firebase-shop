@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProductNameLink.module.scss";
-import routes from "../../../Utility/Routes";
+import routes from "../../../Constants/Routes";
 import {Link} from "react-router-dom";
 
 type mapStateToProps = {

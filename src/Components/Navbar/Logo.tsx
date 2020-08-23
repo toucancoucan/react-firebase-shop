@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
 import {Link} from "react-router-dom";
-import combineClassNames from "../../Utility/сombineClassNames";
+import combineClassNames from "../../Functions/сombineClassNames";
 
 export type mapStateToPropsType = {
     url: string,
