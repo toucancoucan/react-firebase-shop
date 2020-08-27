@@ -36,7 +36,9 @@ export type shopItemType = {
     description: string,
     id: number,
     additionalInfo?: Object,
-    reviews: Array<reviewType>
+    reviews: Array<reviewType>,
+    newTag?: boolean,
+    saleTag?: boolean,
 }
 
 export type itemCategoryType = "ACCESSORIES" | "MEN" | "SHOES" | "WOMEN";

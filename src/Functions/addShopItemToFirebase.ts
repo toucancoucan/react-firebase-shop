@@ -4,40 +4,43 @@ import {reviewType, shopItemType} from "../Reducers/ShopReducer";
 
 const addShopItemToFirebase = () => {
     const reviews: Array<reviewType> = [
-        {
-            email: "karl@gmail.com",
-            name: "Karl",
-            rating: 5,
-            text: "In hac habitasse platea dictumst quisque sagittis purus. Eu mi bibendum neque egestas congue quisque egestas diam."
-        },
-        {
-            email: "jack@gmail.com",
-            name: "Jack",
-            rating: 4,
-            text: "Vivamus at augue eget arcu dictum varius duis at."
-        },
         // {
-        //     email: "anna@gmail.com",
-        //     name: "Anna",
-        //     rating: 2,
-        //     text: "Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Sed vulputate odio ut enim blandit. Nunc non blandit massa enim nec dui nunc mattis. Interdum varius sit amet mattis vulputate enim nulla aliquet."
+        //     email: "al@gmail.com",
+        //     name: "Al",
+        //     rating: 5,
+        //     text: "Sit amet nulla facilisi morbi tempus iaculis. Arcu risus quis varius quam quisque."
+        // },
+        // {
+        //     email: "jeremy@gmail.com",
+        //     name: "Jeremy",
+        //     rating: 3,
+        //     text: "Amet cursus sit amet dictum sit amet justo donec. Libero id faucibus nisl tincidunt eget nullam non nisi est. Nunc faucibus a pellentesque sit amet porttitor eget."
+        // },
+        // {
+        //     email: "alex@gmail.com",
+        //     name: "Alex",
+        //     rating: 4,
+        //     text: "Interdum consectetur libero id faucibus nisl. Libero volutpat sed cras ornare arcu dui vivamus arcu. Tortor vitae purus faucibus ornare suspendisse."
         // }
     ]
 
     const shopItem: shopItemType = {
-        photoUrl: "https://i.ibb.co/h86hrTC/glasses-rayban.png",
-        additionalPhotosUrl: ["https://i.ibb.co/x7qjWTF/glasses-rayban-2.png",],
-        name: "RAYBAN GLASSES",
-        category: "ACCESSORIES",
+        photoUrl: "https://i.ibb.co/BgB30mx/fm-woman.jpg",
+        additionalPhotosUrl: ["https://i.ibb.co/XtzPSXc/fm-woman-2.png",],
+        name: "FORCE MAJEURE WOMAN",
+        category: "WOMEN",
         price: 15,
-        //oldPrice: 90,
-        description: "Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean. Tortor at auctor urna nunc id cursus metus. Justo laoreet sit amet cursus sit. Eget mauris pharetra et ultrices. Ornare lectus sit amet est. Nascetur ridiculus mus mauris vitae ultricies leo. Suspendisse in est ante in nibh. Sit amet cursus sit amet dictum sit.",
-        id: 414,
+        //oldPrice: 80,
+        id: 208,
+        description: "Tellus cras adipiscing enim eu turpis egestas pretium. Tempus quam pellentesque nec nam aliquam. Nunc vel risus commodo viverra maecenas accumsan. Diam donec adipiscing tristique risus nec feugiat in. Justo eget magna fermentum iaculis eu non diam. Justo donec enim diam vulputate ut pharetra. ",
         additionalInfo: {
-            COLOR: "BLACK, WHITE",
+            //COLOR: "BLUE, RED, GREEN, ORANGE",
+            WASH: "HAND WASH",//HAND WASH MACHINE WASH,
             SIZE: "S, M, L, XL, XXL",
         },
-        reviews: reviews
+        reviews: reviews,
+        newTag: true,
+        //saleTag: true,
     }
     app.firestore().collection(CONSTANTS.FIREBASE.COLLECTIONS_NAME.SHOP_ITEMS).add(shopItem).then(r => console.log("Done!"));
 }

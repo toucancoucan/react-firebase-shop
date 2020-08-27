@@ -1,6 +1,11 @@
 @import "fonts";
 @import "constants";
 
+html, body {
+  height: 100%;
+}
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -27,8 +32,12 @@ a, button {
     background: #7b599b;
   }
 
-  //    TODO: Dev Only:
+  //  TODO: Dev Only:
   outline: none;
+}
+
+body {
+  @extend .CondensedFont;
 }
 
 .hidden {

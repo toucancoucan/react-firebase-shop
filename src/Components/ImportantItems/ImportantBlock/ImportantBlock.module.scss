@@ -1,0 +1,25 @@
+@import "../../../css/colors";
+@import "../../../css/fonts";
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  width: 100%;
+  border: 1px solid $GrayThree;
+}
+
+.header {
+  white-space: nowrap;
+  @extend .CondensedLightFont;
+  color: $DarkGray;
+  font-size: 1.5rem;
+  border-bottom: 1px solid $OneMoreGray;
+  box-shadow: 0 1px 0 $White, 0 2px 0 $OneMoreGray;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+
+}

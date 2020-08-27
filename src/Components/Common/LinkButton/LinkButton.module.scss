@@ -1,0 +1,35 @@
+@import "../../../css/colors";
+@import "../../../css/fonts";
+
+.button {
+  font-size: inherit;
+  display: flex;
+  border-radius: 2px;
+  color: $White;
+  width: 100%;
+  padding: .45rem;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    transition: 0s;
+    filter: brightness(90%);
+  }
+}
+
+
+.violet {
+  background: $Violet;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+
+.dark {
+  background: $DarkGray;
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}

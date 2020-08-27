@@ -7,6 +7,8 @@ import withTitleChange from "../../Components/Common/HOC/withTitleChange";
 import titles from "../../Constants/Titles";
 import HomeCategories from "../../Components/HomeCategories/HomeCategories";
 import EmptySpace from "../../Components/Common/EmptySpace/EmptySpace";
+import SaleBlock from "../../Components/SaleBlock/SaleBlock";
+import ImportantItems from "../../Components/ImportantItems/ImportantItems";
 
 let HomeScreen: React.FC = () => {
     return (
@@ -19,6 +21,10 @@ let HomeScreen: React.FC = () => {
                 <EmptySpace height={"5rem"}/>
                 <HomeCategories/>
                 <EmptySpace height={"3rem"}/>
+                <SaleBlock/>
+                <EmptySpace height={"3rem"}/>
+                <ImportantItems/>
+                <EmptySpace height={"1rem"}/>
                 <div style={{background: "orange", height: 500}}/>
             </div>
         </div>

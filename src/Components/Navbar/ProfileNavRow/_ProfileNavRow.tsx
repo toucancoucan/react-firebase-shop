@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import {getDateString} from "../../../Functions/getDateString";
 
 export type mapStateToPropsType = {
     userName: string | null
@@ -19,15 +20,5 @@ let _ProfileNavRow: React.FC<propsType> = (props) => {
     )
 };
 
-let getDateString = (): string => {
-    const monthNames: Array<string> = ["January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
-    let date: Date = new Date(),
-        day: number = date.getUTCDate(),
-        month: string = monthNames[date.getMonth()],
-        year: number = date.getFullYear();
-    return ` ${month} ${day}, ${year}`;
-}
 
 export default _ProfileNavRow;

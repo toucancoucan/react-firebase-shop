@@ -7,6 +7,8 @@ import styles from "./ItemSpinner.module.scss"
 import ItemCard from "../Common/ItemCard/ItemCard";
 import SpinnerArrow from "./SpinnerArrow/SpinnerArrow";
 import combineClassNames from "../../Functions/сombineClassNames";
+import {getRandomItems} from "../../Functions/getRandomItems";
+import {createSelector} from "reselect";
 
 type mapStateToPropsType = {
     items: Array<shopItemType>
@@ -29,9 +31,9 @@ let _ItemSpinner: React.FC<propsType> = (props) => {
     }
 
     if (randomItems[0] === undefined && props.items[0] !== undefined)
-        setRandomItems(getRandomItems(props.items));
+        setRandomItems(getRandomItems(props.items, CONSTANTS.ITEMS_SPINNER.ITEMS_QUANTITY));
 
-    let itemsContent = randomItems.map((value, index) => {
+    let itemsContent = randomItems.map((value,) => {
         return <ItemCard key={value.id}
                          category={value.category} name={value.name}
                          oldPrice={value.oldPrice} photoUrl={value.photoUrl}
@@ -60,17 +62,19 @@ let _ItemSpinner: React.FC<propsType> = (props) => {
     )
 }
 
-let getRandomItems = (items: Array<shopItemType>) => {
-    return items.sort(() => 0.5 - Math.random()).slice(0, CONSTANTS.ITEMS_SPINNER.ITEMS_QUANTITY);
-}
+let getItems = (state: rootState): Array<shopItemType> => state.ShopReducer.items;
 
+let getItemsForSpinner = createSelector([getItems],
+    (items: Array<shopItemType>): Array<shopItemType> => items);
 
 const mapStateToProps = (state: rootState): mapStateToPropsType => {
     return {
-        items: state.ShopReducer.items
+        items: getItemsForSpinner(state)
     }
 };
 
-let ItemSpinner = connect<mapStateToPropsType, mapDispatchToPropsType, any, any>(mapStateToProps, {},)(_ItemSpinner);
+
+let ItemSpinner = connect<mapStateToPropsType, mapDispatchToPropsType, any, any>(mapStateToProps,
+    {},)(_ItemSpinner);
 
 export default ItemSpinner;

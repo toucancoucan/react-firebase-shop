@@ -4,7 +4,7 @@ import {ConnectedToCart, ConnectedToCartPropsType} from "../ConnectedToCart";
 import styles from "./CartWidget.module.scss"
 import getItemById from "../../../Functions/getItemById";
 import WidgetItem from "./WidgetItem/WidgetItem";
-import LinkButton from "./LinkButton/LinkButton";
+import LinkButton from "../../Common/LinkButton/LinkButton";
 import routes from "../../../Constants/Routes";
 import beautifyPrice from "../../../Functions/beautifyPrice";
 import {connect} from "react-redux";

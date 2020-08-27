@@ -5,20 +5,19 @@ import styles from './HeaderSubHeader.module.scss'
 type propsType = {
     mainText: string;
     subText: string;
+    drawLine?: boolean
 };
 
-let HeaderSubHeader: React.FC<propsType> = (props) => {
+let HeaderSubHeader: React.FC<propsType> = ({mainText, subText, drawLine = true}) => {
     return (
         <div className={styles.wrap}>
             <div className={styles.main}>
-                {props.mainText}
+                {mainText}
             </div>
             <div className={styles.sub}>
-                {props.subText}
+                {subText}
             </div>
-            <div className={styles.line}>
-
-            </div>
+            {drawLine && <div className={styles.line}/>}
         </div>
     )
 }
