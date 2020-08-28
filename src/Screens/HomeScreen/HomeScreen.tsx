@@ -9,23 +9,26 @@ import HomeCategories from "../../Components/HomeCategories/HomeCategories";
 import EmptySpace from "../../Components/Common/EmptySpace/EmptySpace";
 import SaleBlock from "../../Components/SaleBlock/SaleBlock";
 import ImportantItems from "../../Components/ImportantItems/ImportantItems";
+import LogoRow from "../../Components/LogoRow/LogoRow";
+import {photoUrls} from "../../Constants/photoUrls";
 
 let HomeScreen: React.FC = () => {
     return (
         <div>
             <Carousel/>
             <div className={styles.container}>
-                <EmptySpace height={"1rem"}/>
+                <EmptySpace height={"2rem"}/>
                 <HeaderSubHeader mainText={"Trending"} subText={"Most trendy clothes"}/>
                 <ItemSpinner/>
                 <EmptySpace height={"5rem"}/>
                 <HomeCategories/>
-                <EmptySpace height={"3rem"}/>
+                <EmptySpace height={"4rem"}/>
                 <SaleBlock/>
-                <EmptySpace height={"3rem"}/>
+                <EmptySpace height={"4rem"}/>
                 <ImportantItems/>
+                <EmptySpace height={"2rem"}/>
+                <LogoRow photos={photoUrls.logoRow}/>
                 <EmptySpace height={"1rem"}/>
-                <div style={{background: "orange", height: 500}}/>
             </div>
         </div>
     )

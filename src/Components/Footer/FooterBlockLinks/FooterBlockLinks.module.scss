@@ -1,0 +1,11 @@
+@import "../../../css/colors";
+
+
+.link {
+  &:hover {
+    color: $FooterHeaderGray;
+    text-decoration: underline;
+  }
+
+  line-height: 1.35rem;
+}

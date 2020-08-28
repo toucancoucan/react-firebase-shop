@@ -1,0 +1,56 @@
+@import "../../css/colors";
+@import "../../css/grid";
+@import "../../css/fonts";
+
+
+.footerWrap {
+  padding: 2rem 0;
+  background: $DarkGray;
+  color: $FooterGray;
+  font-size: 0.95rem;
+}
+
+.bottomBorder {
+  border-bottom: 1px solid $FooterSpecialGray;
+}
+
+.container {
+  @extend .contentContainer;
+  @extend .CondensedLightFont;
+  display: grid;
+  grid-template-areas:
+    "hot categories brands brands help social";
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1rem;
+  @extend .bottomBorder;
+}
+
+.hot {
+  grid-area: hot;
+}
+
+.categories {
+  grid-area: categories;
+}
+
+.brands {
+  grid-area: brands;
+
+  > div:last-of-type {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  > div:first-of-type {
+    @extend .bottomBorder;
+  }
+}
+
+
+.help {
+  grid-area: help;
+}
+
+.social {
+  grid-area: social;
+}

@@ -1,66 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 .navbarContainer {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
-
 @media (min-width: 576px) {
-    .navbarContainer {
-        width: 100%;
-    }
+  .navbarContainer {
+    width: 100%;
+  }
 }
-
 @media (min-width: 768px) {
-    .navbarContainer {
-        width: 750px;
-    }
+  .navbarContainer {
+    width: 750px;
+  }
 }
-
 @media (min-width: 992px) {
-    .navbarContainer {
-        width: 970px;
-    }
+  .navbarContainer {
+    width: 970px;
+  }
 }
-
 @media (min-width: 1200px) {
-    .navbarContainer {
-        width: 1170px;
-    }
+  .navbarContainer {
+    width: 1170px;
+  }
 }
 
 .contentContainer {
-    margin-right: auto;
-    margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
-
 @media (min-width: 576px) {
-    .contentContainer {
-        width: 100%;
-    }
+  .contentContainer {
+    width: 100%;
+  }
 }
-
 @media (min-width: 768px) {
-    .contentContainer {
-        width: 100%;
-    }
+  .contentContainer {
+    width: 100%;
+  }
 }
-
 @media (min-width: 992px) {
-    .contentContainer {
-        width: 970px;
-    }
+  .contentContainer {
+    width: 970px;
+  }
 }
-
 @media (min-width: 1200px) {
-    .contentContainer {
-        width: 1170px;
-    }
+  .contentContainer {
+    width: 1170px;
+  }
 }
 
 .RobotoFont {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .RobotoLightFont {
@@ -100,53 +92,51 @@
 }
 
 .navBarMobile {
-    display: none;
-    padding: 0 0.6rem 0 0.6rem;
+  display: none;
+  padding: 0 0.6rem 0 0.6rem;
 }
-
 @media (max-width: 576px) {
-    .navBarMobile {
-        display: flex;
-    }
+  .navBarMobile {
+    display: flex;
+  }
 }
 
 .mobileMenu {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .profileNavRowWrapper {
-    color: #AFAFAF;
-    display: flex;
-    justify-content: center;
-    padding: 0.8rem;
-    font-size: 0.8rem;
-    white-space: pre-wrap;
+  color: #AFAFAF;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
 }
 .profileNavRowWrapper a:hover {
   color: #7b599b;
 }
 
 .navBarWrapper {
-    z-index: 1000;
-    background-color: #ffffff;
-    top: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  background-color: #ffffff;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .NavBarPaddingTransition, .NavBarPaddingCollapsed, .NavBarPadding {
-    transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 
 .NavBarPadding {
-    padding: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem 0 1.5rem 0;
 }
-
 @media (max-width: 576px) {
-    .NavBarPadding {
-        padding: 1rem 0 1rem 0;
-    }
+  .NavBarPadding {
+    padding: 1rem 0 1rem 0;
+  }
 }
 
 .NavBarPaddingCollapsed {

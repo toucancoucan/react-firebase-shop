@@ -1,0 +1,13 @@
+@import "../../css/grid";
+@import "../../css/constants";
+
+
+.wrap {
+  padding: 3rem 4rem;
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  @include useMinWidthMedia(grid-column-gap, 1rem, 2rem, 4rem, 6rem);
+  @media (max-width: $smallPixelSize) {
+    display: none;
+  }
+}

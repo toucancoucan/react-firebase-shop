@@ -203,3 +203,35 @@ N
 src/Functions/FilterAndSort.ts,5\d\5dd6837a47c231743bd3ee59193dac4030c83c5b
 O
 src/Functions/getRandomItems.ts,2\7\27f7aa52b330800f932ab127292e55a5071208f3
+T
+$.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+w
+G.idea/sonarlint/issuestore/b/0/b0c3df64924728f4a8e28577962b923470312d46,0\1\012a68e396f526a69c80772f822e9ebd200bb6ec
+]
+-src/Components/Preloader/Preloader.module.css,6\a\6af2d2cab7c41324c7172d7204477504968e99cf
+a
+1src/Components/Preloader/Preloader.module.css.map,f\5\f5df35071a6477269689c0106bb344b532c9255d
+Z
+*src/Components/LogoRow/LogoRow.module.scss,1\4\14cb49409f613796644c8c65710e3569d532d106
+R
+"src/Components/LogoRow/LogoRow.tsx,d\7\d759d743a3387a69619a1661648dac876af5b76d
+f
+6src/Components/LogoRow/LogoBlock/LogoBlock.module.scss,2\6\26a20be4c17486d90600fb205f09597ef5063413
+^
+.src/Components/LogoRow/LogoBlock/LogoBlock.tsx,8\7\877092a909a3c8a75399bd3ae1b703a0b861b29b
+J
+src/Constants/photoUrls.ts,b\c\bcaeaac48cc7fec6eefbdbb2d49c6a96c37426ed
+a
+1src/Components/Footer/FooterBlock/FooterBlock.tsx,3\f\3f5dd3c279d976e0338142ccdff1e65cdfe6d44c
+i
+9src/Components/Footer/FooterBlock/FooterBlock.module.scss,2\5\2536a7f331d79a3897a23e372b0e31e0092d06e8
+k
+;src/Components/Footer/FooterBlockLinks/FooterBlockLinks.tsx,b\f\bf81e7c7deacfb540d1782480f20917bc0100040
+s
+Csrc/Components/Footer/FooterBlockLinks/FooterBlockLinks.module.scss,3\8\386accb3e5ffb3df066b741ccc6809ef2400603d
+X
+(src/Components/Footer/Footer.module.scss,7\e\7e9ec83b77ca3d0344ef9c5921fd511ee32afaa3
+P
+ src/Components/Footer/Footer.tsx,7\1\713e35842a9de0c808d3bfad01bb0c6dea6b66aa

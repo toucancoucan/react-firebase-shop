@@ -20,115 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/001010ad3a6d3ec5bd3f0293da31d170bfd99192" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/062fb9bf31cb4b3c992cb661624d35505c2ec5c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a1b0a48b9c3fdd8952ff30f1c861db8cead3889" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c205c100fe91850cc6c09753ecb3c76b18e3346" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ef418b0f3d90f4d7f5d9c5caf04b5f4a27ce1cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/128b165404ba1777b80b5f5f54e3d432f244c687" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20a38e7f3cc8310ff1776e513e430791a28eaad4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a4dcea4262811f0540e7b20ef39964ae7a0d057" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a4f8346e662373a5b55f402299ff1d7a664be72" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c6b89dcb4e4f974e13ae766e8e410d99ae33c24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ea5b881d674eb7ef475d5facc0ac79b386ea6ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/314630b4bd2ee2476bc87d9ebaa76c14c719dbb4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3230cfdc8d93642f930ab916a5b8bdb7cee75884" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35560b335c72f68bf882e01600ec87d2d0dd69a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b63648cba40d48fd8490d1099d0070dd04eeefe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3ddf81149dbc8d5cddb7da534877310492a723d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/409eb4d8e37d9b533c26129eed741795de67f17b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45993306b6fe7176f01c6a17aaa20d4767e8911c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45b25c1e11c95b5d07af6c8d8f0c8347df2b0396" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4690957b05d6c310ba258f5a661b2ae4018e17be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5495bee989017e634359c139a443f159de984fbb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b2d056e1e583c2680365ce563d08ac549abd2f8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5dd6837a47c231743bd3ee59193dac4030c83c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5df20007757177f76a0df21fba7fc0c5db126667" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e00d1f743010d926b39b75c7d8cfc139f160ccc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f028c4fd31662e8401852fa5f9dfaefa31e2712" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f0e1c397a810c2b2f87375fa3fd088a2ff2fe42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fdb12a202afcc018a3288b2de9073af098c77ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61b75997fc833c7e357f77e705d1e27744bb154d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63a1f1a2fba7956e9e052d1aeab8056637727594" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64c0d800309fffbbd3ca34cbcc8e25dfc89c2ee6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/658fbf64d842948b2825155130740696e568792a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/678c9f8381909bdb329549157b77ecc9b753d198" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a98a67cf9d4c4f9edfc32b57214e7ea52e763ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b5b0255a00d56208019d9a893f38423cb07c3ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d7d9f734e3f3311a8d02058c4b98fcf2615b4ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/725b48ce04e7732cd722bf485bcfff74225704bd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/746193cd59402ea03d9ea9d645b3fb41db42ccf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76074ec2a510d54696769b736f17f1779db1e159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/779adf57f3465953bf5cb0b3d3b7fa9572e7cd91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78abe3d3f08a5734c145a30599ebc41e9f2bc5e2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f0a939244ab3bfae5847d0de84e792cccf58e14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80dc45c12b0360c96b276b05d372c5f4d52fba74" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849f2114abf3ab8dd68bc31422962273e8660f9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c0b934ee3c85bf83b27c2071624f0563b2e22b5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d76a7248260bd344974953e2fce3d682fe49975" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/906f047a427ec455d60b84c2d22e1cc5220beec5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93588c11ea48831de711c925f0dcf4cdd0fcd501" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/974b1238359855969f7e0df269ea63c28281a92f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c2c9144b65115cb14390f3fa51fa2ff0edda530" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d1a5ca45ec2571a371cc755347b8cbb3f0583f3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ed5e04f513332732e4ded9b609d405092eaeff0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a01c16b287f7ee00468546a4de5d446aecec4b7a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a180466f6227609296b1a792e34be5ac8864b493" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1fe414c9f822c88b5395b99657be82dfa06203d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac67e168baaefc55abaf8a7f3855df7ba7c8a61f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0c3df64924728f4a8e28577962b923470312d46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2797ebb94e1d2412faec5c3940dba19198891bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9c9bb8a78c8ea5c318403089e01cfc22c95d4e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bea3aa85a44c749a53000dd20b33ffb053b6fb31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca497588eb9a77b9c164da76fd59786fd4fc13f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf35e49eed554fd977c0d67ee8999804aa7127c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d05c9c65bbec9141d7764934097e34ed7892d9e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d103df2173cc215dc6b15ab951e2afda742ce5ba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d338c1df5b5b6c002bb9ff131971286895ee7789" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d66254f3a0f38b5253754c92d45c707cb8559b1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9de19bb6c48111df4dc7813934fba65652a3399" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e00aabf1443e0cd7bcb696954348a7d4f44ce702" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1244039b3b5e62d3c526980d8fae3a0197fbaaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e20a14923bca2e737d86ba1d6c478522dc995d61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3fd588422b48c2a6194622c105cedab0f5c6ca9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e58f14b9f27921a4be5e5f80ba6432756d82b032" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4747352e70f4b454c35afb7e531e0ea4bc916b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4f3767a9540bf4b1297bae07bc5f033154b0b7e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6af204a172b252168b74df7445f75da477aeb64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f951cbf7c0837ffd18cf4d447215817dd1eaef40" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantBlock/BlockItem/BlockItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantBlock/BlockItem/BlockItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantBlock/ImportantBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantBlock/ImportantBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantItems.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ImportantItems/ImportantItems.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SaleBlock/SaleBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SaleBlock/SaleBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/FilterAndSort.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/countItemRating.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/getDateString.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/getRandomItems.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterBlock/FooterBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterBlock/FooterBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterBlockLinks/FooterBlockLinks.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterBlockLinks/FooterBlockLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LogoRow/LogoBlock/LogoBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LogoRow/LogoBlock/LogoBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LogoRow/LogoRow.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LogoRow/LogoRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Constants/photoUrls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ef418b0f3d90f4d7f5d9c5caf04b5f4a27ce1cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ef418b0f3d90f4d7f5d9c5caf04b5f4a27ce1cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63a1f1a2fba7956e9e052d1aeab8056637727594" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63a1f1a2fba7956e9e052d1aeab8056637727594" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/LinkButton/LinkButton.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/LinkButton/LinkButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/LinkButton/LinkButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ProductNameLink/ProductNameLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemSpinner/ItemSpinner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
@@ -139,13 +47,11 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ProfileNavRow/_ProfileNavRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ProfileNavRow/_ProfileNavRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/addShopItemToFirebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/addShopItemToFirebase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/HomeScreen/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/HomeScreen/HomeScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,9 +63,9 @@
       <list>
         <option value="tsconfig.json" />
         <option value="Reducer" />
+        <option value="TypeScript File" />
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -203,17 +109,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="D:\Projects\react-firebase-shop\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-firebase-shop\src\Components\Home" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Common" />
       <recent name="D:\Projects\react-firebase-shop\src\Functions" />
       <recent name="D:\Projects\react-firebase-shop\src" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Cart" />
-      <recent name="D:\Projects\react-firebase-shop\src\Screens\HomeScreen" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -322,7 +228,9 @@
       <workItem from="1598451564204" duration="93000" />
       <workItem from="1598451696374" duration="5110000" />
       <workItem from="1598527759722" duration="4679000" />
-      <workItem from="1598548354106" duration="3681000" />
+      <workItem from="1598548354106" duration="4900000" />
+      <workItem from="1598615841695" duration="6259000" />
+      <workItem from="1598633803653" duration="4550000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -401,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598184741339</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Made blocks with important items on homescreen">
+      <created>1598552210982</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598552210982</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +349,8 @@
     <MESSAGE value="Expanded itemCard. Began work on cart widget" />
     <MESSAGE value="Finished Cart Widget" />
     <MESSAGE value="Made withTitle hoc and home categories block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made withTitle hoc and home categories block" />
+    <MESSAGE value="Made blocks with important items on homescreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made blocks with important items on homescreen" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -483,10 +399,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1598184738315">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1598552205446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598184738315" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598552205446" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,22 +419,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598551314852">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598638278483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598551314852" />
-    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598551314852">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598638278483" />
+    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598638278483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598551314852" />
-    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598551314852">
+    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598638278483" />
+    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598638278483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598551314852" />
-    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598551314852">
+    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598638278483" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598638278483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598551314852" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598638278483" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -571,14 +487,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" width="1043" height="759" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596116763369" />
-    <state x="234" y="50" width="1606" height="928" key="SettingsEditor" timestamp="1598186759627">
+    <state x="234" y="50" width="1606" height="928" key="SettingsEditor" timestamp="1598618386047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598186759627" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598184785887">
+    <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598618386047" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598552213440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598184785887" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598552213440" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

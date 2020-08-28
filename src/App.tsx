@@ -6,6 +6,7 @@ import {connect} from "react-redux";
 import {fetchAndSetShopItems} from "./Reducers/ShopReducer";
 import Preloader from "./Components/Preloader/Preloader";
 import addShopItemToFirebase from "./Functions/addShopItemToFirebase";
+import Footer from "./Components/Footer/Footer";
 
 const NavBar = lazy(() => import("./Components/Navbar/NavBar"));
 const HomeScreen = lazy(() => import('./Screens/HomeScreen/HomeScreen'));
@@ -41,6 +42,7 @@ let _App: React.FC<propsType> = (props) => {
                         </Route>
                         <Redirect exact from="/" to="/home"/>
                     </Switch>
+                    <Footer/>
                 </Suspense>
             </Router>
         </div>

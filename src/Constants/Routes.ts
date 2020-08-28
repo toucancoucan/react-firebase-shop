@@ -5,6 +5,11 @@ const routes = {
     blog: '/blog',
     cart: '/cart',
     checkout: '/checkout',
+    faq: '/faq',
+    shipping: '/shipping',
+    privacy: '/privacy',
+    me: '/me',
+
     product(productName: string) {
         return `/shop/product/${replaceWhitespaceInStringAndToLower(productName)}`
     },
