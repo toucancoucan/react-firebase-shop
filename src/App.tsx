@@ -29,19 +29,21 @@ let _App: React.FC<propsType> = (props) => {
     }, [isItemsFetched, props])
 
     return (
-        <div className="App">
+        <div className="appWrap">
             <Router>
                 <Suspense fallback={<Preloader/>}>
                     <NavBar/>
-                    <Switch>
-                        <Route path={routes.home} component={HomeScreen}/>
-                        <Route path={"/admin"}>
-                            <button onClick={addShopItemToFirebase}>
-                                Add
-                            </button>
-                        </Route>
-                        <Redirect exact from="/" to="/home"/>
-                    </Switch>
+                    <div className={"mainContent"}>
+                        <Switch>
+                            <Route path={routes.home} component={HomeScreen}/>
+                            <Route path={"/admin"}>
+                                <button onClick={addShopItemToFirebase}>
+                                    Add
+                                </button>
+                            </Route>
+                            <Redirect exact from="/" to="/home"/>
+                        </Switch>
+                    </div>
                     <Footer/>
                 </Suspense>
             </Router>

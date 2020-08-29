@@ -5,7 +5,6 @@ html, body {
   height: 100%;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -39,6 +38,19 @@ a, button {
 body {
   @extend .CondensedFont;
 }
+
+.appWrap {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.mainContent {
+  flex: 1 0 auto; /* 2 */
+  width: 100%;
+
+}
+
 
 .hidden {
   display: none !important;

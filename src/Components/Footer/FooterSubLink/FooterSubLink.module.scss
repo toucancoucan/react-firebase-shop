@@ -1,0 +1,10 @@
+@import "../../../css/colors";
+
+.link {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+
+  &:hover {
+    color: $White;
+  }
+}

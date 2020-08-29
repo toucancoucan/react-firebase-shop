@@ -5,7 +5,7 @@ import styles from "./FooterBlockLinks.module.scss";
 
 type mapStateToProps = {
     header: string,
-    links: Array<[string, string]>,
+    links: Array<[string, string]>, //name, link
     className?: string
 }
 
@@ -17,7 +17,7 @@ let FooterBlockLinks: React.FC<propsType> = (props) => {
     return (
         <FooterBlock className={props.className} header={props.header}>
             {props.links.map(e => {
-                return <Link to={e[1]}>
+                return <Link key={e[0]} to={e[1]}>
                     <div className={styles.link}>
                         {e[0]}
                     </div>

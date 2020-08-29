@@ -235,3 +235,7 @@ X
 (src/Components/Footer/Footer.module.scss,7\e\7e9ec83b77ca3d0344ef9c5921fd511ee32afaa3
 P
  src/Components/Footer/Footer.tsx,7\1\713e35842a9de0c808d3bfad01bb0c6dea6b66aa
+g
+7src/Components/Footer/SocialIcon/SocialIcon.module.scss,5\a\5aefcd34142980c29981386cf5d10c4dc4712792
+_
+/src/Components/Footer/SocialIcon/SocialIcon.tsx,6\6\6660d51a0efbc199af1792e2cbd4f33bd8a947ec
