@@ -113,7 +113,8 @@
 
   > div:last-of-type {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
   }
 }

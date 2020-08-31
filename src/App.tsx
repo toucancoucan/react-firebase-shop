@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 
 const NavBar = lazy(() => import("./Components/Navbar/NavBar"));
 const HomeScreen = lazy(() => import('./Screens/HomeScreen/HomeScreen'));
-
+const NotFoundScreen = lazy(() => import("./Screens/NotFoundScreen/NotFoundScreen"));
 
 type mapDispatchToPropsType = {
     fetchAndSetShopItems: () => void,
@@ -36,12 +36,14 @@ let _App: React.FC<propsType> = (props) => {
                     <div className={"mainContent"}>
                         <Switch>
                             <Route path={routes.home} component={HomeScreen}/>
+                            <Route path={routes.notFound} component={NotFoundScreen}/>
                             <Route path={"/admin"}>
                                 <button onClick={addShopItemToFirebase}>
                                     Add
                                 </button>
                             </Route>
                             <Redirect exact from="/" to="/home"/>
+                            <Redirect from="*" to={routes.notFound}/>
                         </Switch>
                     </div>
                     <Footer/>

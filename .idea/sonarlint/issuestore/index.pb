@@ -239,3 +239,13 @@ g
 7src/Components/Footer/SocialIcon/SocialIcon.module.scss,5\a\5aefcd34142980c29981386cf5d10c4dc4712792
 _
 /src/Components/Footer/SocialIcon/SocialIcon.tsx,6\6\6660d51a0efbc199af1792e2cbd4f33bd8a947ec
+G
+src/css/_constants.scss,6\d\6d31d1cdd107f3a7fba386c6afbcf8bdad7192f9
+g
+7src/Components/Footer/FooterLogo/FooterLogo.module.scss,3\a\3adfc57399e2c364e064aed622ffebed578eb01c
+_
+/src/Components/Footer/FooterLogo/FooterLogo.tsx,3\0\30d048672ad6c20097fdbcab6d991b408fe97fbf
+m
+=src/Components/Footer/FooterSubLink/FooterSubLink.module.scss,3\8\38b68bc5af907730bc5cf66e4b597eadaa2b08d7
+e
+5src/Components/Footer/FooterSubLink/FooterSubLink.tsx,0\2\02a13ff3261ed383cca97e9c0e3ccf417f6fc641

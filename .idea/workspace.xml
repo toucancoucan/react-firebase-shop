@@ -20,24 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterLogo/FooterLogo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterLogo/FooterLogo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterSubLink/FooterSubLink.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterSubLink/FooterSubLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/FooterBlockLinks/FooterBlockLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/FooterBlockLinks/FooterBlockLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Constants/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_grid.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +211,8 @@
       <workItem from="1598548354106" duration="4900000" />
       <workItem from="1598615841695" duration="6259000" />
       <workItem from="1598633803653" duration="4868000" />
-      <workItem from="1598701839696" duration="9247000" />
+      <workItem from="1598701839696" duration="9948000" />
+      <workItem from="1598868613814" duration="2535000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -310,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598638666120</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished footer">
+      <created>1598711523232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598711523232</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +347,8 @@
     <MESSAGE value="Made withTitle hoc and home categories block" />
     <MESSAGE value="Made blocks with important items on homescreen" />
     <MESSAGE value="Added logos row and started work on footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logos row and started work on footer" />
+    <MESSAGE value="Finished footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished footer" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -394,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1598638663080">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1598711521768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598638663080" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598711521768" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,22 +417,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598707467142">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1598870985975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598707467142" />
-    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598707467142">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598870985975" />
+    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1598870985975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598707467142" />
-    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598707467142">
+    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598870985975" />
+    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1598870985975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598707467142" />
-    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598707467142">
+    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598870985975" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1598870985975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598707467142" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598870985975" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -486,10 +489,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598618386047" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598638667706">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598711525013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598638667706" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598711525013" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../../css/_fonts.scss",
+    "NotFoundScreen.module.scss",
+    "../../css/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAAQ;AAKR;EACE,aAJO;EAKP;;;AAGF;EACE,aATO;EAUP;;;AAGF;EACE,aAbU;EAcV;;;AAGF;EACE,aAlBU;EAmBV;;;AAGF;EACE,aAvBU;EAwBV;;;ACvBF;EAEE,YCNS;EDOT,OCEM;EDDN;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE",
+  "file": "NotFoundScreen.module.css"
+}

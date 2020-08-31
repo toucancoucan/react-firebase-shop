@@ -10,6 +10,7 @@ const routes = {
     privacy: '/privacy',
     me: '/me',
     loremPage: '/lorem',
+    notFound: '/404-page-not-found',
     socialLinks: {
         instagram: 'https://www.instagram.com/',
         pinterest: 'https://www.pinterest.com/',
