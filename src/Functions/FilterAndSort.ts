@@ -1,35 +1,28 @@
 import {itemCategoryType, shopItemType} from "../Reducers/ShopReducer";
 import {countItemRating} from "./countItemRating";
+import {SortType} from "../Reducers/FilterSortReducer";
 
-export type filterType = {
+
+//TODO: IMPORTANT, delete it all and replace with other methods (NOTHING IS WORKING)
+
+export type filterFunctionType = {
     newTag?: boolean,
     saleTag?: boolean,
     category?: itemCategoryType | false,
     nameSearch?: string,
-    priceLow?: number,
-    priceHigh?: number
+    sortType?: SortType
 }
 
 
-export let filterItems = (itemsArray: Array<shopItemType>, filter: filterType): Array<shopItemType> => {
+export let filterItems = (itemsArray: Array<shopItemType>, filter: filterFunctionType): Array<shopItemType> => {
     return itemsArray.filter((item) => {
         if (filter.newTag && !item.newTag) return false;
         if (filter.saleTag && !item.saleTag) return false;
         if (filter.category && item.category !== filter.category) return false;
         if (filter.nameSearch && !item.name.includes(filter.nameSearch)) return false;
-        if (filter.priceLow && filter.priceLow > item.price) return false;
-        if (filter.priceHigh && filter.priceHigh < item.price) return false;
-
         return true;
     })
 
-}
-
-export enum SortType {
-    Default,
-    Rating,
-    PriceLowToHigh,
-    PriceHighToLow
 }
 
 export let sortItems = (itemsArray: Array<shopItemType>, sort: SortType): Array<shopItemType> => {

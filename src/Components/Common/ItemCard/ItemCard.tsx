@@ -19,7 +19,8 @@ type mapStateToPropsType = {
     price: number,
     id: number,
     oldPrice?: number,
-    key?: number | string
+    key?: number | string,
+    saleTag?: boolean
 }
 type mapDispatchToPropsType = {
     addItemToCart: (itemId: number) => void,
@@ -32,6 +33,9 @@ let _ItemCard: React.FC<propsType> = (props) => {
 
     return (
         <div className={styles.wrapper} key={props.key}>
+            <div className={combineClassNames(styles.circle, {"hidden": !props.saleTag})}>
+                SALE
+            </div>
             <img className={styles.photo} src={props.photoUrl} alt={props.name}/>
             <div className={styles.nameAddRow}>
                 <ProductNameLink productName={props.name} fontSize={"1.1rem"}/>

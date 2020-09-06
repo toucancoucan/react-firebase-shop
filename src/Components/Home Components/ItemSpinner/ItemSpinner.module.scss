@@ -1,0 +1,45 @@
+@import "../../../css/grid";
+
+.wrap {
+  position: relative;
+  &:hover {
+    .arrowWrap {
+      opacity: 1;
+    }
+  }
+
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  column-gap: 2rem;
+  grid-template-columns: 1fr;
+  @include useMinWidthMedia(grid-template-columns, repeat(1, 1fr), repeat(2, 1fr), repeat(3, 1fr), repeat(4, 1fr));
+  grid-auto-columns: 0;
+  grid-auto-rows: 0;
+  overflow: hidden;
+}
+
+
+.animation {
+  animation: itemsAnimation 0.85s;
+}
+
+.arrowWrap {
+  transition: 0.5s;
+  opacity: 0;
+}
+
+@keyframes itemsAnimation {
+  0% {
+    column-gap: 2rem;
+  }
+  50% {
+    column-gap: 1.5rem;
+    opacity: 0.75;
+  }
+  100% {
+    column-gap: 2rem;
+  }
+}

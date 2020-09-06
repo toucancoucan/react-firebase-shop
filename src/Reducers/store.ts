@@ -7,6 +7,7 @@ import CarouselReducer from "./CarouselReducer";
 import ShopReducer from "./ShopReducer";
 import {reducer as formReducer} from 'redux-form'
 import HomeCategoriesReducer from "./HomeCategoriesReducer";
+import FilterSortReducer from "./FilterSortReducer";
 
 
 export const rootReducer = combineReducers({
@@ -16,6 +17,7 @@ export const rootReducer = combineReducers({
     CarouselReducer,
     ShopReducer,
     HomeCategoriesReducer,
+    FilterSortReducer,
     form: formReducer
 });
 

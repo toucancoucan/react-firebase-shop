@@ -1,0 +1,28 @@
+@import "../../../../css/colors";
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.4rem;
+  font-size: 1.75rem;
+  color: $White;
+  background: $DarkGray;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  &:hover {
+    padding: 0.5rem;
+  }
+}
+
+.forward {
+  right: -1rem;
+}
+
+.backward {
+  left: -1rem;
+}

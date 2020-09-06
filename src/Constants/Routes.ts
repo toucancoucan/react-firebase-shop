@@ -1,6 +1,9 @@
+import {itemCategoryType} from "../Reducers/ShopReducer";
+
 const routes = {
     home: '/home',
-    shop: '/shop',
+    shop: '/shop/category/all',
+    shopPath: '/shop/:selector/:value',
     contact: '/contact',
     blog: '/blog',
     cart: '/cart',
@@ -30,6 +33,21 @@ const routes = {
 
 let replaceWhitespaceInStringAndToLower = (str: string) => {
     return str.split(' ').join('-').toLowerCase();
+}
+
+export let getCategoryFromUrl = (str: string): itemCategoryType | false => {
+    switch (str) {
+        case "MEN".toLowerCase():
+            return "MEN";
+        case "women":
+            return "WOMEN";
+        case "accessories":
+            return "ACCESSORIES";
+        case "shoes":
+            return "SHOES";
+        default:
+            return false;
+    }
 }
 
 export default routes;

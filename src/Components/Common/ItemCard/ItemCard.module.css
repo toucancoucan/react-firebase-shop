@@ -25,7 +25,8 @@
 }
 
 .wrapper {
-  color: #222222;
+    position: relative;
+    color: #222222;
 }
 
 .photo {
@@ -40,22 +41,39 @@
 }
 
 .addButton {
-  position: relative;
+    position: relative;
 }
+
 .addButton:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
+}
+
+.circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 400;
+    font-size: 0.85rem;
+    background: #222222;
+    color: #ffffff;
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tooltip {
-  font-size: 0.8rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s;
-  white-space: nowrap;
-  text-transform: uppercase;
-  background-color: #333333;
-  color: #ffffff;
+    font-size: 0.8rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    white-space: nowrap;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #ffffff;
   padding: 0.25rem;
   position: absolute;
   top: 50%;

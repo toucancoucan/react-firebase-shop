@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../../../css/_fonts.scss",
+    "BlockWithHeader.module.scss",
+    "../../../css/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAAQ;AAKR;EACE,aAJO;EAKP;;;AAGF;EACE,aATO;EAUP;;;AAGF;EACE,aAbU;EAcV;;;AAGF;EACE,aAlBU;EAmBV;;;AAGF;EACE,aAvBU;EAwBV;;;ACxBF;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EAEA,OCdS;EDeT;EACA;EACA;EACA;EACA",
+  "file": "BlockWithHeader.module.css"
+}

@@ -1,6 +1,10 @@
 @import "../../css/grid";
+@import "../../css/constants";
+
 
 .container {
   @extend .contentContainer;
-  padding: 1rem;
+  @media (max-width: $mediumPixelSize) {
+    padding: 1rem;
+  }
 }

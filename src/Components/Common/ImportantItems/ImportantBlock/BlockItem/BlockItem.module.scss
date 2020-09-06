@@ -1,0 +1,45 @@
+@import "../../../../../css/colors";
+
+.wrap {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $OneMoreGray;
+}
+
+.img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.textWrap {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: $DarkGray;
+  font-size: 0.915rem;
+}
+
+.flexGrow {
+  flex: 1;
+}
+
+.priceWrap {
+  @extend .flexGrow;
+  color: $Gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  margin-right: 0.25rem;
+}
+
+.link {
+  transition: 0.5s;
+
+  &:hover {
+    color: $Violet;
+  }
+}

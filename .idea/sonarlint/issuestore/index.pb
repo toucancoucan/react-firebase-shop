@@ -1,6 +1,4 @@
 
-m
-=src/Components/Carousel/ItemCarousel/ItemCarousel.module.scss,f\9\f951cbf7c0837ffd18cf4d447215817dd1eaef40
 q
 Asrc/Components/Common/HeaderSubHeader/HeaderSubHeader.module.scss,0\c\0c205c100fe91850cc6c09753ecb3c76b18e3346
 i
@@ -49,8 +47,6 @@ H
 src/Firebase/Firebase.ts,4\6\4690957b05d6c310ba258f5a661b2ae4018e17be
 K
 src/Reducers/CartReducer.ts,6\e\6efe78f7744119b6c0e8f24b27fbf43f5c87ecaa
-K
-src/Reducers/ShopReducer.ts,3\b\3b63648cba40d48fd8490d1099d0070dd04eeefe
 E
 src/Reducers/store.ts,d\4\d42ef6097afff31ba74f645c4c7368cc245b13a1
 ]
@@ -59,10 +55,6 @@ U
 %src/Screens/HomeScreen/HomeScreen.tsx,a\1\a1fe414c9f822c88b5395b99657be82dfa06203d
 ;
 src/App.tsx,8\3\835da56f32df714aaed6285a5b7fc3a7807851e4
-Z
-*src/Components/ItemSpinner/ItemSpinner.tsx,e\2\e20a14923bca2e737d86ba1d6c478522dc995d61
-b
-2src/Components/ItemSpinner/ItemSpinner.module.scss,2\0\20a38e7f3cc8310ff1776e513e430791a28eaad4
 c
 3src/Components/Navbar/NavBarSearch/NavBarSearch.tsx,5\0\5099df5f1c544a10362839ee1ae18af14892d90f
 k
@@ -71,24 +63,10 @@ C
 src/css/_fonts.scss,9\0\90e28552a1831333c0c6170c5f1bb70f58f682e4
 X
 (src/Components/Navbar/NavBar.module.scss,4\5\45993306b6fe7176f01c6a17aaa20d4767e8911c
-\
-,src/Components/Carousel/Carousel.module.scss,6\b\6b5b0255a00d56208019d9a893f38423cb07c3ce
-T
-$src/Components/Carousel/Carousel.tsx,3\1\314630b4bd2ee2476bc87d9ebaa76c14c719dbb4
-o
-?src/Components/Carousel/CarouselArrow/CarouselArrow.module.scss,9\d\9d1a5ca45ec2571a371cc755347b8cbb3f0583f3
-g
-7src/Components/Carousel/CarouselArrow/CarouselArrow.tsx,e\0\e00aabf1443e0cd7bcb696954348a7d4f44ce702
 g
 7src/Components/Common/Arrows/LeftRightArrow.module.scss,7\2\725b48ce04e7732cd722bf485bcfff74225704bd
 _
 /src/Components/Common/Arrows/LeftRightArrow.tsx,7\8\78abe3d3f08a5734c145a30599ebc41e9f2bc5e2
-p
-@src/Components/ItemSpinner/SpinnerArrow/SpinnerArrow.module.scss,4\5\45b25c1e11c95b5d07af6c8d8f0c8347df2b0396
-h
-8src/Components/ItemSpinner/SpinnerArrow/SpinnerArrow.tsx,5\f\5fdb12a202afcc018a3288b2de9073af098c77ef
-e
-5src/Components/Carousel/ItemCarousel/ItemCarousel.tsx,d\1\d103df2173cc215dc6b15ab951e2afda742ce5ba
 O
 src/Components/Navbar/NavBar.ts,8\d\8d76a7248260bd344974953e2fce3d682fe49975
 =
@@ -129,16 +107,6 @@ O
 src/Reducers/CarouselReducer.ts,6\5\658fbf64d842948b2825155130740696e568792a
 ]
 -src/Components/Common/HOC/withTitleChange.tsx,9\7\974b1238359855969f7e0df269ea63c28281a92f
-r
-Bsrc/Components/HomeCategories/CategoryItem/CategoryItem.module.css,5\b\5b2d056e1e583c2680365ce563d08ac549abd2f8
-v
-Fsrc/Components/HomeCategories/CategoryItem/CategoryItem.module.css.map,5\f\5f028c4fd31662e8401852fa5f9dfaefa31e2712
-g
-7src/Components/HomeCategories/HomeCategories.module.css,2\a\2a4f8346e662373a5b55f402299ff1d7a664be72
-k
-;src/Components/HomeCategories/HomeCategories.module.css.map,0\a\0a1b0a48b9c3fdd8952ff30f1c861db8cead3889
-h
-8src/Components/HomeCategories/HomeCategories.module.scss,b\e\bea3aa85a44c749a53000dd20b33ffb053b6fb31
 
 Osrc/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.tsx,b\0\b0c3df64924728f4a8e28577962b923470312d46
 {
@@ -159,20 +127,10 @@ L
 src/Functions/getItemById.ts,7\6\76074ec2a510d54696769b736f17f1779db1e159
 S
 #src/Functions/—ÅombineClassNames.ts,f\4\f4747352e70f4b454c35afb7e531e0ea4bc916b9
-s
-Csrc/Components/HomeCategories/CategoryItem/CategoryItem.module.scss,1\2\128b165404ba1777b80b5f5f54e3d432f244c687
-`
-0src/Components/HomeCategories/HomeCategories.tsx,0\0\001010ad3a6d3ec5bd3f0293da31d170bfd99192
-k
-;src/Components/HomeCategories/CategoryItem/CategoryItem.tsx,5\d\5df20007757177f76a0df21fba7fc0c5db126667
 U
 %src/Reducers/HomeCategoriesReducer.ts,2\e\2ea5b881d674eb7ef475d5facc0ac79b386ea6ec
 _
 /src/Components/Common/EmptySpace/EmptySpace.tsx,5\4\5495bee989017e634359c139a443f159de984fbb
-V
-&src/Components/SaleBlock/SaleBlock.tsx,a\c\ac67e168baaefc55abaf8a7f3855df7ba7c8a61f
-^
-.src/Components/SaleBlock/SaleBlock.module.scss,e\1\e1244039b3b5e62d3c526980d8fae3a0197fbaaa
 ^
 .src/Components/Preloader/Preloader.module.scss,3\5\35560b335c72f68bf882e01600ec87d2d0dd69a8
 V
@@ -185,18 +143,6 @@ g
 7src/Components/Common/LinkButton/LinkButton.module.scss,7\f\7f0a939244ab3bfae5847d0de84e792cccf58e14
 _
 /src/Components/Common/LinkButton/LinkButton.tsx,2\a\2a4dcea4262811f0540e7b20ef39964ae7a0d057
-|
-Lsrc/Components/ImportantItems/ImportantBlock/BlockItem/BlockItem.module.scss,3\d\3ddf81149dbc8d5cddb7da534877310492a723d2
-h
-8src/Components/ImportantItems/ImportantItems.module.scss,b\2\b2797ebb94e1d2412faec5c3940dba19198891bb
-t
-Dsrc/Components/ImportantItems/ImportantBlock/BlockItem/BlockItem.tsx,0\e\0ef418b0f3d90f4d7f5d9c5caf04b5f4a27ce1cc
-`
-0src/Components/ImportantItems/ImportantItems.tsx,6\3\63a1f1a2fba7956e9e052d1aeab8056637727594
-o
-?src/Components/ImportantItems/ImportantBlock/ImportantBlock.tsx,8\4\849f2114abf3ab8dd68bc31422962273e8660f9d
-w
-Gsrc/Components/ImportantItems/ImportantBlock/ImportantBlock.module.scss,a\1\a180466f6227609296b1a792e34be5ac8864b493
 P
  src/Functions/countItemRating.ts,4\0\409eb4d8e37d9b533c26129eed741795de67f17b
 N
@@ -213,14 +159,6 @@ G.idea/sonarlint/issuestore/b/0/b0c3df64924728f4a8e28577962b923470312d46,0\1\01
 -src/Components/Preloader/Preloader.module.css,6\a\6af2d2cab7c41324c7172d7204477504968e99cf
 a
 1src/Components/Preloader/Preloader.module.css.map,f\5\f5df35071a6477269689c0106bb344b532c9255d
-Z
-*src/Components/LogoRow/LogoRow.module.scss,1\4\14cb49409f613796644c8c65710e3569d532d106
-R
-"src/Components/LogoRow/LogoRow.tsx,d\7\d759d743a3387a69619a1661648dac876af5b76d
-f
-6src/Components/LogoRow/LogoBlock/LogoBlock.module.scss,2\6\26a20be4c17486d90600fb205f09597ef5063413
-^
-.src/Components/LogoRow/LogoBlock/LogoBlock.tsx,8\7\877092a909a3c8a75399bd3ae1b703a0b861b29b
 J
 src/Constants/photoUrls.ts,b\c\bcaeaac48cc7fec6eefbdbb2d49c6a96c37426ed
 a
@@ -249,3 +187,57 @@ m
 =src/Components/Footer/FooterSubLink/FooterSubLink.module.scss,3\8\38b68bc5af907730bc5cf66e4b597eadaa2b08d7
 e
 5src/Components/Footer/FooterSubLink/FooterSubLink.tsx,0\2\02a13ff3261ed383cca97e9c0e3ccf417f6fc641
+d
+4src/Screens/NotFoundScreen/NotFoundScreen.module.css,2\8\284aebb8326ff4990ffd3c8af274c36f2c614498
+h
+8src/Screens/NotFoundScreen/NotFoundScreen.module.css.map,9\6\962366e32e622dfa284ed8385f86d1094183870e
+e
+5src/Screens/NotFoundScreen/NotFoundScreen.module.scss,d\1\d1b8f9ce65ca88198457aab5ccaefe946f8dd359
+]
+-src/Screens/NotFoundScreen/NotFoundScreen.tsx,1\c\1c89be309ff1e425fda456a62acdce9005f72995
+]
+-src/Screens/ShopScreen/ShopScreen.module.scss,1\3\136bb4cc197cba506e4ba3ce1310cabc05e816ca
+U
+%src/Screens/ShopScreen/ShopScreen.tsx,5\8\5891bb259dccc3ae5b2200c691b1652276739509
+j
+:src/Components/Home Components/ItemSpinner/ItemSpinner.tsx,d\9\d9abe8e13b3d114d3181d221afa6f0f313a68af2
+o
+?src/Components/Common/ImportantItems/ImportantItems.module.scss,3\e\3e591d4c92405b8ca83c1aeebf1e977e40b1060c
+~
+Nsrc/Components/Common/ImportantItems/ImportantBlock/ImportantBlock.module.scss,8\7\8705ce5228f29dbfa76a4bb3b4c258ca49d75c87
+É
+Ssrc/Components/Common/ImportantItems/ImportantBlock/BlockItem/BlockItem.module.scss,7\d\7df8f967b936ea4df46d93ae57a96c77ae34793e
+Ä
+Psrc/Components/Home Components/ItemSpinner/SpinnerArrow/SpinnerArrow.module.scss,b\8\b8b9a68f00d0e803300370c1f4ef6b33ae781399
+x
+Hsrc/Components/Home Components/ItemSpinner/SpinnerArrow/SpinnerArrow.tsx,a\8\a85b2ab49a7a96a429e41892e2eba77d2f2f2bc2
+r
+Bsrc/Components/Home Components/ItemSpinner/ItemSpinner.module.scss,7\2\72fc283ef57838bdb91253d4d21f8f4da19eb26c
+P
+ src/Reducers/ShopItemsReducer.ts,6\b\6b7a10f64284e50d6c291fb333e8436d2bbdafbe
+i
+9src/Components/Common/BlockWithHeader/BlockWithHeader.tsx,6\d\6dcb1388883c2d91b578d302052fb70869806dd0
+q
+Asrc/Components/Common/BlockWithHeader/BlockWithHeader.module.scss,d\3\d3098ac41e8dde1c7315750038935a5294b413f9
+v
+Fsrc/Components/Common/ImportantItems/ImportantBlock/ImportantBlock.tsx,0\1\01f618f811e457da9ea86667c257c5b5ca83192a
+j
+:src/Components/Shop Components/Sidebar/Sidebar.module.scss,1\a\1a856227e89eea53889c156b177418956c802d64
+Ç
+Rsrc/Components/Shop Components/Sidebar/CategoriesBlock/CategoriesBlock.module.scss,9\7\97cd60c564971858038757ddbcb86f0fea1ac8a8
+b
+2src/Components/Shop Components/Sidebar/Sidebar.tsx,a\4\a4461ab7367c6a700ee89c47fc49ce240a1c3214
+à
+Xsrc/Components/Shop Components/Sidebar/CategoriesBlock/CategoriesLink/CategoriesLink.tsx,0\5\05c3f29db4be6f57146e6b0eeb646fe669051d5b
+ê
+`src/Components/Shop Components/Sidebar/CategoriesBlock/CategoriesLink/CategoriesLink.module.scss,5\a\5a0697b3b9f726fab06dc9bafe62f5122c0637a3
+z
+Jsrc/Components/Shop Components/Sidebar/CategoriesBlock/CategoriesBlock.tsx,6\c\6c2f204d4a85c8c7bc01eed63575b38411ca761e
+P
+ src/Functions/getCategoriesId.ts,e\0\e0410550c28b90537da1e75589da9c7f6c33b669
+g
+7src/Components/Common/ImportantItems/ImportantItems.tsx,5\1\51b32be96704cb69290149509b74875f0ce9a5e9
+Q
+!src/Reducers/FilterSortReducer.ts,b\8\b80be46aeaee1582d668e081defbabc1369b22d2
+^
+.src/Screens/ShopScreen/ShopScreenContainer.tsx,9\6\96876ec3ce662320cdf0abb7a17608d67d0c3881

@@ -1,0 +1,50 @@
+@import "../../../../../css/fonts";
+@import "../../../../../css/colors";
+
+
+.link {
+  @extend .CondensedLightFont;
+  display: flex;
+  color: $FooterCopyRightGray;
+  font-size: 0.95rem;
+  border-bottom: 1px solid $FooterHeaderGray;
+  margin: 0.75rem 0;
+  padding: 0.25rem 0;
+  transition: 0s;
+
+  &:hover {
+    .underline {
+      color: $Violet;
+      text-decoration: underline;
+    }
+  }
+}
+
+.sub {
+  color: $Gray;
+  margin-left: 0.25rem;
+}
+
+.active {
+  padding-bottom: 1rem;
+
+  .activeLine {
+    display: unset;
+
+  }
+}
+
+.activeLine {
+  display: none;
+
+  &:before {
+    display: inline-block;
+    height: 1px;
+    background-color: $FooterGray;
+    width: 0.75rem;
+    margin-right: 0.25rem;
+    content: '';
+    position: relative;
+    top: -5px;
+  }
+}

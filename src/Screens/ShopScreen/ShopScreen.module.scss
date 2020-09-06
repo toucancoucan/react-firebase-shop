@@ -1,0 +1,27 @@
+@import "../../css/grid";
+
+
+.shopContainer {
+  @extend .contentContainer;
+  padding: 2rem 0;
+  @media (max-width: $mediumPixelSize) {
+    padding: 2rem 1rem;
+  }
+  display: grid;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 2rem 0;
+}
+
+.itemsContainer {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-row-gap: 4rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
