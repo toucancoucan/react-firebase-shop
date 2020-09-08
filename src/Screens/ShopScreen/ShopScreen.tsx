@@ -1,20 +1,14 @@
 import React from "react";
 import styles from "./ShopScreen.module.scss";
 import HeaderSubHeader from "../../Components/Common/HeaderSubHeader/HeaderSubHeader";
-import {itemCategoryType, shopItemType} from "../../Reducers/ShopReducer";
+import {shopItemType} from "../../Reducers/ShopReducer";
 import ItemCard from "../../Components/Common/ItemCard/ItemCard";
 import ImportantItems from "../../Components/Common/ImportantItems/ImportantItems";
 import EmptySpace from "../../Components/Common/EmptySpace/EmptySpace";
 import Sidebar from "../../Components/Shop Components/Sidebar/Sidebar";
 import {connect} from "react-redux";
 import {rootState} from "../../Reducers/store";
-import {
-    itemsFilterSortReducerType,
-    setFilterCategory,
-    setFilterNameSearch,
-    setFilterSortType,
-    SortType
-} from "../../Reducers/FilterSortReducer";
+import {itemsFilterSortReducerType, setFilterSortType, SortType} from "../../Reducers/FilterSortReducer";
 import {createSelector} from "reselect";
 
 type mapStateToProps = {
@@ -23,8 +17,6 @@ type mapStateToProps = {
 }
 
 type mapDispatchToProps = {
-    setFilterNameSearch: (item: string) => void,
-    setFilterCategory: (item: itemCategoryType | false) => void,
     setFilterSortType: (item: SortType) => void
 }
 
@@ -68,9 +60,12 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
 };
 
 let filterItems = (items: Array<shopItemType>, filter: itemsFilterSortReducerType): Array<shopItemType> => {
+    let matchesCategory = (item: shopItemType) => (item.category === filter.category) || (filter.category === false);
+    let matchesName = (item: shopItemType) => item.name.toUpperCase().includes(filter.nameSearch?.toUpperCase());
+
     let result: Array<shopItemType> = [];
     for (let i = 0; i < items.length; i++) {
-        if ((items[i].category === filter.category) || (filter.category === false)) {
+        if (matchesCategory(items[i]) && matchesName(items[i])) {
             result.push(items[i]);
         }
     }
@@ -78,7 +73,7 @@ let filterItems = (items: Array<shopItemType>, filter: itemsFilterSortReducerTyp
 }
 
 let ShopScreen = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
-    {setFilterNameSearch, setFilterCategory, setFilterSortType})(_ShopScreen)
+    {setFilterSortType})(_ShopScreen)
 
 
 export default ShopScreen;

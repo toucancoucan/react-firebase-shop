@@ -1,0 +1,7 @@
+@import "../../../../css/forms";
+@import "../../../../css/colors";
+
+
+.input {
+  @extend .defaultInput
+}

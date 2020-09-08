@@ -6,6 +6,8 @@ import {connect} from "react-redux";
 import {itemCategoryType, shopItemType} from "../../Reducers/ShopReducer";
 import {setFilterCategory, setFilterNameSearch, setFilterSortType, SortType} from "../../Reducers/FilterSortReducer";
 import {getCategoryFromUrl} from "../../Constants/Routes";
+import withTitleChange from "../../Components/Common/HOC/withTitleChange";
+import titles from "../../Constants/Titles";
 
 type mapStateToProps = {
     allShopItems: Array<shopItemType>,
@@ -35,6 +37,8 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
         allShopItems: state.ShopReducer.items,
     }
 };
+
+ShopScreenContainer = withTitleChange(ShopScreenContainer, titles.shop)
 
 export default connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
     {setFilterNameSearch, setFilterCategory, setFilterSortType})(ShopScreenContainer);

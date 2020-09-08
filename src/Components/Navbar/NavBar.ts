@@ -1,7 +1,8 @@
 import {connect} from 'react-redux'
 import _NavBar, {mapDispatchToPropsType, mapStateToPropsType} from "./_NavBar";
 import {rootState} from "../../Reducers/store";
-import {changeShowCartWidget, changeShowMenu, changeShowSearch, getSearchValue} from "../../Reducers/NavBarReducer";
+import {changeShowCartWidget, changeShowMenu, changeShowSearch} from "../../Reducers/NavBarReducer";
+import {setFilterNameSearch} from "../../Reducers/FilterSortReducer";
 
 const mapStateToProps = (state: rootState): mapStateToPropsType => {
     return {
@@ -18,7 +19,7 @@ const NavBar = connect<mapStateToPropsType, mapDispatchToPropsType, any, any>(
         changeShowCartWidget,
         changeShowMenu,
         changeShowSearch,
-        getSearchValue
+        setFilterNameSearch
     }
 )(_NavBar);
 

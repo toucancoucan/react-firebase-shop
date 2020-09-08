@@ -213,8 +213,6 @@ x
 Hsrc/Components/Home Components/ItemSpinner/SpinnerArrow/SpinnerArrow.tsx,a\8\a85b2ab49a7a96a429e41892e2eba77d2f2f2bc2
 r
 Bsrc/Components/Home Components/ItemSpinner/ItemSpinner.module.scss,7\2\72fc283ef57838bdb91253d4d21f8f4da19eb26c
-P
- src/Reducers/ShopItemsReducer.ts,6\b\6b7a10f64284e50d6c291fb333e8436d2bbdafbe
 i
 9src/Components/Common/BlockWithHeader/BlockWithHeader.tsx,6\d\6dcb1388883c2d91b578d302052fb70869806dd0
 q
@@ -241,3 +239,61 @@ Q
 !src/Reducers/FilterSortReducer.ts,b\8\b80be46aeaee1582d668e081defbabc1369b22d2
 ^
 .src/Screens/ShopScreen/ShopScreenContainer.tsx,9\6\96876ec3ce662320cdf0abb7a17608d67d0c3881
+p
+@src/Components/Common/BlockWithHeader/BlockWithHeader.module.css,6\b\6bb5f8f0127a26fb4ec18ed9c35bd2775ca34642
+t
+Dsrc/Components/Common/BlockWithHeader/BlockWithHeader.module.css.map,c\e\ce442a6da350229b0bad7805f4306091b05124a5
+{
+Ksrc/Components/Common/ImportantItems/ImportantBlock/BlockItem/BlockItem.tsx,b\f\bf0c407f3da3f4e8036c8ae57c749b8646285f94
+
+Osrc/Components/Home Components/Carousel/CarouselArrow/CarouselArrow.module.scss,8\a\8a2a4ff6f73431afe18687ae354ecfb56957b5a4
+w
+Gsrc/Components/Home Components/Carousel/CarouselArrow/CarouselArrow.tsx,1\1\11d6a76eb5aa5479026d04eb20b3883fe3cbb5cd
+}
+Msrc/Components/Home Components/Carousel/ItemCarousel/ItemCarousel.module.scss,5\f\5f7db7f3d210246f04f830e932ad55eb587655ad
+u
+Esrc/Components/Home Components/Carousel/ItemCarousel/ItemCarousel.tsx,3\1\31d6636de5fe4b40f72f53c37918a5aec141b19b
+k
+;src/Components/Home Components/Carousel/Carousel.module.css,9\9\99ba8ba18429a417a0ab520806397c2b01aba12b
+o
+?src/Components/Home Components/Carousel/Carousel.module.css.map,8\5\855969d72ccab1982cdd8e08747c4e73b7c92c69
+l
+<src/Components/Home Components/Carousel/Carousel.module.scss,c\3\c39f61c6a01895b367bf1bb00ec54db2bce497b7
+d
+4src/Components/Home Components/Carousel/Carousel.tsx,5\7\57c7f21164dda3060b4238a348e89eb751494543
+‚
+Rsrc/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css,3\0\30fb0c63da935a2ed0129a7a3f7ad5243b89d57c
+†
+Vsrc/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css.map,2\a\2aa618dd8d1fa145bd1de34f53fd8ec06071978c
+ƒ
+Ssrc/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.scss,f\7\f7bfe09971c4c162aa0ad2803a5ea48cad6a616c
+{
+Ksrc/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.tsx,5\0\508495fa1eea6a4a0c679b4d8d8f9a3fcb44725a
+w
+Gsrc/Components/Home Components/HomeCategories/HomeCategories.module.css,0\2\02862aa3845119a6ce8f3533f886e86e4f925f73
+{
+Ksrc/Components/Home Components/HomeCategories/HomeCategories.module.css.map,7\6\76ec303981b6a22ebff85aee6ecbe3aa566f15a3
+x
+Hsrc/Components/Home Components/HomeCategories/HomeCategories.module.scss,e\6\e6e7452f3239aa3798d8189858070f4db13a96d6
+p
+@src/Components/Home Components/HomeCategories/HomeCategories.tsx,9\a\9a9c0d7f1da081fa268f5f7b9f709a71109d2449
+v
+Fsrc/Components/Home Components/LogoRow/LogoBlock/LogoBlock.module.scss,9\3\933e48f5ffd08e51524502c95a3536f66b521d10
+n
+>src/Components/Home Components/LogoRow/LogoBlock/LogoBlock.tsx,5\2\5250fda0c79b9ebfe5d75cfc5733ee789f8f8c1f
+j
+:src/Components/Home Components/LogoRow/LogoRow.module.scss,9\b\9bc5e2f26855c538804f8fe8591e62ab8e42d20a
+b
+2src/Components/Home Components/LogoRow/LogoRow.tsx,9\b\9b84cb374c0152a740ba70b8ac96fe1d53987114
+n
+>src/Components/Home Components/SaleBlock/SaleBlock.module.scss,0\b\0be1455a62d747b149406b2ce3f64a6927748eca
+f
+6src/Components/Home Components/SaleBlock/SaleBlock.tsx,e\4\e401fa536cd7e019fc760a2e7ce1fc599d0d04cf
+K
+src/Reducers/ShopReducer.ts,3\b\3b63648cba40d48fd8490d1099d0070dd04eeefe
+r
+Bsrc/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.tsx,0\3\03ed92d5d213d7d6fe6e7608a7283f17baf21be5
+z
+Jsrc/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.scss,1\b\1b6771c02315c062a0ff6d5718b330f98f61c80d
+C
+src/css/_forms.scss,2\b\2b06d859dd81f9cdd22b9391460f8eba1e998081

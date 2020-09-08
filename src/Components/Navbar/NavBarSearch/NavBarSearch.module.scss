@@ -18,9 +18,10 @@
 
 .field {
   flex: 1;
+  font-size: 0.9rem;
   border: none;
-  @extend .RobotoLightFont;
-  color: $StrangeGray;
+  @extend .CondensedFont;
+  color: $SubHeaderGray;
   @media (max-width: $smallPixelSize) {
     font-size: 1rem;
   }

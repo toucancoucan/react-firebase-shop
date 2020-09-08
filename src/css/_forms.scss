@@ -1,0 +1,13 @@
+@import "colors";
+@import "fonts";
+
+
+.defaultInput {
+  border: 1px solid $FooterHeaderGray;
+  @extend .CondensedFont;
+  color: $SubHeaderGray;
+  font-size: 0.95rem;
+  padding: 0.32rem 0.64rem;
+  width: 100%;
+  outline: 0;
+}

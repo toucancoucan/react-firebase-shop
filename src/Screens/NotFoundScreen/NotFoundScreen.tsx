@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./NotFoundScreen.module.scss";
 import {MdErrorOutline} from "react-icons/all";
+import withTitleChange from "../../Components/Common/HOC/withTitleChange";
+import titles from "../../Constants/Titles";
 
 type mapStateToProps = {}
 
@@ -17,5 +19,7 @@ let NotFoundScreen: React.FC<propsType> = () => {
         </div>
     )
 }
+
+NotFoundScreen = withTitleChange(NotFoundScreen, titles.notFound)
 
 export default NotFoundScreen;

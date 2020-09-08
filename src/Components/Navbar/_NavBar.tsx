@@ -10,6 +10,7 @@ import ProfileNavRow from "./ProfileNavRow/ProfileNavRow";
 import Header from "./Header/Header";
 import MobileCartButton from "./ConnectedToCartSize/MobileCartButton/MobileCartButton";
 import routes from "../../Constants/Routes";
+import {useHistory} from "react-router-dom";
 
 import {NavBarStateType} from "../../Reducers/NavBarReducer";
 import CartWidget from "../Cart/CartWidget/CartWidget";
@@ -20,16 +21,21 @@ export type mapDispatchToPropsType = {
     changeShowSearch: () => void
     changeShowCartWidget: () => void
     changeShowMenu: () => void
-    getSearchValue: (data: any) => void
+    setFilterNameSearch: (data: string) => void
 }
+
 
 type propsType = mapStateToPropsType & mapDispatchToPropsType;
 
 
 let _NavBar: React.FC<propsType> = (props) => {
-
-    let searchBar = <NavBarSearch blur={props.changeShowSearch} onSubmit={(data) => {
-        props.getSearchValue(data)
+    let history = useHistory();
+    let searchBar = <NavBarSearch blur={props.changeShowSearch} onSubmit={(data: any) => {
+        if (data.searchField) {
+            props.setFilterNameSearch(data.searchField);
+            history.push(routes.shop);
+        }
+        props.changeShowSearch();
     }}/>
 
     let searchContent = props.showSearch ? searchBar
