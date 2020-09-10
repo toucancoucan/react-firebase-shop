@@ -7,12 +7,12 @@ export type addItemToCartType = {
     payload: number
 }
 
-export type deleteItemType = {
+export type deleteCartItemType = {
     type: typeof DELETE_ITEM
     payload: number
 }
 
-export let deleteItem = (itemId: number): deleteItemType => {
+export let deleteCartItem = (itemId: number): deleteCartItemType => {
     return {
         type: DELETE_ITEM,
         payload: itemId
@@ -35,19 +35,19 @@ let CartReducerInitialState: CartStateType = {
     cart: new Map<number, number>(),
 }
 
-type actionTypes = addItemToCartType & deleteItemType;
+type actionTypes = addItemToCartType & deleteCartItemType;
 
 const CartReducer = (state = CartReducerInitialState, action: actionTypes): CartStateType => {
     switch (action.type) {
         case DELETE_ITEM:
             return {
                 ...state,
-                // cart: state.cart.filter(item => item !== action.payload)
+                cart: new Map(deleteItemFromMap(state.cart, action.payload))
             }
         case ADD_ITEM:
             return {
                 ...state,
-                cart: modifyMap(state.cart, action.payload)
+                cart: new Map(addItemToMap(state.cart, action.payload))
             }
         default:
             return state
@@ -55,12 +55,17 @@ const CartReducer = (state = CartReducerInitialState, action: actionTypes): Cart
 
 }
 
-let modifyMap = (map: Map<number, number>, value: number): Map<number, number> => {
+let addItemToMap = (map: Map<number, number>, value: number): Map<number, number> => {
     if (map.has(value)) {
         // @ts-ignore
         return map.set(value, map.get(value) + 1)
     }
     return map.set(value, 1)
+}
+
+let deleteItemFromMap = (map: Map<number, number>, value: number): Map<number, number> => {
+    map.delete(value);
+    return map;
 }
 
 

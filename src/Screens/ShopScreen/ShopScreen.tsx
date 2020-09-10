@@ -10,6 +10,7 @@ import {connect} from "react-redux";
 import {rootState} from "../../Reducers/store";
 import {itemsFilterSortReducerType, setFilterSortType, SortType} from "../../Reducers/FilterSortReducer";
 import {createSelector} from "reselect";
+import SortDropdown from "../../Components/Shop Components/SortDropdown/SortDropdown";
 
 type mapStateToProps = {
     filteredShopItems: Array<shopItemType>,
@@ -25,7 +26,12 @@ type propsType = mapStateToProps & mapDispatchToProps;
 let _ShopScreen: React.FC<propsType> = (props) => {
     return (
         <div className={styles.shopContainer}>
-            <HeaderSubHeader mainText={"SHOP"} subText={`SHOWING ${props.filteredShopItems.length} RESULTS`}/>
+            <div className={styles.shopHeader}>
+                <div className={styles.headerWrap}><HeaderSubHeader mainText={"SHOP"}
+                                                                    subText={`SHOWING ${props.filteredShopItems.length} RESULTS`}/>
+                </div>
+                <SortDropdown/>
+            </div>
             <div className={styles.main}>
                 <div className={styles.itemsContainer}>
                     {props.filteredShopItems.map((value,) => {
@@ -36,7 +42,7 @@ let _ShopScreen: React.FC<propsType> = (props) => {
                         />
                     })}
                 </div>
-                <Sidebar/>
+                <Sidebar className={styles.sideBar}/>
             </div>
             <EmptySpace height={"4rem"}/>
             <ImportantItems/>
@@ -62,10 +68,11 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
 let filterItems = (items: Array<shopItemType>, filter: itemsFilterSortReducerType): Array<shopItemType> => {
     let matchesCategory = (item: shopItemType) => (item.category === filter.category) || (filter.category === false);
     let matchesName = (item: shopItemType) => item.name.toUpperCase().includes(filter.nameSearch?.toUpperCase());
+    let matchesPrice = (item: shopItemType) => (item.price >= filter.priceFilter.min && item.price <= filter.priceFilter.max);
 
     let result: Array<shopItemType> = [];
     for (let i = 0; i < items.length; i++) {
-        if (matchesCategory(items[i]) && matchesName(items[i])) {
+        if (matchesCategory(items[i]) && matchesName(items[i]) && matchesPrice(items[i])) {
             result.push(items[i]);
         }
     }

@@ -7,12 +7,15 @@ export enum SortType {
     PriceHighToLow
 }
 
+export type priceFilterType = { min: number, max: number }
+
 export type itemsFilterSortReducerType = {
     newTag?: boolean,
     saleTag?: boolean,
     category: itemCategoryType | false,
     nameSearch: string,
-    sortType: SortType
+    sortType: SortType,
+    priceFilter: priceFilterType
 }
 
 
@@ -26,6 +29,20 @@ export type setFilterNameSearchType = {
 export let setFilterNameSearch = (item: string): setFilterNameSearchType => {
     return {
         type: SET_FILTER_NAME_SEARCH,
+        payload: item
+    }
+}
+
+const SET_FILTER_MINMAX_PRICE = 'SET_FILTER_MINMAX_PRICE';
+
+export type setFilterMinmaxPriceType = {
+    type: typeof SET_FILTER_MINMAX_PRICE,
+    payload: priceFilterType
+}
+
+export let setFilterMinmaxPrice = (item: priceFilterType): setFilterMinmaxPriceType => {
+    return {
+        type: SET_FILTER_MINMAX_PRICE,
         payload: item
     }
 }
@@ -62,7 +79,11 @@ export let setFilterSortType = (item: SortType): setFilterSortTypeType => {
 let ItemsFilterSortReducerInitialState: itemsFilterSortReducerType = {
     category: false,
     nameSearch: "",
-    sortType: SortType.Default
+    sortType: SortType.Default,
+    priceFilter: {
+        min: 0,
+        max: 100,
+    }
 }
 
 type actionTypes = setFilterCategoryType & setFilterSortTypeType & setFilterNameSearchType;
@@ -85,6 +106,11 @@ const FilterSortReducer = (state = ItemsFilterSortReducerInitialState, action: a
             return {
                 ...state,
                 nameSearch: action.payload
+            }
+        case SET_FILTER_MINMAX_PRICE:
+            return {
+                ...state,
+                priceFilter: action.payload
             }
         default:
             return state

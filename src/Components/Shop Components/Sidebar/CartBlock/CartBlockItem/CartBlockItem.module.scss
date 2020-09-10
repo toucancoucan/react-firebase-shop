@@ -1,0 +1,51 @@
+@import "../../../../../css/colors";
+@import "../../../../../css/fonts";
+@import "../../../../../css/animations";
+
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid $OneMoreGray;
+  animation: fade 2s;
+  position: relative;
+
+  &:hover {
+    .icon {
+      opacity: 1;
+    }
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  color: $DarkerGray;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.textContainer {
+  @extend .CondensedLightFont;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding: 0 0.5rem;
+  font-size: 0.925rem;
+}
+
+.photo {
+  width: 3rem;
+}
+
+.name {
+  color: $FooterCopyRightGray;
+  margin-bottom: 0.25rem;
+}
+
+.price {
+  color: $Gray;
+}

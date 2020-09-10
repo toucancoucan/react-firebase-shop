@@ -6,7 +6,7 @@ import combineClassNames from "../../../Functions/сombineClassNames";
 
 type mapStateToProps = {
     productName: string,
-    fontSize: string,
+    fontSize?: string,
     onClick?: () => void,
     className?: string
 }

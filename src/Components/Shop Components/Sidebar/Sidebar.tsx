@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "./Sidebar.module.scss";
-import BlockWithHeader from "../../Common/BlockWithHeader/BlockWithHeader";
 import CategoriesBlock from "./CategoriesBlock/CategoriesBlock";
 import SearchBlock from "./SearchBlock/SearchBlock";
+import CartBlock from "./CartBlock/CartBlock";
+import FilterPriceBlock from "./FilterPriceBlock/FilterPriceBlock";
+import RecentlyViewedBlock from "./RecentlyViewedBlock/RecentlyViewedBlock";
+import combineClassNames from "../../../Functions/сombineClassNames";
 
-type mapStateToProps = {}
+type mapStateToProps = {
+    className?: string
+}
 
 type mapDispatchToProps = {}
 
@@ -12,15 +17,12 @@ type propsType = mapStateToProps & mapDispatchToProps;
 
 let Sidebar: React.FC<propsType> = (props) => {
     return (
-        <div className={styles.sideBar}>
+        <div className={combineClassNames(styles.sideBar, props.className)}>
             <SearchBlock/>
             <CategoriesBlock/>
-            <BlockWithHeader header={"CART"}>
-
-            </BlockWithHeader>
-            <BlockWithHeader header={"RECENTLY VIEWED"}>
-
-            </BlockWithHeader>
+            <CartBlock/>
+            <FilterPriceBlock/>
+            <RecentlyViewedBlock/>
         </div>
     )
 }

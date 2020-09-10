@@ -43,7 +43,6 @@
 .addButton {
     position: relative;
 }
-
 .addButton:hover .tooltip {
     visibility: visible;
     opacity: 1;
@@ -74,12 +73,12 @@
     text-transform: uppercase;
     background-color: #333333;
     color: #ffffff;
-  padding: 0.25rem;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 95%;
-  z-index: 11;
+    padding: 0.25rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 95%;
+    z-index: 11;
 }
 .tooltip::after {
   content: " ";

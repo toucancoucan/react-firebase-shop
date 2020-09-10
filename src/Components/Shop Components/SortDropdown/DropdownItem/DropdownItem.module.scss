@@ -1,0 +1,21 @@
+@import "../../../../css/fonts";
+@import "../../../../css/colors";
+
+
+.wrap {
+  background: $White;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 0.915rem;
+  white-space: nowrap;
+  @extend .CondensedLightFont;
+
+  &:hover {
+    background: $SmokeThree;
+  }
+}
+
+.isActive {
+  background: $DarkGray;
+  color: $White;
+}

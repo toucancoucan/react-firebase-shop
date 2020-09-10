@@ -38,11 +38,11 @@ let _Carousel: React.FC<propsType> = (props) => {
 
     return (
         <div className={styles.carousel}>
+            {CarouselContent}
             <CarouselArrow color={item?.stringColor} forwardOrBackward={"backward"}
                            changeItem={props.changeActiveCarouselItem}/>
             <CarouselArrow color={item?.stringColor} forwardOrBackward={"forward"}
                            changeItem={props.changeActiveCarouselItem}/>
-            {CarouselContent}
         </div>
     )
 }

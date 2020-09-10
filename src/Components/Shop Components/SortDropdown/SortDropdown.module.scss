@@ -1,0 +1,36 @@
+@import "../../../css/fonts";
+@import "../../../css/colors";
+
+
+.expandableBlock {
+  margin-top: 0.25rem;
+  position: absolute;
+  right: 0;
+  border: 1px solid $FooterGray;
+}
+
+.dropdown {
+  //position: absolute;
+  position: relative;
+  width: auto;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: $SubHeaderGray;
+  padding: 0.5rem;
+  font-size: 0.915rem;
+  @extend .CondensedLightFont;
+  border: 1px solid $GrayThree;
+
+  &:hover {
+    border-color: $FooterGray;
+  }
+}
+
+.caret {
+  font-size: 1rem;
+}

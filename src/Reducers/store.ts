@@ -8,6 +8,7 @@ import ShopReducer from "./ShopReducer";
 import {reducer as formReducer} from 'redux-form'
 import HomeCategoriesReducer from "./HomeCategoriesReducer";
 import FilterSortReducer from "./FilterSortReducer";
+import RecentlyViewedReducer from "./RecentlyViewedReducer";
 
 
 export const rootReducer = combineReducers({
@@ -18,6 +19,7 @@ export const rootReducer = combineReducers({
     ShopReducer,
     HomeCategoriesReducer,
     FilterSortReducer,
+    RecentlyViewedReducer,
     form: formReducer
 });
 

@@ -297,3 +297,23 @@ z
 Jsrc/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.scss,1\b\1b6771c02315c062a0ff6d5718b330f98f61c80d
 C
 src/css/_forms.scss,2\b\2b06d859dd81f9cdd22b9391460f8eba1e998081
+y
+Isrc/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css,f\6\f6671a6648a606fa83d3448b439381c7f71a587e
+}
+Msrc/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css.map,e\e\ee10ae956f1c316483e35e6a25fbfa026cbb5f4b
+v
+Fsrc/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.scss,c\c\cc46a0eb2a8c75aac03cbfc184c618cced046d0e
+H
+src/css/_animations.scss,2\c\2cc2d9d2dfc089e1847b1ec12735155a4bf5f941
+ˆ
+Xsrc/Components/Shop Components/Sidebar/CartBlock/CartBlockItem/CartBlockItem.module.scss,a\0\a042a9add1bc5b480aa68df34f1e018d9ca27505
+€
+Psrc/Components/Shop Components/Sidebar/CartBlock/CartBlockItem/CartBlockItem.tsx,a\2\a2924efdfa2c0770833f02d9d2fa8358b715af71
+n
+>src/Components/Shop Components/Sidebar/CartBlock/CartBlock.tsx,1\a\1a86acfa674e85d875dcf74aa6b719195c533be3
+„
+Tsrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.scss,3\3\33da5e51470ab2d3c790f624d5feeca3575d0eba
+|
+Lsrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.tsx,2\5\25e498e8b0eba222ac29558a181e34146d40dce6
+y
+Isrc/Components/Shop Components/Sidebar/FilterPriceBlock/SliderStyles.scss,2\a\2a1d0642752d6751ce233d399058eb8bbfcc06dc

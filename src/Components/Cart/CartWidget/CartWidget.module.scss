@@ -1,6 +1,8 @@
 @import "../../../css/grid";
 @import "../../../css/colors";
 @import "../../../css/fonts";
+@import "../../../css/animations";
+
 
 .buttonWrap {
   font-size: 0.95rem;
@@ -23,15 +25,6 @@
   animation: fade .5s;
   @media(max-width: $smallPixelSize) {
     display: none;
-  }
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 

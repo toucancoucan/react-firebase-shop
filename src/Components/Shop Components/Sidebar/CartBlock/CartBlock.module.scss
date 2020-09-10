@@ -1,0 +1,42 @@
+@import "../../../../css/colors";
+@import "../../../../css/fonts";
+@import "../../../../css/animations";
+
+
+.typo {
+  color: $DarkerGray;
+}
+
+.noProducts {
+  @extend .typo;
+  @extend .RobotoLightFont;
+}
+
+.buttonWrap { //TODO: remove code duplication
+  margin-top: 0.75rem;
+  font-size: 0.925rem;
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button {
+  padding: 0.25rem 0.5rem !important;
+}
+
+.footer {
+  @extend .typo;
+  @extend .CondensedLightFont;
+  font-size: 0.925rem;
+  margin-top: 0.75rem;
+}
+
+.price {
+  @extend .CondensedFont;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
