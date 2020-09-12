@@ -7,15 +7,18 @@ type mapStateToProps = {
     isActive: boolean,
 }
 
-type mapDispatchToProps = {}
+type mapDispatchToProps = {
+    onClick: () => void
+}
 
 type propsType = mapStateToProps & mapDispatchToProps;
 
 let DropdownItem: React.FC<propsType> = (props) => {
     return (
-        <div className={combineClassNames(styles.wrap, props.isActive ? styles.isActive : '')}>
+        <button onClick={props.onClick}
+                className={combineClassNames(styles.wrap, props.isActive ? styles.isActive : '')}>
             {props.text}
-        </div>
+        </button>
     )
 }
 

@@ -4,7 +4,7 @@ import ShopScreen from "./ShopScreen";
 import {rootState} from "../../Reducers/store";
 import {connect} from "react-redux";
 import {itemCategoryType, shopItemType} from "../../Reducers/ShopReducer";
-import {setFilterCategory, setFilterNameSearch, setFilterSortType, SortType} from "../../Reducers/FilterSortReducer";
+import {setFilterCategory, setFilterNameSearch, setFilterSort, SortType} from "../../Reducers/FilterSortReducer";
 import {getCategoryFromUrl} from "../../Constants/Routes";
 import withTitleChange from "../../Components/Common/HOC/withTitleChange";
 import titles from "../../Constants/Titles";
@@ -16,7 +16,7 @@ type mapStateToProps = {
 type mapDispatchToProps = {
     setFilterNameSearch: (item: string) => void,
     setFilterCategory: (item: itemCategoryType | false) => void,
-    setFilterSortType: (item: SortType) => void
+    setFilterSort: (item: SortType) => void
 }
 
 type propsType = mapStateToProps & mapDispatchToProps;
@@ -41,4 +41,4 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
 ShopScreenContainer = withTitleChange(ShopScreenContainer, titles.shop)
 
 export default connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
-    {setFilterNameSearch, setFilterCategory, setFilterSortType})(ShopScreenContainer);
+    {setFilterNameSearch, setFilterCategory, setFilterSort})(ShopScreenContainer);

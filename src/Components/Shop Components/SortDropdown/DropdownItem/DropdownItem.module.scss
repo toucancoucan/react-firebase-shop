@@ -9,6 +9,7 @@
   font-size: 0.915rem;
   white-space: nowrap;
   @extend .CondensedLightFont;
+  display: flex;
 
   &:hover {
     background: $SmokeThree;
@@ -18,4 +19,8 @@
 .isActive {
   background: $DarkGray;
   color: $White;
+
+  &:hover {
+    background: $DarkGray;
+  }
 }

@@ -317,3 +317,33 @@ Tsrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module
 Lsrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.tsx,2\5\25e498e8b0eba222ac29558a181e34146d40dce6
 y
 Isrc/Components/Shop Components/Sidebar/FilterPriceBlock/SliderStyles.scss,2\a\2a1d0642752d6751ce233d399058eb8bbfcc06dc
+_
+/src/Components/Navbar/Header/Header.module.scss,b\3\b3cc5cca74701533d1929845bb20f2c2a4151796
+g
+7src/Components/Navbar/NavBarLink/NavBarLink.module.scss,2\e\2e41ba3c0ef6639c0077cf43c35fb602443fe00c
+g
+7src/Components/Navbar/NavBarIcon/NavBarIcon.module.scss,d\a\daaeacbd0193f78fd15b156e35c1a17699029e52
+u
+Esrc/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css,e\c\ec8cd86774d0274d8fb6e48c4c3713b174155a8c
+y
+Isrc/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css.map,e\5\e52d2286cd060e38157ad81a1dc01d0d64c76f4c
+É
+Ssrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css,a\8\a87415268af7befd384659cfd5f53d7f6dc398b1
+á
+Wsrc/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css.map,f\a\faedc1c286d0551a813bbf654382e2f62739f183
+ä
+Zsrc/Components/Shop Components/Sidebar/RecentlyViewedBlock/RecentlyViewedBlock.module.scss,9\8\98f79a768f628f7146ac5f64fe28d3491bef8cdb
+Ç
+Rsrc/Components/Shop Components/Sidebar/RecentlyViewedBlock/RecentlyViewedBlock.tsx,b\7\b72e78f706ba7b1322f7de1925ce37dfc2909ea0
+y
+Isrc/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.tsx,1\a\1add60c37e64cf125ba7f255d18ab0d2a274cebb
+U
+%src/Reducers/RecentlyViewedReducer.ts,4\9\49ef7259fc85463ea6d75470d13677c7379731c4
+Å
+Qsrc/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.module.scss,b\7\b74f8579964b07020ae37deaff10e88ffc4da913
+l
+<src/Components/Shop Components/SortDropdown/SortDropdown.tsx,1\2\128b816c1b1a611a554e49345b1a459b54786672
+t
+Dsrc/Components/Shop Components/SortDropdown/SortDropdown.module.scss,e\c\ecb961e888d32ce5df88b52d0aec0fc2dfb428d1
+f
+6src/Components/Common/Hooks/useClickOutsideElement.tsx,a\a\aa62c9391fae47898bf9d5fef3dc297fab196439

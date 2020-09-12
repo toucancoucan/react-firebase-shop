@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React, {useRef} from "react";
 import {shopItemType} from "../../../Reducers/ShopReducer";
 import {ConnectedToCart, ConnectedToCartPropsType} from "../ConnectedToCart";
 import styles from "./CartWidget.module.scss"
@@ -9,6 +9,7 @@ import routes from "../../../Constants/Routes";
 import beautifyPrice from "../../../Functions/beautifyPrice";
 import {connect} from "react-redux";
 import {closeCart} from "../../../Reducers/NavBarReducer";
+import useClickOutsideElement from "../../Common/Hooks/useClickOutsideElement";
 
 type mapDispatchToProps = {
     closeCart: () => void
@@ -33,18 +34,7 @@ let _CartWidget: React.FC<propsType> = (props) => {
 
     const node = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        const handleClick = (e: any) => {
-            if (node.current?.contains(e.target))
-                return;
-            props.closeCart();
-        };
-        document.addEventListener("mousedown", handleClick);
-        return () => {
-            document.removeEventListener("mousedown", handleClick);
-        };
-    }, [props]);
-
+    useClickOutsideElement(node, props.closeCart)
 
     return (
         <div className={styles.wrapper} ref={node}>

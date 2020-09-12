@@ -7,16 +7,15 @@
   position: absolute;
   right: 0;
   border: 1px solid $FooterGray;
+  width: 12rem;
 }
 
 .dropdown {
-  //position: absolute;
   position: relative;
-  width: auto;
 }
 
 .button {
-  width: 100%;
+  width: 12rem;
   display: flex;
   align-content: center;
   justify-content: space-between;

@@ -68,7 +68,7 @@ export type setFilterSortTypeType = {
     payload: SortType
 }
 
-export let setFilterSortType = (item: SortType): setFilterSortTypeType => {
+export let setFilterSort = (item: SortType): setFilterSortTypeType => {
     return {
         type: SET_FILTER_SORT_TYPE,
         payload: item
