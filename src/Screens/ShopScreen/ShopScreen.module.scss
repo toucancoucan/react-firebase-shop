@@ -1,47 +1,79 @@
 @import "../../css/grid";
 @import "../../css/constants";
+@import "../../css/fonts";
+@import "../../css/colors";
 
 
 .shopContainer {
   @extend .contentContainer;
-  padding: 2rem 0;
-  @media (max-width: $mediumPixelSize) {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
+  @media (min-width: $largePixelSize) {
+    padding: 2rem 0;
   }
-  display: grid;
 }
 
 
 .main {
   display: grid;
+  grid-template-areas:
+  "itemsContainer  itemsContainer itemsContainer sideBar";
   grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
   padding: 2rem 0;
+  @media (max-width: $smallPixelSize) {
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "sideBar"
+    "itemsContainer";
+    grid-template-rows: auto auto;
+  }
 }
 
 .itemsContainer {
+  grid-area: itemsContainer;
   display: grid;
   grid-column-gap: 2rem;
   grid-row-gap: 4rem;
   align-content: start;
   grid-template-columns: repeat(4, 1fr);
   @media (max-width: $largePixelSize) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: $mediumPixelSize) {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
   @media (max-width: $smallPixelSize) {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
   }
 }
 
 .sideBar {
-
+  grid-area: sideBar;
+  margin-bottom: 2rem;
+  @media(min-width: $smallPixelSize) {
+    margin-left: 2rem;
+  }
 }
 
 .shopHeader {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  @media (max-width: $smallPixelSize) {
+    flex-direction: column;
+    align-items: stretch;
+    > div:nth-child(1) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.noProducts {
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  @extend .CondensedLightFont;
+  color: $DarkGray;
 }
 
 .headerWrap {

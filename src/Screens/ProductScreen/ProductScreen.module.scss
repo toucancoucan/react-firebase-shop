@@ -1,0 +1,6 @@
+@import "../../css/grid";
+
+.container {
+  @extend .contentContainer;
+  padding: 2rem 0;
+}

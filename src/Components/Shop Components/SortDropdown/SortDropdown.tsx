@@ -22,14 +22,6 @@ let _SortDropdown: React.FC<propsType> = (props) => {
     const [expandDropdown, changeExpandDropdown] = useState<boolean>(false);
     const node = useRef<HTMLDivElement>(null);
     useClickOutsideElement(node, changeExpandDropdown)
-
-    // const optionsDictionary = {
-    //     "Default sorting": SortType.Default,
-    //     "Sort by rating": SortType.Rating,
-    //     "Sort by price: low to high": SortType.PriceLowToHigh,
-    //     "Sort by price: high to low": SortType.PriceHighToLow,
-    // }
-
     type optionItem = {
         text: string,
         sortType: SortType
@@ -40,7 +32,6 @@ let _SortDropdown: React.FC<propsType> = (props) => {
         {text: "Sort by rating", sortType: SortType.Rating},
         {text: "Sort by price: low to high", sortType: SortType.PriceLowToHigh},
         {text: "Sort by price: high to low", sortType: SortType.PriceHighToLow},
-
     ];
 
 
@@ -49,7 +40,7 @@ let _SortDropdown: React.FC<propsType> = (props) => {
     options.forEach((item) => {
         let isActive = item.sortType === props.activeSortType;
         dropdownItems.push(<DropdownItem onClick={() => props.setFilterSort(item.sortType)} text={item.text}
-                                         isActive={isActive}/>)
+                                         isActive={isActive} key={item.sortType}/>)
         if (isActive) activeText = item.text;
     })
 
@@ -60,14 +51,6 @@ let _SortDropdown: React.FC<propsType> = (props) => {
                 <IoMdArrowDropdown className={styles.caret}/>
             </button>
             <div className={combineClassNames(styles.expandableBlock, {"hidden": !expandDropdown})}>
-                {/*<DropdownItem onClick={() => props.setFilterSort(SortType.Default)} text={optionsText[0]}*/}
-                {/*              isActive={true}/>*/}
-                {/*<DropdownItem onClick={() => props.setFilterSort(SortType.Rating)} text={optionsText[1]}*/}
-                {/*              isActive={false}/>*/}
-                {/*<DropdownItem onClick={() => props.setFilterSort(SortType.PriceLowToHigh)}*/}
-                {/*              text={optionsText[2]} isActive={false}/>*/}
-                {/*<DropdownItem onClick={() => props.setFilterSort(SortType.PriceHighToLow)}*/}
-                {/*              text={optionsText[3]} isActive={false}/>*/}
                 {dropdownItems}
             </div>
         </div>

@@ -1,7 +1,13 @@
-.sideBar {
-  margin-left: 2rem;
+@import "../../../css/constants";
 
+.sideBar {
   > div {
     margin-bottom: 2rem;
+  }
+
+  @media (max-width: $smallPixelSize) {
+    > div:nth-child(3), > div:nth-child(5) {
+      display: none;
+    }
   }
 }

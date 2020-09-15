@@ -33,8 +33,14 @@ let setCategoriesItemsLength = (items: categoriesItemsLengthType): setCategories
 
 export let fetchAndSetShopItems = (): ThunkAction<Promise<void>, rootState, any, setFetchedItemsType | setCategoriesItemsLengthType> => {
     return async (dispatch) => {
+        let localStorageItems = localStorage.getItem("shopItems");
+        if (localStorageItems !== null) {
+            // @ts-ignore
+            dispatch(setFetchedItems(JSON.parse(localStorage.getItem("shopItems"))))
+        }
         let data = await Firebase.getShopItems();
         dispatch(setFetchedItems(data))
+        localStorage.setItem("shopItems", JSON.stringify(data));
         dispatch(setCategoriesItemsLength(getCategoriesId(data)))
     }
 }

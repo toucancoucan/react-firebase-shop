@@ -20,20 +20,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/Hooks/useClickOutsideElement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Hooks/useTitleChange.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoThumbnail/PhotoThumbnail.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoThumbnail/PhotoThumbnail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/NavigationLink/NavigationLink.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/NavigationLink/NavigationLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/ProductNavigation.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/ProductNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/ProductReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/ProductScreen/ProductScreen.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/ProductScreen/ProductScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/ProductScreen/ProductScreenContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d05c9c65bbec9141d7764934097e34ed7892d9e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d05c9c65bbec9141d7764934097e34ed7892d9e9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartWidget/CartWidget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/DropdownItem/DropdownItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Hooks/useClickOutsideElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Hooks/useClickOutsideElement.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlockItem/CartBlockItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlockItem/CartBlockItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/SliderStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/SliderStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/Sidebar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/SortDropdown.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/SortDropdown.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/SortDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/SortDropdown/SortDropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/FilterSortReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/FilterSortReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Titles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Titles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreen.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreen.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreenContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ShopScreen/ShopScreenContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +73,8 @@
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
         <option value="Reducer" />
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -231,7 +258,10 @@
       <workItem from="1599724521620" duration="17408000" />
       <workItem from="1599813999117" duration="2205000" />
       <workItem from="1599819426627" duration="5473000" />
-      <workItem from="1599907812585" duration="1554000" />
+      <workItem from="1599907812585" duration="2611000" />
+      <workItem from="1600087523759" duration="120000" />
+      <workItem from="1600087665572" duration="9430000" />
+      <workItem from="1600164261477" duration="15616000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -359,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599742462237</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Addded sorting to shop screen and sort dropdown component">
+      <created>1599909414531</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599909414531</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +436,8 @@
     <MESSAGE value="Started working on Shop Page. Added categories filter" />
     <MESSAGE value="Finished name search and navbar search" />
     <MESSAGE value="Almost finished shop screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost finished shop screen" />
+    <MESSAGE value="Addded sorting to shop screen and sort dropdown component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addded sorting to shop screen and sort dropdown component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -428,30 +466,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596289394198" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1599815716231">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600174520185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599815716231" />
-    <state x="745" y="130" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1597927651210">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600174520185" />
+    <state x="745" y="130" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1600098617060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="745" y="130" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597927651210" />
+    <state x="745" y="130" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600098617060" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595860588399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595860588399" />
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598282008116">
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600175724623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598282008116" />
+    <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600175724623" />
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594743118147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1599742457676">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1599909412606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599742457676" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599909412606" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -468,22 +506,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1599909091109">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1600179420368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599909091109" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1599909091109">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600179420368" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1600179420368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599909091109" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1599909091109">
+    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600179420368" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1600179420368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599909091109" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1599909091109">
+    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600179420368" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1600179420368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599909091109" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600179420368" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -540,10 +578,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599634854852" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599742494967">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599909418090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599742494967" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599909418090" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -552,10 +590,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599652242272" />
-    <state x="422" y="214" width="1222" height="811" key="find.popup" timestamp="1599490936787">
+    <state x="422" y="214" width="1222" height="811" key="find.popup" timestamp="1600179504331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="214" width="1222" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599490936787" />
+    <state x="422" y="214" width="1222" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600179504331" />
     <state x="734" y="387" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595010271806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -345,5 +345,25 @@ l
 <src/Components/Shop Components/SortDropdown/SortDropdown.tsx,1\2\128b816c1b1a611a554e49345b1a459b54786672
 t
 Dsrc/Components/Shop Components/SortDropdown/SortDropdown.module.scss,e\c\ecb961e888d32ce5df88b52d0aec0fc2dfb428d1
-f
-6src/Components/Common/Hooks/useClickOutsideElement.tsx,a\a\aa62c9391fae47898bf9d5fef3dc297fab196439
+e
+5src/Components/Common/Hooks/useClickOutsideElement.ts,b\2\b2336620fe8f3a0a963caa36446c7e0664f2d05f
+]
+-src/Components/Common/Hooks/useTitleChange.ts,7\b\7bfda929f796b8c810ac700a80705704ff7b9f46
+d
+4src/Screens/ProductScreen/ProductScreenContainer.tsx,7\d\7d82c08f0be2f568da7590fde048860f87838afb
+[
++src/Screens/ProductScreen/ProductScreen.tsx,f\e\fe59aa301579427b642dcabd1415533715c4730d
+c
+3src/Screens/ProductScreen/ProductScreen.module.scss,9\0\90fa5e467ed0b36f2e7f311d46795e7432d9f84d
+
+Qsrc/Components/Product Components/ProductNavigation/ProductNavigation.module.scss,8\7\87714a4df2b98b9168ff01b480055cdac1887c53
+y
+Isrc/Components/Product Components/ProductNavigation/ProductNavigation.tsx,d\4\d45247ca7912bfccbe35ce51c46ed481eae299c4
+…
+Usrc/Components/Product Components/ProductNavigation/NavigationLink/NavigationLink.tsx,2\a\2a0b17e52aa7ce4bb969388f64728eabee69792d
+
+]src/Components/Product Components/ProductNavigation/NavigationLink/NavigationLink.module.scss,f\f\ff04375c4e4e9dd1f723bc1835f53b163640be36
+‡
+Wsrc/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.tsx,7\0\70ce5235f72c94bb38998534a7a8a82fb2e94f43
+
+_src/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.module.scss,7\c\7ccf06aad0dcc3658c7a880f4574ca8d25a468a5

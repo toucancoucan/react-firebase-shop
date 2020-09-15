@@ -29,6 +29,9 @@
 }
 
 .textContainer {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   @extend .CondensedLightFont;
   display: flex;
   flex-direction: column;

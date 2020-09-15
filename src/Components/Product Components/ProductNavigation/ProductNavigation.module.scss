@@ -1,0 +1,15 @@
+@import "../../../css/colors";
+
+.productNavigationWrap {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkWrap {
+  display: flex;
+  align-items: center;
+  font-size: 0.825rem;
+  color: $DarkGray;
+}

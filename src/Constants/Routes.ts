@@ -4,6 +4,7 @@ const routes = {
     home: '/home',
     shop: '/shop/category/all',
     shopPath: '/shop/:selector/:value',
+    productPath: `/product/:id`,
     contact: '/contact',
     blog: '/blog',
     cart: '/cart',
@@ -24,14 +25,14 @@ const routes = {
     },
     telegram: "https://t.me/toucancoucan",
     product(productName: string) {
-        return `/shop/product/${replaceWhitespaceInStringAndToLower(productName)}`
+        return `/product/${replaceWhitespaceInStringAndToLower(productName)}`
     },
     category(categoryName: string) {
         return `/shop/category/${replaceWhitespaceInStringAndToLower(categoryName)}`
     }
 }
 
-let replaceWhitespaceInStringAndToLower = (str: string) => {
+export let replaceWhitespaceInStringAndToLower = (str: string) => {
     return str.split(' ').join('-').toLowerCase();
 }
 

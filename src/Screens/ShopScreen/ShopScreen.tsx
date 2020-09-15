@@ -25,6 +25,9 @@ type mapDispatchToProps = {
 type propsType = mapStateToProps & mapDispatchToProps;
 
 let _ShopScreen: React.FC<propsType> = (props) => {
+
+    let atLeastOneItemShowing = props.filteredShopItems.length > 0;
+
     return (
         <div className={styles.shopContainer}>
             <div className={styles.shopHeader}>
@@ -35,19 +38,26 @@ let _ShopScreen: React.FC<propsType> = (props) => {
                 <SortDropdown/>
             </div>
             <div className={styles.main}>
-                <div className={styles.itemsContainer}>
-                    {props.filteredShopItems.map((value,) => {
-                        return <ItemCard key={value.id} saleTag={value.saleTag}
-                                         category={value.category} name={value.name}
-                                         oldPrice={value.oldPrice} photoUrl={value.photoUrl}
-                                         price={value.price} id={value.id}
-                        />
-                    })}
-                </div>
+                {atLeastOneItemShowing ?
+                    <div className={styles.itemsContainer}>
+                        {props.filteredShopItems.map((value) => {
+                            return <ItemCard key={value.id} saleTag={value.saleTag}
+                                             category={value.category} name={value.name}
+                                             oldPrice={value.oldPrice} photoUrl={value.photoUrl}
+                                             price={value.price} id={value.id}
+                            />
+                        })
+                        }
+                    </div>
+                    :
+                    <div className={styles.noProducts}>
+                        No products were found matching your selection.
+                    </div>
+                }
                 <Sidebar className={styles.sideBar}/>
             </div>
             <EmptySpace height={"4rem"}/>
-            <ImportantItems/>
+            {<ImportantItems/>}
             <EmptySpace height={"2rem"}/>
         </div>
     )

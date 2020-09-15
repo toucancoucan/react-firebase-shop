@@ -7,11 +7,13 @@ import {fetchAndSetShopItems} from "./Reducers/ShopReducer";
 import Preloader from "./Components/Preloader/Preloader";
 import addShopItemToFirebase from "./Functions/addShopItemToFirebase";
 import Footer from "./Components/Footer/Footer";
-import ShopScreen from "./Screens/ShopScreen/ShopScreenContainer";
 
 const NavBar = lazy(() => import("./Components/Navbar/NavBar"));
 const HomeScreen = lazy(() => import('./Screens/HomeScreen/HomeScreen'));
 const NotFoundScreen = lazy(() => import("./Screens/NotFoundScreen/NotFoundScreen"));
+const ProductScreen = lazy(() => import("./Screens/ProductScreen/ProductScreenContainer"));
+const ShopScreen = lazy(() => import("./Screens/ShopScreen/ShopScreenContainer"));
+
 
 type mapDispatchToPropsType = {
     fetchAndSetShopItems: () => void,
@@ -44,6 +46,7 @@ let _App: React.FC<propsType> = (props) => {
                                 </button>
                             </Route>
                             <Route path={routes.notFound} component={NotFoundScreen}/>
+                            <Route exact={false} strict={false} path={routes.productPath} component={ProductScreen}/>
                             <Redirect exact from="/" to="/home"/>
                             <Redirect from="*" to={routes.notFound}/>
                         </Switch>

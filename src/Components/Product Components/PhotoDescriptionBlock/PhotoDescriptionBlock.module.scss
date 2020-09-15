@@ -1,0 +1,15 @@
+.blockWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "photoBlock descriptionBlock";
+}
+
+.photoBlock {
+  grid-area: photoBlock;
+
+}
+
+.descriptionBlock {
+  grid-area: descriptionBlock;
+}
