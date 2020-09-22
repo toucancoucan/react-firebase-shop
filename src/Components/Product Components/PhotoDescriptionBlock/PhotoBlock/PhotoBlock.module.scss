@@ -1,14 +1,66 @@
+@import "../../../../css/colors";
+@import "../../../../css/constants";
+
 .wrap {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-column-gap: 1.5rem;
   margin-right: 1.5rem;
+  grid-template-areas:
+  "thumbnails mainPhoto";
+  @media (max-width: $smallPixelSize) {
+    grid-column-gap: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "mainPhoto"
+    "thumbnails";
+  }
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  grid-area: thumbnails;
+  @media (max-width: $smallPixelSize) {
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    > button {
+      margin-right: 1rem;
+    }
+  }
 }
 
 .photo {
+}
+
+.magnifierWrap {
+  position: relative;
+  grid-area: mainPhoto;
+
+  &:hover {
+    .arrow {
+      opacity: 0.5;
+    }
+  }
+}
+
+.zeroPadding {
+  padding: 0;
+
+  &:hover {
+    .arrow {
+      opacity: 0.9;
+    }
+  }
+}
+
+.arrow {
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 1.75rem;
+  background: $White;
+  color: $DarkGray;
+  height: 4rem;
 }

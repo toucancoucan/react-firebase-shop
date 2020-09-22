@@ -48,7 +48,7 @@ export let fetchAndSetShopItems = (): ThunkAction<Promise<void>, rootState, any,
 
 export type shopItemType = {
     photoUrl: string,
-    additionalPhotosUrl?: Array<string>,
+    additionalPhotosUrl: Array<string>,
     name: string,
     category: itemCategoryType,
     price: number,

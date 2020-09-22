@@ -1,13 +1,21 @@
+@import "../../../css/constants";
+
 .blockWrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "photoBlock descriptionBlock";
+
+  @media (max-width: $smallPixelSize) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "photoBlock"
+    "descriptionBlock";
+  }
 }
 
 .photoBlock {
   grid-area: photoBlock;
-
 }
 
 .descriptionBlock {

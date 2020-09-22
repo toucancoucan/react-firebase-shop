@@ -15,7 +15,7 @@ let PhotoDescriptionBlock: React.FC<propsType> = (props) => {
     return (
         <div className={styles.blockWrap}>
             <PhotoBlock className={styles.photoBlock}/>
-            <DescriptionBlock/>
+            <DescriptionBlock className={styles.descriptionBlock}/>
         </div>
     )
 }

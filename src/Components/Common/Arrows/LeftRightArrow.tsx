@@ -6,7 +6,8 @@ import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io/index";
 
 type mapStateToPropsType = {
     forwardOrBackward: "forward" | "backward"
-    className: string
+    className: string,
+    wrapClassName?: string
 }
 type mapDispatchToPropsType = {
     changeItem: (value: number) => void
@@ -24,7 +25,7 @@ let LeftRightArrow: React.FC<propsType> = (props) => {
 
     let orientationStyle = isForward ? styles.forward : styles.backward;
     return (
-        <button onClick={onClick} className={combineClassNames(styles.wrap, orientationStyle)}>
+        <button onClick={onClick} className={combineClassNames(styles.wrap, orientationStyle, props.wrapClassName)}>
             <IconContext.Provider value={{className: props.className}}>
                 {isForward ? <IoIosArrowForward/> : <IoIosArrowBack/>}
             </IconContext.Provider>

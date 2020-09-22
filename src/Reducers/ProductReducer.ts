@@ -43,6 +43,7 @@ let ProductReducerInitialState: ProductReducerType = {
         description: "",
         id: 0,
         reviews: [],
+        additionalPhotosUrl: []
     },
     activePhotoIndex: 0
 }
@@ -55,7 +56,7 @@ const ProductReducer = (state = ProductReducerInitialState, action: actionTypes)
         case CHANGE_ACTIVE_PHOTO:
             return {
                 ...state,
-                activePhotoIndex: action.payload
+                activePhotoIndex: getPhotoIndex(action.payload, state.item.additionalPhotosUrl?.length)
             }
         case SET_ITEM:
             return {
@@ -65,7 +66,12 @@ const ProductReducer = (state = ProductReducerInitialState, action: actionTypes)
         default:
             return state
     }
+}
 
+let getPhotoIndex = (value: number, maxLength: number) => {
+    if (value < 0) return maxLength;
+    if (value > maxLength) return 0;
+    return value
 }
 
 export default ProductReducer;

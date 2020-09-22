@@ -367,3 +367,21 @@ Usrc/Components/Product Components/ProductNavigation/NavigationLink/NavigationLi
 Wsrc/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.tsx,7\0\70ce5235f72c94bb38998534a7a8a82fb2e94f43
 è
 _src/Components/Product Components/ProductNavigation/NavigationArrow/NavigationArrow.module.scss,7\c\7ccf06aad0dcc3658c7a880f4574ca8d25a468a5
+î
+dsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.module.scss,b\d\bda07d9d4aae9d53089dc950b28bf6309bcba0f0
+å
+\src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx,8\5\859c961a92e4dd4944d860dcfef3e26820bd2f5b
+â
+Ysrc/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.module.scss,2\b\2bc5fc54f04182fdaa7f59357b2070d2b14e86f2
+â
+Ysrc/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.module.scss,b\f\bfa60ce98df4e611dd72dde3fc1fca38b9b7f70f
+Å
+Qsrc/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.tsx,3\5\35040d9bcd08d96e3e3aaa00a825cfc725f9db18
+ú
+lsrc/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoThumbnail/PhotoThumbnail.module.scss,e\4\e46b9f753f1c6051d7ffbefae404388d54bb48f0
+î
+dsrc/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoThumbnail/PhotoThumbnail.tsx,e\8\e8a64073f96c42c90847ff26cdfaf13ffaf20dd2
+N
+src/Reducers/ProductReducer.ts,9\7\979cd6e5001c1ca4f8370e345d68a99f1d0b1c3a
+Å
+Qsrc/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.tsx,b\1\b15665d70422c80680c3523dd93e0e9bc96176c9

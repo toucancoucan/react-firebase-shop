@@ -5,6 +5,8 @@ import {rootState} from "../../../../Reducers/store";
 import {connect} from "react-redux";
 import PhotoThumbnail from "./PhotoThumbnail/PhotoThumbnail";
 import {SideBySideMagnifier} from "react-image-magnifiers";
+import LeftRightArrow from "../../../Common/Arrows/LeftRightArrow";
+import {changeActiveIndexPhoto} from "../../../../Reducers/ProductReducer";
 
 
 type ownProps = {
@@ -16,7 +18,9 @@ type mapStateToProps = {
     activePhotoIndex: number,
 } & ownProps
 
-type mapDispatchToProps = {}
+type mapDispatchToProps = {
+    changeActiveIndexPhoto: (item: number) => void
+}
 
 
 type propsType = mapStateToProps & mapDispatchToProps;
@@ -28,10 +32,15 @@ let _PhotoBlock: React.FC<propsType> = (props) => {
                 {props.photoUrlArray.map((e, i) => <PhotoThumbnail key={i} photoUrl={e} photoIndex={i}
                                                                    isSelected={i === props.activePhotoIndex}/>)}
             </div>
-            <div>
-                <SideBySideMagnifier imageSrc={props.photoUrlArray[props.activePhotoIndex]} alwaysInPlace={true}/>
-                {/*<img src={props.photoUrlArray[props.activePhotoIndex]}*/}
-                {/*     alt={props.photoUrlArray[props.activePhotoIndex]} className={styles.photo}/>*/}
+            <div className={styles.magnifierWrap}>
+                <LeftRightArrow wrapClassName={styles.zeroPadding} forwardOrBackward={"backward"}
+                                className={styles.arrow}
+                                changeItem={() => props.changeActiveIndexPhoto(props.activePhotoIndex - 1)}/>
+                <SideBySideMagnifier imageSrc={props.photoUrlArray[props.activePhotoIndex]}
+                                     alwaysInPlace={true}/>
+                <LeftRightArrow wrapClassName={styles.zeroPadding} forwardOrBackward={"forward"}
+                                className={styles.arrow}
+                                changeItem={() => props.changeActiveIndexPhoto(props.activePhotoIndex + 1)}/>
             </div>
         </div>
     )
@@ -46,6 +55,6 @@ const mapStateToProps = (state: rootState, ownProps: ownProps): mapStateToProps 
 };
 
 
-let PhotoBlock = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps, {})(_PhotoBlock)
+let PhotoBlock = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps, {changeActiveIndexPhoto})(_PhotoBlock)
 
 export default PhotoBlock;
