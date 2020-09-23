@@ -1,0 +1,36 @@
+@import "../../../../../css/colors";
+
+.wrap {
+  display: flex;
+}
+
+.starIcon {
+  font-size: 1.05rem;
+  color: $SubHeaderGray;
+  margin-right: 0.1rem;
+  position: relative;
+}
+
+.tooltipWrap {
+  position: relative;
+
+  &:hover {
+    .tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.text {
+  color: $FooterCopyRightGray;
+  font-size: 0.975rem;
+  margin-left: 0.5rem;
+}
+
+.yellowIcon {
+  color: $Yellow;
+}
+
+.tooltip {
+}

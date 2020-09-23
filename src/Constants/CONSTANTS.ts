@@ -5,6 +5,9 @@ const CONSTANTS = {
     ITEMS_SPINNER: {
         ITEMS_QUANTITY: 5,
     },
+    PRODUCT_SCREEN: {
+        MAX_ITEM_RATING: 5,
+    },
     FIREBASE: {
         CONFIG: {
             apiKey: "AIzaSyBLPCceCKqyMyMGR7KkS5YiuYJNToaZc6A",

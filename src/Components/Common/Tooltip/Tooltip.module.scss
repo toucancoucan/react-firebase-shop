@@ -1,0 +1,43 @@
+@import "../../../css/colors";
+@import "../../../css/fonts";
+
+
+.tooltip {
+  font-size: 0.8rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s;
+  white-space: nowrap;
+  text-transform: uppercase;
+  background-color: $DarkerGray;
+  border-color: transparent transparent transparent $DarkerGray;
+  @extend .CondensedFont;
+  color: $White;
+  padding: 0.25rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 95%;
+  z-index: 11;
+
+
+  &::after {
+    border-color: transparent transparent transparent $DarkerGray;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+}
+
+.greenTooltip {
+  background: $Green;
+
+  &::after {
+    border-color: transparent transparent transparent $Green;
+  }
+}

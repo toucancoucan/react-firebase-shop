@@ -1,9 +1,23 @@
-.wrap {
+@import "../../../../css/colors";
+@import "../../../../css/fonts";
 
+.wrap {
+  @extend .CondensedLightFont;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $DarkGray;
 }
 
-.header {
+.name {
+  font-size: 2.4rem;
+}
 
+.category {
+  color: $SubHeaderGray;
+  font-size: 0.925rem;
+  //margin: 0.5rem 0 1rem 0;
 }
 
 .ratingBlock {
@@ -11,9 +25,33 @@
 }
 
 .description {
-
+  text-align: justify;
 }
 
 .priceBlock {
+  display: flex;
+  align-items: baseline;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.oldPrice {
+  margin-left: 0.75rem;
+  color: $SubHeaderGray;
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+
+.addToCartBlock {
+
+}
+
+.id {
+
+}
+
+.shareBlock {
 
 }

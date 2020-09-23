@@ -11,6 +11,7 @@ import routes from "../../../Constants/Routes";
 import beautifyPrice from "../../../Functions/beautifyPrice";
 import combineClassNames from "../../../Functions/сombineClassNames";
 import ProductNameLink from "../ProductNameLink/ProductNameLink";
+import Tooltip from "../Tooltip/Tooltip";
 
 type mapStateToPropsType = {
     photoUrl: string,
@@ -52,12 +53,8 @@ let _ItemCard: React.FC<propsType> = (props) => {
                             <IoIosAdd/>
                         }
                     </IconContext.Provider>
-                    {!isAdded ?
-                        <span className={styles.tooltip}>Add to cart</span>
-                        :
-                        <span
-                            className={combineClassNames(styles.tooltip, styles.greenTooltip)}>Product added to cart</span>
-                    }
+                    <Tooltip className={styles.tooltip} text={!isAdded ? "Add to cart" : "Product added to cart"}
+                             isGreen={isAdded}/>
                 </button>
             </div>
             <Link to={routes.product(props.category)}>

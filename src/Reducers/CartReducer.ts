@@ -4,7 +4,10 @@ const DELETE_ITEM = 'DELETE_ITEM';
 
 export type addItemToCartType = {
     type: typeof ADD_ITEM
-    payload: number
+    payload: {
+        id: number,
+        quantity: number
+    }
 }
 
 export type deleteCartItemType = {
@@ -19,10 +22,13 @@ export let deleteCartItem = (itemId: number): deleteCartItemType => {
     }
 }
 
-export let addItemToCart = (itemId: number): addItemToCartType => {
+export let addItemToCart = (itemId: number, quantity: number = 1): addItemToCartType => {
     return {
         type: ADD_ITEM,
-        payload: itemId
+        payload: {
+            id: itemId,
+            quantity: quantity
+        }
     }
 }
 
@@ -47,7 +53,7 @@ const CartReducer = (state = CartReducerInitialState, action: actionTypes): Cart
         case ADD_ITEM:
             return {
                 ...state,
-                cart: new Map(addItemToMap(state.cart, action.payload))
+                cart: new Map(addItemToMap(state.cart, action.payload.id, action.payload.quantity))
             }
         default:
             return state
@@ -55,12 +61,12 @@ const CartReducer = (state = CartReducerInitialState, action: actionTypes): Cart
 
 }
 
-let addItemToMap = (map: Map<number, number>, value: number): Map<number, number> => {
+let addItemToMap = (map: Map<number, number>, value: number, quantity: number): Map<number, number> => {
     if (map.has(value)) {
         // @ts-ignore
-        return map.set(value, map.get(value) + 1)
+        return map.set(value, map.get(value) + quantity)
     }
-    return map.set(value, 1)
+    return map.set(value, quantity)
 }
 
 let deleteItemFromMap = (map: Map<number, number>, value: number): Map<number, number> => {

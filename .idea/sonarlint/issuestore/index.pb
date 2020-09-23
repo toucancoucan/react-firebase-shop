@@ -385,3 +385,11 @@ N
 src/Reducers/ProductReducer.ts,9\7\979cd6e5001c1ca4f8370e345d68a99f1d0b1c3a
 Å
 Qsrc/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.tsx,b\1\b15665d70422c80680c3523dd93e0e9bc96176c9
+a
+1src/Components/Common/Tooltip/Tooltip.module.scss,2\a\2a9232dd5f66dcc88aed03a984b3c7371dc8bf39
+Y
+)src/Components/Common/Tooltip/Tooltip.tsx,1\a\1a7c893be43d5eabbbe2f8bac34fb32600207d23
+ì
+csrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.tsx,d\0\d0c3a7cea218af3d84ff3b8b3d88d5cc7d0ecc06
+õ
+ksrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.module.scss,7\4\749874606f6fa0a1b7fda295d20372311bfebea8

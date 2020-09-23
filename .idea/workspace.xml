@@ -20,18 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Tooltip/Tooltip.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Arrows/LeftRightArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoBlock/PhotoBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/ProductNavigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/ProductNavigation/ProductNavigation.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/ProductReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ProductReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CartReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,9 +127,6 @@
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="HOST=0.0.0.0" />
-        <script value="npm" />
-        <script value="run" />
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
@@ -239,6 +253,8 @@
       <workItem from="1600258539777" duration="5146000" />
       <workItem from="1600604262122" duration="269000" />
       <workItem from="1600604566472" duration="2560000" />
+      <workItem from="1600764266103" duration="7393000" />
+      <workItem from="1600870232968" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -380,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600193055762</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="made product photo block">
+      <created>1600764346438</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600764346438</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +445,8 @@
     <MESSAGE value="Almost finished shop screen" />
     <MESSAGE value="Addded sorting to shop screen and sort dropdown component" />
     <MESSAGE value="Started work on product screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on product screen" />
+    <MESSAGE value="made product photo block" />
+    <option name="LAST_COMMIT_MESSAGE" value="made product photo block" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -451,10 +475,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596289394198" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600606405386">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600873444869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600606405386" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600873444869" />
     <state x="745" y="130" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1600098617060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -471,10 +495,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1600193052074">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1600764343218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600193052074" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600764343218" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -491,22 +515,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1600193154170">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1600873605612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600193154170" />
-    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1600193154170">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600873605612" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1600873605612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600193154170" />
-    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1600193154169">
+    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600873605612" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1600873605611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600193154169" />
-    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1600193154170">
+    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600873605611" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1600873605612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600193154170" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600873605612" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -563,22 +587,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599634854852" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599909418090">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600764358046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599909418090" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600764358046" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596203665444" />
-    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599652242272">
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600769476003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599652242272" />
-    <state x="422" y="214" width="1222" height="811" key="find.popup" timestamp="1600179504331">
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600769476003" />
+    <state x="422" y="214" width="1222" height="811" key="find.popup" timestamp="1600872241093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="214" width="1222" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600179504331" />
+    <state x="422" y="214" width="1222" height="811" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600872241093" />
     <state x="734" y="387" width="565" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595010271806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

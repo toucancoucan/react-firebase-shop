@@ -1,0 +1,65 @@
+@import "../../../../../css/colors";
+@import "../../../../../css/fonts";
+
+
+.wrap {
+  display: flex;
+}
+
+.hoverReaction {
+  &:hover {
+    transition: 0.5s;
+    background-color: $DarkGray;
+    color: $White;
+    cursor: pointer;
+
+    .icon {
+      color: $White;
+    }
+  }
+}
+
+.general {
+  background-color: $FooterHeaderGray;
+  color: $DarkGray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.secondBlock {
+  margin-left: 1.5rem;
+  @extend .general;
+  padding: 0.75rem;
+  @extend .hoverReaction;
+}
+
+.icon {
+  opacity: 1;
+  font-size: 1rem;
+  color: $DarkGray;
+  margin-right: 0.25rem;
+}
+
+.firstBlock {
+  @extend .general;
+  @extend .CondensedLightFont;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  * {
+    padding: 0.75rem;
+  }
+
+  button {
+    @extend .hoverReaction;
+  }
+
+  > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid $White;
+    border-left: 2px solid $White;
+  }
+}

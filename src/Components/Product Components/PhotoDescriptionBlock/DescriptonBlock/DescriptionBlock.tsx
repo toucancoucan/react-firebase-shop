@@ -5,6 +5,9 @@ import {rootState} from "../../../../Reducers/store";
 import {connect} from "react-redux";
 import {itemCategoryType} from "../../../../Reducers/ShopReducer";
 import {countItemRating} from "../../../../Functions/countItemRating";
+import RatingBlock from "./RatingBlock/RatingBlock";
+import beautifyPrice from "../../../../Functions/beautifyPrice";
+import AddToCartBlock from "./AddToCartBlock/AddToCartBlock";
 
 type ownProps = {
     className?: string,
@@ -27,7 +30,28 @@ type propsType = mapStateToProps & mapDispatchToProps;
 let _DescriptionBlock: React.FC<propsType> = (props) => {
     return (
         <div className={combineClassNames(styles.wrap, props.className)}>
+            <div className={styles.name}>
+                {props.productName}
+            </div>
+            <div className={styles.category}>
+                {props.category}
+            </div>
+            <RatingBlock rating={props.rating} quantityOfReviews={props.reviewNumber}/>
+            <div className={styles.description}>
+                {props.description}
+            </div>
+            <div className={styles.priceBlock}>
+                <div className={styles.price}>
+                    {beautifyPrice(props.price)}
+                </div>
+                <div className={styles.oldPrice}>
+                    {beautifyPrice(props.oldPrice)}
+                </div>
+            </div>
+            <AddToCartBlock/>
+            <div>
 
+            </div>
         </div>
     )
 }

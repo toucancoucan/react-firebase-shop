@@ -5,12 +5,11 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-column-gap: 1.5rem;
-  margin-right: 1.5rem;
   grid-template-areas:
   "thumbnails mainPhoto";
   @media (max-width: $smallPixelSize) {
     grid-column-gap: 0;
-    margin-right: 0;
+    padding: 0 1rem;
     grid-template-columns: 1fr;
     grid-template-areas:
     "mainPhoto"
@@ -24,7 +23,6 @@
   grid-area: thumbnails;
   @media (max-width: $smallPixelSize) {
     flex-direction: row;
-    margin-left: 1rem;
     margin-top: 1rem;
     > button {
       margin-right: 1rem;
