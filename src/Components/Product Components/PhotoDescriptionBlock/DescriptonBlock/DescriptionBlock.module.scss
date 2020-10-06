@@ -1,5 +1,6 @@
 @import "../../../../css/colors";
 @import "../../../../css/fonts";
+@import "../../../../css/constants";
 
 .wrap {
   @extend .CondensedLightFont;
@@ -8,6 +9,14 @@
   flex-direction: column;
   justify-content: space-between;
   color: $DarkGray;
+  @media (max-width: $mediumPixelSize) {
+    padding: 0 1rem;
+  }
+
+  > div {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .name {
@@ -49,6 +58,12 @@
 }
 
 .id {
+  font-size: 0.95rem;
+
+  > span:nth-child(2) {
+    margin-left: 0.25rem;
+    font-weight: bold;
+  }
 
 }
 

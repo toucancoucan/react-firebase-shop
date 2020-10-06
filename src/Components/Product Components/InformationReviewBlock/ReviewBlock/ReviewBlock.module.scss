@@ -1,0 +1,12 @@
+@import "../../../../css/colors";
+@import "../../../../css/fonts";
+
+
+.header {
+  font-size: 1.9rem;
+  color: $DarkGray;
+}
+
+.wrapper {
+  @extend .CondensedLightFont;
+}

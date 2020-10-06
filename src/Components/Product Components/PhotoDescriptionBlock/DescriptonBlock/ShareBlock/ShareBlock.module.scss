@@ -1,0 +1,49 @@
+@import "../../../../../css/colors";
+@import "../../../../../css/constants";
+
+.shareBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  @media (max-width: $smallPixelSize) {
+    display: none;
+  }
+}
+
+.icon {
+  @media (min-width: $smallPixelSize) {
+    margin-right: 0.25rem;
+  }
+}
+
+.general {
+  display: flex;
+  align-items: center;
+  color: $White;
+  border-radius: 0.15rem;
+  padding: 0.25rem;
+  @media (max-width: $smallPixelSize) {
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 0.35rem;
+  }
+}
+
+.facebook {
+  background: $Facebook;
+}
+
+.pinterest {
+  background: $Pinterest;
+}
+
+.twitter {
+  background: $Twitter;
+}
+
+.email {
+  background: $Email;
+}

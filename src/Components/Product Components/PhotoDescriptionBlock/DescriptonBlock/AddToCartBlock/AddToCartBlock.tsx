@@ -4,6 +4,7 @@ import {IoMdAdd} from "react-icons/all";
 import {rootState} from "../../../../../Reducers/store";
 import {connect} from "react-redux";
 import {addItemToCart} from "../../../../../Reducers/CartReducer";
+import {changeShowSuccessBlock} from "../../../../../Reducers/ProductReducer";
 
 type mapStateToProps = {
     id: number
@@ -11,6 +12,7 @@ type mapStateToProps = {
 
 type mapDispatchToProps = {
     addItemToCart: (id: number, quantity?: number) => void
+    changeShowSuccessBlock: (item: boolean) => void
 }
 
 type propsType = mapStateToProps & mapDispatchToProps;
@@ -31,7 +33,10 @@ let _AddToCartBlock: React.FC<propsType> = (props) => {
                 <div>{itemCounter}</div>
                 <button onClick={() => setCounter(1)}> +</button>
             </div>
-            <div onClick={() => props.addItemToCart(props.id, itemCounter)} className={styles.secondBlock}>
+            <div onClick={() => {
+                props.addItemToCart(props.id, itemCounter);
+                props.changeShowSuccessBlock(true);
+            }} className={styles.secondBlock}>
                 <IoMdAdd className={styles.icon}/> ADD TO CART
             </div>
         </div>
@@ -46,6 +51,6 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
 
 
 let AddToCartBlock = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
-    {addItemToCart})(_AddToCartBlock)
+    {addItemToCart, changeShowSuccessBlock})(_AddToCartBlock)
 
 export default AddToCartBlock;

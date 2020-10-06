@@ -1,0 +1,32 @@
+@import "../../../css/colors";
+@import "../../../css/fonts";
+@import "../../../css/constants";
+
+
+.wrapper {
+  margin-top: 3rem;
+  @media (max-width: $smallPixelSize) {
+    padding: 0 1rem;
+  }
+}
+
+.header {
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.active {
+  border-bottom: 1px solid $DarkGray !important;
+}
+
+.button {
+  border-bottom: 1px solid $FooterHeaderGray;
+  font-size: 1.25rem;
+  @extend .CondensedLightFont;
+  color: $FooterCopyRightGray;
+  padding: 0.5rem;
+}
+
+.dummy {
+  flex: 1;
+}

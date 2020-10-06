@@ -8,6 +8,7 @@ import {countItemRating} from "../../../../Functions/countItemRating";
 import RatingBlock from "./RatingBlock/RatingBlock";
 import beautifyPrice from "../../../../Functions/beautifyPrice";
 import AddToCartBlock from "./AddToCartBlock/AddToCartBlock";
+import ShareBlock from "./ShareBlock/ShareBlock";
 
 type ownProps = {
     className?: string,
@@ -49,9 +50,11 @@ let _DescriptionBlock: React.FC<propsType> = (props) => {
                 </div>
             </div>
             <AddToCartBlock/>
-            <div>
-
+            <div className={styles.id}>
+                <span>PRODUCT ID:</span>
+                <span>{props.id}</span>
             </div>
+            <ShareBlock/>
         </div>
     )
 }

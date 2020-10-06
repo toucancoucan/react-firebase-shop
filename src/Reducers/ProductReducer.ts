@@ -29,9 +29,39 @@ export let setItem = (item: shopItemType): setItemType => {
     }
 }
 
+const CHANGE_SHOW_SUCCESS_BLOCK = 'CHANGE_SHOW_SUCCESS_BLOCK';
+
+export type changeShowSuccessBlockType = {
+    type: typeof CHANGE_SHOW_SUCCESS_BLOCK,
+    payload: boolean
+}
+
+export let changeShowSuccessBlock = (item: boolean): changeShowSuccessBlockType => {
+    return {
+        type: CHANGE_SHOW_SUCCESS_BLOCK,
+        payload: item
+    }
+}
+
+const CHANGE_IS_FIRST_TAB_OPENED = 'CHANGE_IS_FIRST_TAB_OPENED';
+
+export type changeIsFirstTabOpenedType = {
+    type: typeof CHANGE_IS_FIRST_TAB_OPENED,
+    payload: boolean
+}
+
+export let changeIsFirstTabOpened = (item: boolean): changeIsFirstTabOpenedType => {
+    return {
+        type: CHANGE_IS_FIRST_TAB_OPENED,
+        payload: item
+    }
+}
+
 export type ProductReducerType = {
     item: shopItemType,
-    activePhotoIndex: number
+    activePhotoIndex: number,
+    showSuccessBlock: boolean,
+    isFirstTabOpened: boolean,
 }
 
 let ProductReducerInitialState: ProductReducerType = {
@@ -43,12 +73,32 @@ let ProductReducerInitialState: ProductReducerType = {
         description: "",
         id: 0,
         reviews: [],
-        additionalPhotosUrl: []
+        additionalPhotosUrl: [],
+        additionalInfo: {},
     },
-    activePhotoIndex: 0
+    activePhotoIndex: 0,
+    showSuccessBlock: false,
+    isFirstTabOpened: true,
 }
 
-type actionTypes = changeActivePhotoIndexType & setItemType;
+const WIPE_VALUES = 'WIPE_VALUES';
+
+export type wipeValuesType = {
+    type: typeof WIPE_VALUES
+}
+
+export let wipeValues = (): wipeValuesType => {
+    return {
+        type: WIPE_VALUES
+    }
+}
+
+type actionTypes =
+    changeActivePhotoIndexType
+    & setItemType
+    & changeShowSuccessBlockType
+    & wipeValuesType
+    & changeIsFirstTabOpenedType;
 
 
 const ProductReducer = (state = ProductReducerInitialState, action: actionTypes): ProductReducerType => {
@@ -62,6 +112,18 @@ const ProductReducer = (state = ProductReducerInitialState, action: actionTypes)
             return {
                 ...state,
                 item: action.payload,
+            }
+        case CHANGE_SHOW_SUCCESS_BLOCK:
+            return {
+                ...state,
+                showSuccessBlock: action.payload,
+            }
+        case WIPE_VALUES:
+            return ProductReducerInitialState;
+        case CHANGE_IS_FIRST_TAB_OPENED:
+            return {
+                ...state,
+                isFirstTabOpened: action.payload
             }
         default:
             return state

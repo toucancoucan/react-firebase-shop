@@ -8,7 +8,7 @@ import ProductScreen from "./ProductScreen";
 import {Redirect} from 'react-router-dom';
 import useTitleChange from "../../Components/Common/Hooks/useTitleChange";
 import titles from "../../Constants/Titles";
-import {setItem} from "../../Reducers/ProductReducer";
+import {setItem, wipeValues} from "../../Reducers/ProductReducer";
 
 
 type mapStateToProps = {
@@ -16,7 +16,8 @@ type mapStateToProps = {
 }
 
 type mapDispatchToProps = {
-    setItem: (item: shopItemType) => void
+    setItem: (item: shopItemType) => void,
+    wipeValues: () => void
 }
 
 type propsType = mapStateToProps & mapDispatchToProps;
@@ -29,6 +30,7 @@ let _ProductScreenContainer: React.FC<propsType> = (props) => {
     })
     useTitleChange(titles.item(resultItem?.name))
     if (resultItem) {
+        props.wipeValues();
         props.setItem(resultItem)
         return <ProductScreen item={resultItem}/>
     } else {
@@ -43,6 +45,7 @@ const mapStateToProps = (state: rootState): mapStateToProps => {
 };
 
 
-let ProductScreenContainer = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps, {setItem})(_ProductScreenContainer)
+let ProductScreenContainer = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
+    {setItem, wipeValues})(_ProductScreenContainer)
 
 export default ProductScreenContainer;

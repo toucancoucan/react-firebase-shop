@@ -4,7 +4,6 @@ import PhotoBlock from "./PhotoBlock/PhotoBlock";
 import DescriptionBlock from "./DescriptonBlock/DescriptionBlock";
 
 type mapStateToProps = {
-    photoUrlArray: Array<string>,
 }
 
 type mapDispatchToProps = {}

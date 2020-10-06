@@ -55,7 +55,9 @@ export type shopItemType = {
     oldPrice?: number,
     description: string,
     id: number,
-    additionalInfo?: Object,
+    additionalInfo: {
+        [key: string]: string;
+    },
     reviews: Array<reviewType>,
     newTag?: boolean,
     saleTag?: boolean,

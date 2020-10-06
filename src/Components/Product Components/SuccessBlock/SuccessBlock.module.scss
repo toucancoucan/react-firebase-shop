@@ -1,0 +1,25 @@
+@import "../../../css/colors";
+@import "../../../css/animations";
+
+
+.container {
+  background-color: $Green;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  animation: fade 1s;
+}
+
+.wrap {
+  //display: flex;
+  //justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 0.5rem;
+  color: $White;
+  border: 1px solid $White;
+}
+
+.text {
+
+}

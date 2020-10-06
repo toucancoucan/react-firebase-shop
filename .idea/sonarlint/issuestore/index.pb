@@ -393,3 +393,15 @@ Y
 csrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.tsx,d\0\d0c3a7cea218af3d84ff3b8b3d88d5cc7d0ecc06
 ›
 ksrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.module.scss,7\4\749874606f6fa0a1b7fda295d20372311bfebea8
+¡
+qsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.module.scss,9\a\9a7829d1d984f39964da276f78c42c8270f147f0
+™
+isrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.tsx,e\9\e94721c110e4775bd8267de03c7ab32ec016e9f0
+w
+Gsrc/Components/Product Components/SuccessBlock/SuccessBlock.module.scss,b\0\b0080e5971a9b8ec61e852210334eb58635daf4c
+o
+?src/Components/Product Components/SuccessBlock/SuccessBlock.tsx,3\9\39e4dc77b934ad962d670df3e6bf5d4a1bbf0b98
+™
+isrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.scss,9\6\9604529543000724de25fdfe477199745da1b25d
+‘
+asrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.tsx,6\7\67de384302d7b9a4af4f4917b87b13960d95673f

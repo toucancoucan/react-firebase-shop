@@ -1,0 +1,50 @@
+.shareBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .text {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .icon {
+    margin-right: 0.25rem;
+  }
+}
+
+.general {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 0.15rem;
+  padding: 0.25rem;
+}
+@media (max-width: 576px) {
+  .general {
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 0.35rem;
+  }
+}
+
+.facebook {
+  background: #3B5998;
+}
+
+.pinterest {
+  background: #CC2127;
+}
+
+.twitter {
+  background: #55ACEE;
+}
+
+.email {
+  background: #FDBB30;
+}
+
+/*# sourceMappingURL=ShareBlock.module.css.map */

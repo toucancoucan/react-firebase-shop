@@ -5,20 +5,25 @@ import ProductNavigation from "../../Components/Product Components/ProductNaviga
 import PhotoDescriptionBlock from "../../Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock";
 import {rootState} from "../../Reducers/store";
 import {connect} from "react-redux";
+import SuccessBlock from "../../Components/Product Components/SuccessBlock/SuccessBlock";
+import InformationReviewBlock from "../../Components/Product Components/InformationReviewBlock/InformationReviewBlock";
 
 type mapStateToProps = {
-    item: shopItemType
+    item: shopItemType,
+    showSuccessBlock: boolean,
 }
 
 type mapDispatchToProps = {}
 
 type propsType = mapStateToProps & mapDispatchToProps;
 
-let _ProductScreen: React.FC<propsType> = ({item}) => {
+let _ProductScreen: React.FC<propsType> = ({item, showSuccessBlock}) => {
     return (
         <div className={styles.container}>
             <ProductNavigation name={item.name} category={item.category}/>
-            <PhotoDescriptionBlock photoUrlArray={[item.photoUrl, ...item.additionalPhotosUrl]}/>
+            {showSuccessBlock && <SuccessBlock productName={item.name}/>}
+            <PhotoDescriptionBlock/>
+            <InformationReviewBlock/>
         </div>
     )
 }
@@ -26,6 +31,7 @@ let _ProductScreen: React.FC<propsType> = ({item}) => {
 const mapStateToProps = (state: rootState): mapStateToProps => {
     return {
         item: state.ProductReducer.item,
+        showSuccessBlock: state.ProductReducer.showSuccessBlock
     }
 };
 

@@ -17,7 +17,8 @@ type propsType = mapStateToProps & mapDispatchToProps;
 let RatingBlock: React.FC<propsType> = (props) => {
     let ratingContent: Array<JSX.Element> = [];
     for (let i = 0; i < CONSTANTS.PRODUCT_SCREEN.MAX_ITEM_RATING; i++) {
-        ratingContent.push(i < props.rating ? <IoIosStar className={styles.yellowIcon}/> : <IoIosStar/>);
+        ratingContent.push(i < props.rating ? <IoIosStar key={i} className={styles.yellowIcon}/> :
+            <IoIosStar key={i}/>);
     }
     return (
         <div className={styles.wrap}>
