@@ -5,7 +5,7 @@ import routes from "./Constants/Routes";
 import {connect} from "react-redux";
 import {fetchAndSetShopItems} from "./Reducers/ShopReducer";
 import Preloader from "./Components/Preloader/Preloader";
-import addShopItemToFirebase from "./Functions/addShopItemToFirebase";
+import addShopItemToFirebase from "./Firebase/Queries/addShopItemToFirebase";
 import Footer from "./Components/Footer/Footer";
 
 const NavBar = lazy(() => import("./Components/Navbar/NavBar"));

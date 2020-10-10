@@ -7,6 +7,11 @@ const CONSTANTS = {
     },
     PRODUCT_SCREEN: {
         MAX_ITEM_RATING: 5,
+        REVIEW: {
+            NAME_REGEX: /^[A-Za-z]+$/i,
+            EMAIL_REGEX: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+
+        }
     },
     FIREBASE: {
         CONFIG: {

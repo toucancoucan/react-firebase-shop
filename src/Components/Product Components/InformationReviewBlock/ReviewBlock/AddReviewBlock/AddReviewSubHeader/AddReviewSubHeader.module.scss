@@ -8,3 +8,8 @@
   color: $DarkerGray;
   @extend .CondensedLightFont;
 }
+
+.errorText {
+  color: $Red;
+  margin-left: 0.5rem;
+}

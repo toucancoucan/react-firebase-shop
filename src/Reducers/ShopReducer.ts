@@ -66,7 +66,7 @@ export type shopItemType = {
 export type itemCategoryType = "ACCESSORIES" | "MEN" | "SHOES" | "WOMEN";
 
 export type reviewType = {
-    rating: 1 | 2 | 3 | 4 | 5
+    rating: number & (1 | 2 | 3 | 4 | 5)
     text: string
     name: string
     email: string

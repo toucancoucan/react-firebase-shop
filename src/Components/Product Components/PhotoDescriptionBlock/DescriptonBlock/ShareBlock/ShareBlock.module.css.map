@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["ShareBlock.module.scss","../../../../../css/_colors.scss"],"names":[],"mappings":"AAGA;EACE;EACA;EACA;;;AAIA;EADF;IAEI;;;;AAKF;EADF;IAEI;;;;AAIJ;EACE;EACA;EACA,OCbM;EDcN;EACA;;AACA;EANF;IAOI;IACA;IACA;;;;AAIJ;EACE,YCXS;;;ADcX;EACE,YCdU;;;ADiBZ;EACE,YCjBQ;;;ADoBV;EACE,YCpBM","file":"ShareBlock.module.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "ShareBlock.module.scss",
+    "../../../../../css/_colors.scss"
+  ],
+  "names": [],
+  "mappings": "AAGA;EACE;EACA;EACA;;;AAIA;EADF;IAEI;;;;AAKF;EADF;IAEI;;;;AAIJ;EACE;EACA;EACA,OCbM;EDcN;EACA;;AACA;EANF;IAOI;IACA;IACA;;;;AAIJ;EACE,YCVS;;;ADaX;EACE,YCbU;;;ADgBZ;EACE,YChBQ;;;ADmBV;EACE,YCnBM",
+  "file": "ShareBlock.module.css"
+}

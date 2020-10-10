@@ -5,7 +5,7 @@ import ProductNavigation from "../../Components/Product Components/ProductNaviga
 import PhotoDescriptionBlock from "../../Components/Product Components/PhotoDescriptionBlock/PhotoDescriptionBlock";
 import {rootState} from "../../Reducers/store";
 import {connect} from "react-redux";
-import SuccessBlock from "../../Components/Product Components/SuccessBlock/SuccessBlock";
+import ItemAddedSuccessBlock from "../../Components/Common/ActionBlock/ItemAddedSuccessBlock";
 import InformationReviewBlock from "../../Components/Product Components/InformationReviewBlock/InformationReviewBlock";
 
 type mapStateToProps = {
@@ -21,7 +21,7 @@ let _ProductScreen: React.FC<propsType> = ({item, showSuccessBlock}) => {
     return (
         <div className={styles.container}>
             <ProductNavigation name={item.name} category={item.category}/>
-            {showSuccessBlock && <SuccessBlock productName={item.name}/>}
+            {showSuccessBlock && <ItemAddedSuccessBlock productName={item.name}/>}
             <PhotoDescriptionBlock/>
             <InformationReviewBlock/>
         </div>

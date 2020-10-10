@@ -20,47 +20,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/BlackButton/BlackButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/BlackButton/BlackButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/addReviewToProduct.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/ActionBlock/ActionBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/ActionBlock/ActionBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/ActionBlock/ItemAddedSuccessBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/BlockWithHeader/BlockWithHeader.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/ItemCard/ItemCard.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home Components/ItemSpinner/ItemSpinner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home Components/ItemSpinner/ItemSpinner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home Components/HomeCategories/CategoryItem/CategoryItem.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/MobileCartButton/MobileCartButton.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/ConnectedToCartSize/NavBarCartIcon/NavBarCartIcon.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Header/Header.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBar.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarSearch/NavBarSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarSearch/NavBarSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/NavBarIcon/NavBarIcon.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/InformationReviewBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/InformationReviewBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/DescriptionBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/RatingBlock/RatingBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/RatingBlock/RatingBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/Preloader.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/SuccessBlock/SuccessBlock.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Product Components/SuccessBlock/SuccessBlock.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/CartBlock/CartBlock.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/FilterPriceBlock/FilterPriceBlock.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Shop Components/Sidebar/SearchBlock/SearchBlock.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/addReviewToProduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firebase/Queries/addReviewToProduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/addShopItemToFirebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firebase/Queries/addShopItemToFirebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ShopReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/NotFoundScreen/NotFoundScreen.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ProductScreen/ProductScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ProductScreen/ProductScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +75,8 @@
         <option value="tsconfig.json" />
         <option value="Reducer" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -125,11 +127,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\react-firebase-shop\src\Components\Common\ActionBlock" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Common" />
+      <recent name="D:\Projects\react-firebase-shop\src\Firebase\Queries" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Home Components" />
       <recent name="D:\Projects\react-firebase-shop\src\Components\Home" />
-      <recent name="D:\Projects\react-firebase-shop\src\Functions" />
-      <recent name="D:\Projects\react-firebase-shop\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -283,7 +285,7 @@
       <workItem from="1602108229515" duration="464000" />
       <workItem from="1602108990394" duration="9000" />
       <workItem from="1602168912888" duration="177000" />
-      <workItem from="1602324152886" duration="6350000" />
+      <workItem from="1602324152886" duration="14546000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -446,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601983400796</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="constructed review form">
+      <created>1602330551634</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602330551634</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +500,8 @@
     <MESSAGE value="made product photo block" />
     <MESSAGE value="working on product descripton block" />
     <MESSAGE value="Added description block. Added social buttons. Added additional information block. Working on reviews onk products." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added description block. Added social buttons. Added additional information block. Working on reviews onk products." />
+    <MESSAGE value="constructed review form" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructed review form" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -540,10 +550,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594743118147" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1601983396449">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1602330547332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601983396449" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602330547332" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -560,22 +570,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593686581724" />
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1602330134921">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1602340267897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602330134921" />
-    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1602330134921">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602340267897" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1602340267896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602330134921" />
-    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1602330134920">
+    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602340267896" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1602340267896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602330134920" />
-    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1602330134921">
+    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602340267896" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1602340267897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602330134921" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602340267897" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1594304706748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

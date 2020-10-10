@@ -1,6 +1,6 @@
 import app from 'firebase';
-import CONSTANTS from "../Constants/CONSTANTS";
-import {reviewType, shopItemType} from "../Reducers/ShopReducer";
+import CONSTANTS from "../../Constants/CONSTANTS";
+import {reviewType, shopItemType} from "../../Reducers/ShopReducer";
 
 const addShopItemToFirebase = () => {
     const reviews: Array<reviewType> = [

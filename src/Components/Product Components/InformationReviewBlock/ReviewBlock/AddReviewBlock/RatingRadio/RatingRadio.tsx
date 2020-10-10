@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./RatingRadio.module.scss";
 import {IoIosStar} from "react-icons/all";
+import CONSTANTS from "../../../../../../Constants/CONSTANTS";
 
 type mapStateToProps = {
     register: any
@@ -12,7 +13,7 @@ type propsType = mapStateToProps & mapDispatchToProps;
 
 let RatingRadio: React.FC<propsType> = ({register}) => {
     let content: Array<JSX.Element> = [];
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= CONSTANTS.PRODUCT_SCREEN.MAX_ITEM_RATING; i++) {
         content.push(createLabelWithIcon(i, register));
     }
     return (

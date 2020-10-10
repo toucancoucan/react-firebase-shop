@@ -29,6 +29,10 @@
   margin: 0.25rem 0;
 }
 
+.error {
+  border: 1px solid $Red;
+}
+
 .formRow {
   display: grid;
   grid-column-gap: 2rem;
