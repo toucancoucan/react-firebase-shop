@@ -45,6 +45,22 @@ export let fetchAndSetShopItems = (): ThunkAction<Promise<void>, rootState, any,
     }
 }
 
+const ADD_REVIEW_TO_ITEM = 'ADD_REVIEW_TO_ITEM';
+
+export type addReviewToItemType = {
+    type: typeof ADD_REVIEW_TO_ITEM,
+    payload: {
+        review: reviewType,
+        id: number,
+    }
+}
+export let addReviewToItem = (item: { review: reviewType, id: number, }): addReviewToItemType => {
+    return {
+        type: ADD_REVIEW_TO_ITEM,
+        payload: item
+    }
+}
+
 
 export type shopItemType = {
     photoUrl: string,
@@ -97,7 +113,7 @@ let ShopItemsInitialState: ShopStateType = {
     }
 }
 
-type actionTypes = setFetchedItemsType & setCategoriesItemsLengthType;
+type actionTypes = setFetchedItemsType & setCategoriesItemsLengthType & addReviewToItemType;
 
 const ShopReducer = (state = ShopItemsInitialState, action: actionTypes): ShopStateType => {
     switch (action.type) {
@@ -111,10 +127,23 @@ const ShopReducer = (state = ShopItemsInitialState, action: actionTypes): ShopSt
                 ...state,
                 categoriesItemsLength: action.payload
             }
+        case ADD_REVIEW_TO_ITEM:
+            return {
+                ...state,
+                items: insertReviewInItems(state.items, action.payload.review, action.payload.id)
+            }
         default:
             return state
     }
+}
 
+let insertReviewInItems = (itemsArray: Array<shopItemType>, review: reviewType, id: number): Array<shopItemType> => {
+    let newArray: Array<shopItemType> = [];
+    itemsArray.forEach((e) => {
+        if (e.id === id) newArray.push({...e, reviews: [...e.reviews, review]});
+        else newArray.push(e)
+    })
+    return newArray;
 }
 
 

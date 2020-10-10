@@ -6,7 +6,7 @@ type mapStateToProps = {
     color: "green" | "red",
     text: string,
     showButton?: boolean,
-    button: JSX.Element
+    button?: JSX.Element
 }
 
 type mapDispatchToProps = {}

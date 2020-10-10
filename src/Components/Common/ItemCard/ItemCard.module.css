@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+
 .RobotoFont {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -36,6 +37,7 @@
 .name {
     font-size: 1.1rem;
 }
+
 .name:hover {
     text-decoration: underline;
 }
@@ -43,6 +45,7 @@
 .addButton {
     position: relative;
 }
+
 .addButton:hover .tooltip {
     visibility: visible;
     opacity: 1;
@@ -73,6 +76,7 @@
     color: #888888;
     font-size: 0.9rem;
 }
+
 .category:hover {
     text-decoration: underline;
 }
@@ -89,6 +93,7 @@
         opacity: 1;
     }
 }
+
 .price {
     color: #333333;
 }

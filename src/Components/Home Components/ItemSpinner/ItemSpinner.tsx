@@ -17,7 +17,7 @@ type mapDispatchToPropsType = {}
 
 type propsType = mapStateToPropsType & mapDispatchToPropsType;
 
-let _ItemSpinner: React.FC<propsType> = (props) => {
+export let _ItemSpinner: React.FC<propsType> = (props) => {
     const [randomItems, setRandomItems] = useState<Array<shopItemType>>([]);
     const [showAnimation, changeShowAnimation] = useState<boolean>(false);
 

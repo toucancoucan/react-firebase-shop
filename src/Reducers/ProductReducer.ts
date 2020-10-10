@@ -1,4 +1,7 @@
-import {shopItemType} from "./ShopReducer";
+import {addReviewToItemType, reviewType, shopItemType} from "./ShopReducer";
+import {ThunkAction} from "redux-thunk";
+import {rootState} from "./store";
+import {addReviewToProduct} from "../Firebase/Queries/addReviewToProduct";
 
 
 const CHANGE_ACTIVE_PHOTO = 'CHANGE_ACTIVE_PHOTO';
@@ -62,6 +65,7 @@ export type ProductReducerType = {
     activePhotoIndex: number,
     showSuccessBlock: boolean,
     isFirstTabOpened: boolean,
+    isReviewSent: boolean
 }
 
 let ProductReducerInitialState: ProductReducerType = {
@@ -79,6 +83,7 @@ let ProductReducerInitialState: ProductReducerType = {
     activePhotoIndex: 0,
     showSuccessBlock: false,
     isFirstTabOpened: true,
+    isReviewSent: false
 }
 
 const WIPE_VALUES = 'WIPE_VALUES';
@@ -93,11 +98,52 @@ export let wipeValues = (): wipeValuesType => {
     }
 }
 
+const SET_IS_REVIEW_SENT = 'SET_IS_REVIEW_SENT';
+
+export type setIsReviewSentType = {
+    type: typeof SET_IS_REVIEW_SENT,
+    payload: boolean
+}
+
+export let setIsReviewSent = (item: boolean): setIsReviewSentType => {
+    return {
+        type: SET_IS_REVIEW_SENT,
+        payload: item
+    }
+}
+
+export let addReviewThunk = (review: reviewType, id: number): ThunkAction<Promise<void>, rootState, any,
+    setIsReviewSentType | addReviewToItemType | addReviewToCurrentProductType> => {
+    return async (dispatch) => {
+        addReviewToProduct(review, id);
+        dispatch(setIsReviewSent(true));
+        //dispatch(addReviewToItem({review, id}))
+        // dispatch(addReviewToCurrentProduct(review))
+    }
+}
+
+const ADD_REVIEW_TO_CURRENT_PRODUCT = 'ADD_REVIEW_TO_CURRENT_PRODUCT';
+
+export type addReviewToCurrentProductType = {
+    type: typeof ADD_REVIEW_TO_CURRENT_PRODUCT,
+    payload: reviewType
+}
+
+export let addReviewToCurrentProduct = (item: reviewType): addReviewToCurrentProductType => {
+    return {
+        type: ADD_REVIEW_TO_CURRENT_PRODUCT,
+        payload: item
+    }
+}
+
+
 type actionTypes =
     changeActivePhotoIndexType
     & setItemType
     & changeShowSuccessBlockType
     & wipeValuesType
+    & setIsReviewSentType
+    & addReviewToCurrentProductType
     & changeIsFirstTabOpenedType;
 
 
@@ -124,6 +170,19 @@ const ProductReducer = (state = ProductReducerInitialState, action: actionTypes)
             return {
                 ...state,
                 isFirstTabOpened: action.payload
+            }
+        case SET_IS_REVIEW_SENT:
+            return {
+                ...state,
+                isReviewSent: action.payload
+            }
+        case ADD_REVIEW_TO_CURRENT_PRODUCT:
+            return {
+                ...state,
+                item: {
+                    ...state.item,
+                    reviews: [...state.item.reviews, action.payload]
+                }
             }
         default:
             return state

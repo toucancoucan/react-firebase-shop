@@ -4,7 +4,7 @@
 
 
 .wrapper {
-  margin-top: 3rem;
+  margin-top: 2rem;
   @media (max-width: $mediumPixelSize) {
     padding: 0 1rem;
   }
@@ -25,7 +25,7 @@
   font-size: 1.25rem;
   @extend .CondensedLightFont;
   color: $FooterCopyRightGray;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .dummy {

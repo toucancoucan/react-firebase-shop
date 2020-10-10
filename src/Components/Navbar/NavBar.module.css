@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+
 .navbarContainer {
     margin-right: auto;
     margin-left: auto;
@@ -123,6 +124,7 @@
     font-size: 0.8rem;
     white-space: pre-wrap;
 }
+
 .profileNavRowWrapper a:hover {
     color: #7b599b;
 }
@@ -164,6 +166,7 @@
     padding-right: 1.5rem;
     white-space: nowrap;
 }
+
 .logo:hover {
     color: inherit;
 }

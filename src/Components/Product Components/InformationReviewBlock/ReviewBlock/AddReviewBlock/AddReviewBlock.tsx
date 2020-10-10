@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./AddReviewBlock.module.scss";
 import {useForm} from "react-hook-form";
-import {addReviewToProduct} from "../../../../../Firebase/Queries/addReviewToProduct";
 import BlackButton from "../../../../Common/BlackButton/BlackButton";
 import AddReviewSubHeader from "./AddReviewSubHeader/AddReviewSubHeader";
 import combineClassNames from "../../../../../Functions/сombineClassNames";
@@ -9,14 +8,18 @@ import RatingRadio from "./RatingRadio/RatingRadio";
 import CONSTANTS from "../../../../../Constants/CONSTANTS";
 import {rootState} from "../../../../../Reducers/store";
 import {connect} from "react-redux";
+import ActionBlock from "../../../../Common/ActionBlock/ActionBlock";
+import {reviewType} from "../../../../../Reducers/ShopReducer";
+import {addReviewThunk} from "../../../../../Reducers/ProductReducer";
 
 
 type mapStateToProps = {
-    productId: number
+    productId: number,
+    isReviewSent: boolean
 }
 
 type mapDispatchToProps = {
-    addReview: addReviewToProduct,
+    addReviewThunk: (review: reviewType, id: number) => void,
 }
 
 type propsType = mapStateToProps & mapDispatchToProps;
@@ -31,15 +34,18 @@ type Inputs = {
 
 let _AddReviewBlock: React.FC<propsType> = (props) => {
 
-    const {register, handleSubmit, watch, errors} = useForm<Inputs>();
+    const {register, handleSubmit, errors} = useForm<Inputs>();
     const onSubmit = (data: any) => {
-        console.log(data);
-        console.log(props.productId);
-        addReviewToProduct(data, props.productId)
+        let constructedReview: reviewType = {
+            ...data,
+            rating: Number(data.rating)
+        }
+        props.addReviewThunk(constructedReview, props.productId)
     };
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className={styles.wrapper}>
+            {props.isReviewSent && <ActionBlock color={"green"} text={"You submitted review"} showButton={false}/>}
             <div className={styles.header}>
                 ADD A REVIEW
             </div>
@@ -88,16 +94,15 @@ let _AddReviewBlock: React.FC<propsType> = (props) => {
 }
 
 
-let AddReviewBlockWrap: React.FC<mapStateToProps> = (props) =>
-    <_AddReviewBlock productId={props.productId} addReview={addReviewToProduct}/>
-
 const mapStateToProps = (state: rootState): mapStateToProps => {
     return {
-        productId: state.ProductReducer.item.id
+        productId: state.ProductReducer.item.id,
+        isReviewSent: state.ProductReducer.isReviewSent
     }
 };
 
 
-let AddReviewBlock = connect<mapStateToProps, null, any, any>(mapStateToProps, null)(AddReviewBlockWrap)
+let AddReviewBlock = connect<mapStateToProps, mapDispatchToProps, any, any>(mapStateToProps,
+    {addReviewThunk})(_AddReviewBlock)
 
 export default AddReviewBlock;
