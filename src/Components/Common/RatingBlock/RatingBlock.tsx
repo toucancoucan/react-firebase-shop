@@ -2,12 +2,13 @@ import React from "react";
 import styles from "./RatingBlock.module.scss";
 import {IoIosStar} from "react-icons/all";
 import {IconContext} from "react-icons";
-import CONSTANTS from "../../../../../Constants/CONSTANTS";
-import Tooltip from "../../../../Common/Tooltip/Tooltip";
+import CONSTANTS from "../../../Constants/CONSTANTS";
+import Tooltip from "../Tooltip/Tooltip";
 
 type mapStateToProps = {
     rating: number,
-    quantityOfReviews: number
+    quantityOfReviews: number,
+    doNotShowQuantity?: boolean,
 }
 
 type mapDispatchToProps = {}
@@ -29,9 +30,9 @@ let RatingBlock: React.FC<propsType> = (props) => {
                 <Tooltip className={styles.tooltip}
                          text={`${props.rating.toFixed(2)} OUT OF ${CONSTANTS.PRODUCT_SCREEN.MAX_ITEM_RATING}`}/>
             </div>
-            <div
+            {!props.doNotShowQuantity && <div
                 className={styles.text}>({props.quantityOfReviews} customer {props.quantityOfReviews === 1 ? "review" : "reviews"})
-            </div>
+            </div>}
         </div>
     )
 }

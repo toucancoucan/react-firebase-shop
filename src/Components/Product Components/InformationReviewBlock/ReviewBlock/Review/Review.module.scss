@@ -1,0 +1,29 @@
+@import "../../../../../css/colors";
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  border-bottom: 1px solid $FooterHeaderGray;
+  padding: 0.5rem 0;
+  color: $DarkerGray;
+
+  > div {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.mail {
+  opacity: 0.75;
+}
+
+.text {
+  text-align: justify;
+}

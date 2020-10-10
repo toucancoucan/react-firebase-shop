@@ -1,0 +1,57 @@
+@import "../../../../../css/forms";
+@import "../../../../../css/colors";
+@import "../../../../../css/fonts";
+@import "../../../../../css/constants";
+
+.wrapper {
+  margin-top: 1rem;
+}
+
+.header {
+  font-size: 1.9rem;
+  color: $DarkGray;
+  margin: 0.5rem 0;
+}
+
+.defaultForm {
+  @extend .defaultInput;
+  background-color: $FooterHeaderGray;
+  padding: 0.5rem 1rem;
+  color: $DarkerGray;
+  @extend .CondensedLightFont;
+}
+
+.textArea {
+  height: 10rem;
+}
+
+.marginY {
+  margin: 0.25rem 0;
+}
+
+.formRow {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (max-width: $smallPixelSize) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.buttonRow {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: flex-end;
+
+  > button {
+    width: 40%;
+  }
+
+  @media (min-width: $smallPixelSize) {
+    > button {
+      width: auto;
+    }
+  }
+}
+
+

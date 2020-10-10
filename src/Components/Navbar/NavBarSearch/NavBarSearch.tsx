@@ -1,10 +1,10 @@
 import React, {useEffect, useRef} from 'react'
-import {Field, Form, reduxForm} from 'redux-form'
+import {Field, Form, InjectedFormProps, reduxForm} from 'redux-form'
 import {IoIosSearch} from 'react-icons/io';
 import styles from "./NavBarSearch.module.scss"
 import {IconContext} from "react-icons";
 
-let _Search: React.FC<any> = (props) => {
+let _Search: React.FC<InjectedFormProps> = (props) => {
     let textInputRef: any = useRef(null);
     useEffect(() => {
         textInputRef.current.focus();

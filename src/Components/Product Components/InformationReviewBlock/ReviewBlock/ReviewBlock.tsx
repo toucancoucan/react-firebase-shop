@@ -3,6 +3,9 @@ import styles from "./ReviewBlock.module.scss";
 import {reviewType} from "../../../../Reducers/ShopReducer";
 import {rootState} from "../../../../Reducers/store";
 import {connect} from "react-redux";
+import Review from "./Review/Review";
+import AddReviewBlock from "./AddReviewBlock/AddReviewBlock";
+
 
 type mapStateToProps = {
     reviews: Array<reviewType>,
@@ -20,6 +23,14 @@ let _ReviewBlock: React.FC<propsType> = (props) => {
             <div className={styles.header}>
                 {length} REVIEW{length !== 1 ? "S" : ""} FOR {props.productName}
             </div>
+            <div>
+                {props.reviews.map((e, i) => {
+                    return (
+                        <Review {...e} key={i}/>
+                    )
+                })}
+            </div>
+            <AddReviewBlock/>
         </div>
     )
 }

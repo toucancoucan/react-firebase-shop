@@ -1,0 +1,66 @@
+@import "../../../../../../css/colors";
+
+.rating {
+  display: inline-block;
+  margin-top: 0.5rem;
+  position: relative;
+  font-size: 1.75rem;
+
+  > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  label:last-child {
+    position: static;
+  }
+
+  label:nth-child(1) {
+    z-index: 5;
+  }
+
+  label:nth-child(2) {
+    z-index: 4;
+  }
+
+  label:nth-child(3) {
+    z-index: 3;
+  }
+
+  label:nth-child(4) {
+    z-index: 2;
+  }
+
+  label:nth-child(5) {
+    z-index: 1;
+  }
+
+  label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: $SubHeaderGray;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: $Yellow;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: $SubHeaderGray;
+  text-shadow: 0 0 5px $Yellow;
+}

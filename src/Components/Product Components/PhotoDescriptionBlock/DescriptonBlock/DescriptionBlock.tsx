@@ -5,7 +5,7 @@ import {rootState} from "../../../../Reducers/store";
 import {connect} from "react-redux";
 import {itemCategoryType} from "../../../../Reducers/ShopReducer";
 import {countItemRating} from "../../../../Functions/countItemRating";
-import RatingBlock from "./RatingBlock/RatingBlock";
+import RatingBlock from "../../../Common/RatingBlock/RatingBlock";
 import beautifyPrice from "../../../../Functions/beautifyPrice";
 import AddToCartBlock from "./AddToCartBlock/AddToCartBlock";
 import ShareBlock from "./ShareBlock/ShareBlock";

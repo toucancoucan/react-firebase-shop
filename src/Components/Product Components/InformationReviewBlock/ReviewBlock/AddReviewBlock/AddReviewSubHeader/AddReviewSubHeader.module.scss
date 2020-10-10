@@ -1,0 +1,10 @@
+@import "../../../../../../css/colors";
+@import "../../../../../../css/fonts";
+
+
+.subHeader {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+  color: $DarkerGray;
+  @extend .CondensedLightFont;
+}

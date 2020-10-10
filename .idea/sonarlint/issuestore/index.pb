@@ -389,10 +389,6 @@ a
 1src/Components/Common/Tooltip/Tooltip.module.scss,2\a\2a9232dd5f66dcc88aed03a984b3c7371dc8bf39
 Y
 )src/Components/Common/Tooltip/Tooltip.tsx,1\a\1a7c893be43d5eabbbe2f8bac34fb32600207d23
-“
-csrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.tsx,d\0\d0c3a7cea218af3d84ff3b8b3d88d5cc7d0ecc06
-›
-ksrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/RatingBlock/RatingBlock.module.scss,7\4\749874606f6fa0a1b7fda295d20372311bfebea8
 ¡
 qsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.module.scss,9\a\9a7829d1d984f39964da276f78c42c8270f147f0
 ™
@@ -405,3 +401,39 @@ o
 isrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.scss,9\6\9604529543000724de25fdfe477199745da1b25d
 ‘
 asrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.tsx,6\7\67de384302d7b9a4af4f4917b87b13960d95673f
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+¯
+src/Components/Product Components/InformationReviewBlock/InformationBlock/InformationBlockItem/InformationBlockItem.module.scss,e\0\e0d849274eaa5820d0731e7f7b663e052ee74e28
+§
+wsrc/Components/Product Components/InformationReviewBlock/InformationBlock/InformationBlockItem/InformationBlockItem.tsx,4\7\47b3bde1b9d45915fe6877011c444821d96078f2
+–
+fsrc/Components/Product Components/InformationReviewBlock/InformationBlock/InformationBlock.module.scss,f\9\f948140c2e4c7e9e0d53ad1b6621a3a35accff16
+Ž
+^src/Components/Product Components/InformationReviewBlock/InformationBlock/InformationBlock.tsx,c\1\c1ca31434f37bfd5f33de05bf855c6f9f305a6d6
+Ž
+^src/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.module.scss,a\5\a5c87ef5566fb8f6e9ac4f9f5265709ad3036a94
+ƒ
+Ssrc/Components/Product Components/InformationReviewBlock/InformationReviewBlock.tsx,4\5\453338599cf19daddbb844b23b66112a3af86c8d
+˜
+hsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.css,0\7\079d39bb93c77a3d9304f2393470c77dc9d69235
+œ
+lsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.css.map,e\b\eb8ed47f429c3ce70029720993588e4019f0166a
+Œ
+\src/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.module.scss,5\8\58d4c7ad5b0cfde3e5ab453cc2be8859a2af1c54
+‹
+[src/Components/Product Components/InformationReviewBlock/InformationReviewBlock.module.scss,5\c\5c740227adc62e48dcc4dd55c442f55c8da9514d
+†
+Vsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/Review/Review.tsx,e\6\e61a2be4ff9cc53d680b68342dae2d985e09bef7
+„
+Tsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/ReviewBlock.tsx,8\e\8ec50367416dcd6597dc2612450af3c022fdf8ce
+i
+9src/Components/Common/RatingBlock/RatingBlock.module.scss,7\b\7bdf6d51c197691df8d660c2fd42108aca416a35
+a
+1src/Components/Common/RatingBlock/RatingBlock.tsx,0\b\0b7bb2d95033403ffc66e7375dc910fb206c1c9a
+ž
+nsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.module.scss,c\7\c7a891e6a2d66fe641c66436be31fe4d7b74e2af
+–
+fsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.tsx,a\d\ad589f6b5672690e59cb6cf1fdefde16ff8e7987
+S
+#src/Functions/addReviewToProduct.ts,3\f\3fc056a50aef00f9c235d41af916e7c9c16bf44c

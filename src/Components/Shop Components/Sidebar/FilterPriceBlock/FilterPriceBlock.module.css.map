@@ -1,1 +1,10 @@
-{"version":3,"sourceRoot":"","sources":["FilterPriceBlock.module.scss"],"names":[],"mappings":"AAAA;EACE","file":"FilterPriceBlock.module.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "FilterPriceBlock.module.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACE",
+  "file": "FilterPriceBlock.module.css"
+}

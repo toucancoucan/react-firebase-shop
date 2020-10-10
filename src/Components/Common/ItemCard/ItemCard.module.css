@@ -1,115 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+
 .RobotoFont {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .RobotoLightFont {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .CondensedFont {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
 }
 
 .CondensedLightFont, .wrapper {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 300;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
 }
 
 .CondensedBoldFont {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
 }
 
 .wrapper {
-  position: relative;
-  color: #222222;
+    position: relative;
+    color: #222222;
 }
 
 .photo {
-  width: 100%;
+    width: 100%;
 }
 
 .name {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
+
 .name:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .addButton {
-  position: relative;
+    position: relative;
 }
+
 .addButton:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .circle {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-weight: 400;
-  font-size: 0.85rem;
-  background: #222222;
-  color: #ffffff;
-  width: 3rem;
-  height: 3rem;
-  opacity: 0.8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 400;
+    font-size: 0.85rem;
+    background: #222222;
+    color: #ffffff;
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
-  font-size: 2rem;
-  animation: addingAnimation 2s;
+    font-size: 2rem;
+    animation: addingAnimation 2s;
 }
 
 .category {
-  color: #888888;
-  font-size: 0.9rem;
+    color: #888888;
+    font-size: 0.9rem;
 }
+
 .category:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .addedIcon {
-  color: #0fbd71;
+    color: #0fbd71;
 }
 
 @keyframes addingAnimation {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
+
 .price {
-  color: #333333;
+    color: #333333;
 }
 
 .oldPrice {
-  color: #888888;
-  font-size: 0.9rem;
-  text-decoration: line-through;
-  margin-right: 0.5rem;
+    color: #888888;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
 }
 
 .nameAddRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .priceRow {
-  display: flex;
-  align-items: baseline;
-  margin-top: 0.5rem;
+    display: flex;
+    align-items: baseline;
+    margin-top: 0.5rem;
 }
 
 /*# sourceMappingURL=ItemCard.module.css.map */
