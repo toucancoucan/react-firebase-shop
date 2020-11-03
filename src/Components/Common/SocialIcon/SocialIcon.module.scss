@@ -13,3 +13,12 @@
     color: $Violet;
   }
 }
+
+.light {
+  font-size: 1.875rem;
+  padding: 0.425rem;
+  @extend .icon;
+  border-radius: 50%;
+  color: $DarkerGray;
+  background-color: $FooterHeaderGray;
+}

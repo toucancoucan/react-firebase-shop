@@ -12,6 +12,12 @@ const CONSTANTS = {
             EMAIL_REGEX: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         }
     },
+    MAP: {
+        CENTER: {lat: 50.027753, lng: 36.278702},
+        ZOOM: 11,
+        SHOPS_COORDINATES:
+            [{lat: 50.014696, lng: 36.228632}, {lat: 50.018356, lng: 36.322185}, {lat: 50.042658, lng: 36.285276}]
+    },
     FIREBASE: {
         CONFIG: {
             apiKey: "AIzaSyBLPCceCKqyMyMGR7KkS5YiuYJNToaZc6A",

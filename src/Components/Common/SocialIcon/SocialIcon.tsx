@@ -21,18 +21,19 @@ export enum socialIconTypes {
 }
 
 type mapStateToProps = {
-    socialIcon: socialIconTypes
+    socialIcon: socialIconTypes,
+    style?: 'default' | 'light'
 }
 
 type mapDispatchToProps = {}
 
 type propsType = mapStateToProps & mapDispatchToProps;
 
-let SocialIcon: React.FC<propsType> = (props) => {
+let SocialIcon: React.FC<propsType> = ({socialIcon, style = 'default'}) => {
     return (
-        <IconContext.Provider value={{className: styles.icon}}>
+        <IconContext.Provider value={{className: style === 'default' ? styles.icon : styles.light}}>
             {(() => {
-                switch (props.socialIcon) {
+                switch (socialIcon) {
                     case socialIconTypes.Vimeo:
                         return <a href={routes.socialLinks.vimeo}>
                             <IoLogoVimeo/>

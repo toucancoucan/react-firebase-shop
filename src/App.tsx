@@ -13,7 +13,7 @@ const HomeScreen = lazy(() => import('./Screens/HomeScreen/HomeScreen'));
 const NotFoundScreen = lazy(() => import("./Screens/NotFoundScreen/NotFoundScreen"));
 const ProductScreen = lazy(() => import("./Screens/ProductScreen/ProductScreenContainer"));
 const ShopScreen = lazy(() => import("./Screens/ShopScreen/ShopScreenContainer"));
-
+const ContactScreen = lazy(() => import("./Screens/ContactScreen/ContactScreen"))
 
 type mapDispatchToPropsType = {
     fetchAndSetShopItems: () => void,
@@ -46,6 +46,7 @@ let _App: React.FC<propsType> = (props) => {
                                 </button>
                             </Route>
                             <Route path={routes.notFound} component={NotFoundScreen}/>
+                            <Route path={routes.contact} component={ContactScreen}/>
                             <Route exact={false} strict={false} path={routes.productPath} component={ProductScreen}/>
                             <Redirect exact from="/" to="/home"/>
                             <Redirect from="*" to={routes.notFound}/>

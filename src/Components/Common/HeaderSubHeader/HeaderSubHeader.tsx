@@ -3,9 +3,10 @@ import styles from './HeaderSubHeader.module.scss'
 
 
 type propsType = {
-    mainText: string;
-    subText: string;
+    mainText: string
+    subText: string
     drawLine?: boolean
+
 };
 
 let HeaderSubHeader: React.FC<propsType> = ({mainText, subText, drawLine = true}) => {

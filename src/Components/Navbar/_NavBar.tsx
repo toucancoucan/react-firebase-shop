@@ -62,6 +62,7 @@ let _NavBar: React.FC<propsType> = (props) => {
             <NavBarLink url={routes.home} title={'home'}/>
             <NavBarLink url={routes.shop} title={'shop'}/>
             <NavBarLink url={routes.contact} title={'contact'}/>
+            <NavBarLink url={routes.faq} title={'F.A.Q.'}/>
             <NavBarLink url={routes.blog} title={'blog'}/>
         </>
 

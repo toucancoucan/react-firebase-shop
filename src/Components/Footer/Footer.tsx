@@ -3,7 +3,7 @@ import styles from "./Footer.module.scss";
 import FooterBlockLinks from "./FooterBlockLinks/FooterBlockLinks";
 import routes from "../../Constants/Routes";
 import FooterBlock from "./FooterBlock/FooterBlock";
-import SocialIcon, {socialIconTypes} from "./SocialIcon/SocialIcon";
+import SocialIcon, {socialIconTypes} from "../Common/SocialIcon/SocialIcon";
 import FooterSubLink from "./FooterSubLink/FooterSubLink";
 import FooterLogo from "./FooterLogo/FooterLogo";
 import {FaApplePay, FaFedex, FaUps, RiMastercardLine, RiPaypalLine, RiVisaLine} from "react-icons/all";

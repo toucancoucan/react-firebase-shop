@@ -1,0 +1,13 @@
+@import "../../../css/fonts";
+@import "../../../css/grid";
+
+.textContainer {
+  @extend .CondensedLightFont;
+}
+
+.social {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(12, 1fr);
+
+}

@@ -119,8 +119,6 @@ G
 src/Constants/Routes.ts,b\9\b9c9bb8a78c8ea5c318403089e01cfc22c95d4e6
 G
 src/Constants/Titles.ts,f\4\f4f3767a9540bf4b1297bae07bc5f033154b0b7e
-V
-&src/Functions/addShopItemToFirebase.ts,9\e\9ed5e04f513332732e4ded9b609d405092eaeff0
 N
 src/Functions/beautifyPrice.ts,2\c\2c6b89dcb4e4f974e13ae766e8e410d99ae33c24
 L
@@ -173,10 +171,6 @@ X
 (src/Components/Footer/Footer.module.scss,7\e\7e9ec83b77ca3d0344ef9c5921fd511ee32afaa3
 P
  src/Components/Footer/Footer.tsx,7\1\713e35842a9de0c808d3bfad01bb0c6dea6b66aa
-g
-7src/Components/Footer/SocialIcon/SocialIcon.module.scss,5\a\5aefcd34142980c29981386cf5d10c4dc4712792
-_
-/src/Components/Footer/SocialIcon/SocialIcon.tsx,6\6\6660d51a0efbc199af1792e2cbd4f33bd8a947ec
 G
 src/css/_constants.scss,6\d\6d31d1cdd107f3a7fba386c6afbcf8bdad7192f9
 g
@@ -393,10 +387,6 @@ Y
 qsrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.module.scss,9\a\9a7829d1d984f39964da276f78c42c8270f147f0
 ™
 isrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/AddToCartBlock/AddToCartBlock.tsx,e\9\e94721c110e4775bd8267de03c7ab32ec016e9f0
-w
-Gsrc/Components/Product Components/SuccessBlock/SuccessBlock.module.scss,b\0\b0080e5971a9b8ec61e852210334eb58635daf4c
-o
-?src/Components/Product Components/SuccessBlock/SuccessBlock.tsx,3\9\39e4dc77b934ad962d670df3e6bf5d4a1bbf0b98
 ™
 isrc/Components/Product Components/PhotoDescriptionBlock/DescriptonBlock/ShareBlock/ShareBlock.module.scss,9\6\9604529543000724de25fdfe477199745da1b25d
 ‘
@@ -435,5 +425,49 @@ a
 nsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.module.scss,c\7\c7a891e6a2d66fe641c66436be31fe4d7b74e2af
 –
 fsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewBlock.tsx,a\d\ad589f6b5672690e59cb6cf1fdefde16ff8e7987
-S
-#src/Functions/addReviewToProduct.ts,3\f\3fc056a50aef00f9c235d41af916e7c9c16bf44c
+i
+9src/Components/Common/BlackButton/BlackButton.module.scss,e\c\ec6bfd96adfdad87563823fab37e31ca3095a795
+§
+wsrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.module.scss,2\e\2eeb0d7fd147b24cdc8474eb6213f8086e614655
+¶
+…src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.module.scss,a\d\ad7c633d5544e9a18203951db7f82ed21ef6eacd
+­
+}src/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/AddReviewSubHeader/AddReviewSubHeader.tsx,f\2\f2bb24f215ace35adb9efa3719786688e9ee109e
+Ÿ
+osrc/Components/Product Components/InformationReviewBlock/ReviewBlock/AddReviewBlock/RatingRadio/RatingRadio.tsx,4\6\465a6094f9e328a5c2adf97ca11070bca4271859
+i
+9src/Components/Common/ActionBlock/ActionBlock.module.scss,3\a\3a19920630b8d82f6d384e8d2b124d41880afdc3
+]
+-src/Firebase/Queries/addShopItemToFirebase.ts,f\0\f05359dd4f2f1ed9aed2e3a989c77cb81d942046
+k
+;src/Components/Common/ActionBlock/ItemAddedSuccessBlock.tsx,b\a\bad39286b8c1cb17bb24c0f0c2eb9487576938f7
+a
+1src/Components/Common/BlackButton/BlackButton.tsx,3\7\370e1f56ffc14ac56adb4c732ab382c4e08d7147
+a
+1src/Components/Common/ActionBlock/ActionBlock.tsx,9\9\99f640c0e071337da40d31bd679e374c3ad32a7f
+Z
+*src/Firebase/Queries/addReviewToProduct.ts,3\b\3b8d4ba637377591c05b8d8dac53ef469d2e8b81
+c
+3src/Screens/ContactScreen/ContactScreen.module.scss,f\5\f56f8255584f547a31e510367617bd2b91a9dc36
+[
++src/Screens/ContactScreen/ContactScreen.tsx,6\1\610095d7f18b9321290606ab4990993263ee239c
+i
+9src/Components/Contact Components/GoogleMap/GoogleMap.tsx,3\5\354fbc7b7d3b4324fb58864926ea801d5a6e9458
+q
+Asrc/Components/Contact Components/GoogleMap/GoogleMap.module.scss,2\5\259c5d7151de2cf388ce6501ee0b377eb7aa552a
+o
+?src/Components/Contact Components/FeedbackForm/FeedbackForm.tsx,4\9\499a8de91e00bcff96089c60afed6c1b19227007
+w
+Gsrc/Components/Contact Components/FeedbackForm/FeedbackForm.module.scss,4\0\40d674d28abcd6cabf00f6947026d7792c7c1a73
+u
+Esrc/Components/Contact Components/AdressBlock/AdressBlock.module.scss,a\4\a417fd9f06566b802b56b540ad6e2d428337b4f4
+o
+?src/Components/Contact Components/GoogleMap/MapMark/MapMark.tsx,e\8\e8dc102dedeec9fc51880555cdf94cbfd0f3dbe5
+w
+Gsrc/Components/Contact Components/GoogleMap/MapMark/MapMark.module.scss,9\e\9e30b95ebc9362cf72d0dbcf4007b77ef706a4e9
+_
+/src/Components/Common/SocialIcon/SocialIcon.tsx,7\6\76a320e5a804bd6d9fe7a7aa086bd78965795568
+g
+7src/Components/Common/SocialIcon/SocialIcon.module.scss,5\d\5d1e4f8f140ac37ad2a5cdcf10194826ae365ec2
+n
+>src/Components/Contact Components/AdressBlock/AddressBlock.tsx,4\6\46dda8a12b61fd0b7b353da053b15bd7850e7ceb
