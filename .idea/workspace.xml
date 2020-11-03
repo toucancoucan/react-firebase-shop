@@ -19,34 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="Finished product screen">
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/AdressBlock/AddressBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/AdressBlock/AdressBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/FeedbackForm/FeedbackForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/FeedbackForm/FeedbackForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/GoogleMap.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/GoogleMap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/MapMark/MapMark.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/MapMark/MapMark.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/MapMark/MapMark.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact Components/GoogleMap/MapMark/MapMark.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reducers/ContactReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/ContactScreen/ContactScreen.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/ContactScreen/ContactScreen.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/ContactScreen/ContactScreen.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/ContactScreen/ContactScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ed5e04f513332732e4ded9b609d405092eaeff0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="da24fd76-0f81-4c3b-b99e-7ef1f5438dfb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/HeaderSubHeader/HeaderSubHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/SocialIcon/SocialIcon.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/SocialIcon/SocialIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/SocialIcon/SocialIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/_NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact Components/AdressBlock/AddressBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact Components/AdressBlock/AddressBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/CONSTANTS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Firebase/Firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firebase/Firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/ContactReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ContactReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +260,7 @@
       <workItem from="1603721832672" duration="14000" />
       <workItem from="1604081756911" duration="4611000" />
       <workItem from="1604139065003" duration="11000" />
-      <workItem from="1604432342680" duration="701000" />
+      <workItem from="1604432342680" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="Made ProfileNavRow">
       <created>1593873483756</created>
@@ -464,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602347106615</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Forgot to make commits =) Numerous changes. Working on contact screen">
+      <created>1604433088139</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604433088139</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +472,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finished responsive header + navbar" />
     <MESSAGE value="Writed hoc for cart icon and made MobileCartButton" />
     <MESSAGE value="Started working on Cart and applied refactor" />
     <MESSAGE value="Made carousel and connected to firebase" />
@@ -510,7 +496,8 @@
     <MESSAGE value="constructed review form" />
     <MESSAGE value="now new reviews can be added to database" />
     <MESSAGE value="Finished product screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished product screen" />
+    <MESSAGE value="Forgot to make commits =) Numerous changes. Working on contact screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to make commits =) Numerous changes. Working on contact screen" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -555,10 +542,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600175724623" />
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1604433028391">
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2" timestamp="1604433085670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604433028391" />
+    <state x="342" y="0" width="996" height="1004" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604433085670" />
     <state x="368" y="104" key="DiffContextDialog" timestamp="1596289498293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -567,22 +554,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603721844028" />
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1604432509371">
+    <state width="1877" height="555" key="GridCell.Tab.0.bottom" timestamp="1604435776176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604432509371" />
-    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1604432509371">
+    <state width="1877" height="555" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604435776176" />
+    <state width="1877" height="555" key="GridCell.Tab.0.center" timestamp="1604435776176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604432509371" />
-    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1604432509371">
+    <state width="1877" height="555" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604435776176" />
+    <state width="1877" height="555" key="GridCell.Tab.0.left" timestamp="1604435776176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604432509371" />
-    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1604432509371">
+    <state width="1877" height="555" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604435776176" />
+    <state width="1877" height="555" key="GridCell.Tab.0.right" timestamp="1604435776176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604432509371" />
+    <state width="1877" height="555" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604435776176" />
     <state x="540" y="255" width="1043" height="759" key="IDE.errors.dialog" timestamp="1596116763369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -591,10 +578,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="234" y="50" width="1606" height="928" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603106358039" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1602347114694">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604433090489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602347114694" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604433090489" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596203665444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

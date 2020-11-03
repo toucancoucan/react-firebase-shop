@@ -34,6 +34,10 @@ const CONSTANTS = {
             SHOP_ITEMS: "ShopItems",
             REVIEWS: "reviews",
             HOME_CATEGORIES_ITEMS: "HomeCategories",
+            UTILITY: "Utility",
+        },
+        DOCUMENTS_NAME: {
+            CONTACT: "contact"
         }
     }
 }

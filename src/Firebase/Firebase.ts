@@ -4,6 +4,7 @@ import {CarouselItemType} from "../Reducers/CarouselReducer";
 import {shopItemType} from "../Reducers/ShopReducer";
 import CONSTANTS from "../Constants/CONSTANTS";
 import {homeCategoryItemType} from "../Reducers/HomeCategoriesReducer";
+import {contactInformation} from "../Reducers/ContactReducer";
 
 type docType = firebase.firestore.QueryDocumentSnapshot;
 
@@ -24,6 +25,12 @@ class FirebaseClass {
         return this.getFirebaseCollection<homeCategoryItemType>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.HOME_CATEGORIES_ITEMS);
     }
 
+    async getContactInformation(): Promise<contactInformation> {
+        return this.getFirebaseDocument<contactInformation>(CONSTANTS.FIREBASE.COLLECTIONS_NAME.UTILITY,
+            CONSTANTS.FIREBASE.DOCUMENTS_NAME.CONTACT)
+    }
+
+
     private async getFirebaseCollection<T>(collectionName: string, itemInsertFunc = async (doc: docType) => doc.data()): Promise<Array<T>> {
         const items: Array<T> = [];
         await app.firestore().collection(collectionName).get()
@@ -35,6 +42,17 @@ class FirebaseClass {
             });
         return items;
     }
+
+    private async getFirebaseDocument<T>(collectionName: string, documentName: string): Promise<T> {
+        let res: T | unknown = null;
+        await app.firestore().collection(collectionName).doc(documentName).get()
+            .then(doc => {
+                // @ts-ignore
+                res = doc.data();
+            })
+        return res as T;
+    }
+
 }
 
 const Firebase = new FirebaseClass()

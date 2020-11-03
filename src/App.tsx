@@ -29,8 +29,8 @@ let _App: React.FC<propsType> = (props) => {
             props.fetchAndSetShopItems();
             setIsItemsFetched(true);
         }
-    }, [isItemsFetched, props])
 
+    }, [isItemsFetched, props])
     return (
         <div className="appWrap">
             <Router>

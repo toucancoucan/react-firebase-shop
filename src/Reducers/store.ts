@@ -10,6 +10,7 @@ import HomeCategoriesReducer from "./HomeCategoriesReducer";
 import FilterSortReducer from "./FilterSortReducer";
 import RecentlyViewedReducer from "./RecentlyViewedReducer";
 import ProductReducer from "./ProductReducer";
+import ContactReducer from "./ContactReducer";
 
 
 export const rootReducer = combineReducers({
@@ -22,6 +23,7 @@ export const rootReducer = combineReducers({
     FilterSortReducer,
     RecentlyViewedReducer,
     ProductReducer,
+    ContactReducer,
     form: formReducer
 });
 

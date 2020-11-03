@@ -1,6 +1,10 @@
+import {ThunkAction} from "redux-thunk";
+import {rootState} from "./store";
+import Firebase from "../Firebase/Firebase";
+
 export type coordinates = { lat: number, lng: number }
 
-export type ContactReducerType = {
+export type contactInformation = {
     shopsCoordinates: Array<coordinates>,
     mapCenter: coordinates,
     address: string,
@@ -12,27 +16,47 @@ export type ContactReducerType = {
 }
 
 
-let ContactReducerInitialState: ContactReducerType = {
-    address: "", city: "", district: "", email: "", index: "", mapCenter: {lat: 0, lng: 0}, number: "",
-    shopsCoordinates: []
+const SET_RETRIEVED_CONTACT_INFORMATION = 'SET_RETRIEVED_CONTACT_INFORMATION';
+
+export type setContactInformationType = {
+    type: typeof SET_RETRIEVED_CONTACT_INFORMATION,
+    payload: contactInformation
 }
 
-type actionTypes = null;
+let setContactInformation = (item: contactInformation): setContactInformationType => {
+    return {
+        type: SET_RETRIEVED_CONTACT_INFORMATION,
+        payload: item
+    }
+}
+
+export let fetchAndSetContactInformation = (): ThunkAction<Promise<void>, rootState, any, setContactInformationType> => {
+    return async (dispatch) => {
+        let data = await Firebase.getContactInformation();
+        dispatch(setContactInformation(data))
+    }
+}
+
+export type ContactReducerType = {
+    contact: contactInformation | null
+}
+
+let ContactReducerInitialState: ContactReducerType = {
+    contact: null
+}
+
+type actionTypes = setContactInformationType;
 
 const ContactReducer = (state = ContactReducerInitialState, action: actionTypes): ContactReducerType => {
-    // switch (action.type) {
-    //     case CONST_1:
-    //         return {
-    //             ...state,
-    //         }
-    //     case CONST_2:
-    //         return {
-    //             ...state,
-    //         }
-    //     default:
-    //         return state
-    // }
-
+    switch (action.type) {
+        case SET_RETRIEVED_CONTACT_INFORMATION:
+            return {
+                ...state,
+                contact: action.payload
+            }
+        default:
+            return state
+    }
 }
 
 export default ContactReducer;
